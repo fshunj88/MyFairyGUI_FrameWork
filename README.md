@@ -4,8 +4,11 @@
 
 支持特性：
 I:一个单向绑定的良好的MVVM框架
+
 II:竖屏的UI适配
+
 III：比较多的实用工具，自己探索
+
 IV：engine目录是JS-Engine目录，里面主要修改了cc.loader.removePipe,当然用引擎内置的engine也可以；
 
 
@@ -34,6 +37,7 @@ IV：engine目录是JS-Engine目录，里面主要修改了cc.loader.removePipe,
 
 本人对底层源码进行了一些具体的分析，可以看这个BroadMix链接
 [底层分析](https://boardmix.cn/app/share/CAE.CLfz5Q0gASoQ5kssisAjRSm9MbsF_0YFIzAGQAE/9AzkJn，)
+
 
 
 
