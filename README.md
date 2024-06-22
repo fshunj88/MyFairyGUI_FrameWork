@@ -36,7 +36,8 @@ IV：engine目录是JS-Engine目录，里面主要修改了cc.loader.removePipe,
 
 
 本人对底层源码进行了一些具体的分析，可以看这个BroadMix链接
-[底层分析](https://boardmix.cn/app/share/CAE.CLfz5Q0gASoQ5kssisAjRSm9MbsF_0YFIzAGQAE/9AzkJn，)
+
+[底层分析永久有效](https://boardmix.cn/app/share/CAE.CLfz5Q0gASoQ5kssisAjRSm9MbsF_0YFIzAGQAE/9AzkJn，)
 
 
 
