@@ -585,13 +585,13 @@
     "relativePath": "Script/src/GameLogic.js"
   },
   "fda65e39-f689-4d50-bbe6-9847032a17db": {
-    "asset": 1719028976426,
-    "meta": 1719028997967,
+    "asset": 1719043678539,
+    "meta": 1719043864125,
     "relativePath": "resources/UI/war.bin"
   },
   "28b6492d-e988-4e11-b093-1dc8dfe1c811": {
-    "asset": 1719028978366,
-    "meta": 1719028998232,
+    "asset": 1719043680430,
+    "meta": 1719043864469,
     "relativePath": "resources/UI/war_atlas0.png"
   }
 }

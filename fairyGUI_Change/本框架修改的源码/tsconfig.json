@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "amd",
+    "lib": [ "dom", "es5", "es2015.promise" ],
+    "target": "es5",
+    "skipLibCheck": true,
+    "outFile": "/Users/fshunj/work/chess_client/GameLogic/lib/fairygui.js",
+    "declaration": true,
+    "sourceMap": false,
+    "removeComments": true
+  },
+  "include": [
+    "src",
+    "lib"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
