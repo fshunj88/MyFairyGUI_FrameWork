@@ -1,6 +1,12 @@
 
 一个基于FairyGUi的UI框架,CocosCreator2.x中使用
 
+https://github.com/fshunj88/MyFairyGUI_FrameWork
+
+本人对底层源码进行了一些具体的分析，可以看这个BroadMix链接
+
+[底层分析永久有效](https://boardmix.cn/app/share/CAE.CLfz5Q0gASoQ5kssisAjRSm9MbsF_0YFIzAGQAE/9AzkJn，)
+
 
 支持特性：
 I:一个单向绑定的良好的MVVM框架
