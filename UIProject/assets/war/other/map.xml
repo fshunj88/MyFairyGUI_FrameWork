@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,1600" overflow="hidden" scroll="both">
+  <displayList>
+    <component id="n4_u5xl" name="backBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="330,1450" size="300,120">
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+      <Button title="取消" titleFontSize="40"/>
+    </component>
+    <component id="n6_po2j" name="text" src="qjxh5m" fileName="component/warStatusPanel.xml" xy="0,100" touchable="false"/>
+  </displayList>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="70,18" extention="ProgressBar">
+  <displayList>
+    <loader id="n6_hifl" name="bottom" xy="0,0" size="70,19" url="ui://864gshxxh4f57e3ww" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="height-height,width-width"/>
+    </loader>
+    <component id="n7_9aco" name="bar" src="cyvv7e3s5" fileName="component/progressbar_apkUpdate.xml" xy="0,0" size="70,18">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

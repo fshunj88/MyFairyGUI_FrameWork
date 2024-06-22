@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="920,236">
+  <displayList>
+    <component id="n3_jed2" name="grid1" src="jed2x" fileName="component/handGrid.xml" xy="5,5" group="n10_cd2h"/>
+    <component id="n4_jed2" name="grid2" src="jed2x" fileName="component/handGrid.xml" xy="189,5" group="n10_cd2h"/>
+    <component id="n5_jed2" name="grid3" src="jed2x" fileName="component/handGrid.xml" xy="373,5" group="n10_cd2h"/>
+    <component id="n6_jed2" name="grid4" src="jed2x" fileName="component/handGrid.xml" xy="557,5" group="n10_cd2h"/>
+    <component id="n7_jed2" name="grid5" src="jed2x" fileName="component/handGrid.xml" xy="741,5" group="n10_cd2h"/>
+    <group id="n10_cd2h" name="n8" xy="5,5" size="910,226"/>
+  </displayList>
+</component>

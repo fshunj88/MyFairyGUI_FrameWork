@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,160">
+  <displayList>
+    <loader id="n0_b59w" name="n0" xy="0,2" pivot="0.5,0.5" size="800,156" url="ui://864gshxxcskr3ml" fill="scaleFree">
+      <relation target="n4_as9m" sidePair="bottomext-bottom"/>
+      <relation target="" sidePair="top-top"/>
+    </loader>
+    <text id="n2_b59w" name="name" xy="25,20" size="750,58" fontSize="50" align="center" vAlign="middle" leading="0" autoSize="none" autoClearText="true" text="圣诞节">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n4_as9m" name="desc" xy="25,90" size="750,54" fontSize="40" color="#333333" align="center" vAlign="middle" leading="0" ubb="true" autoSize="height" autoClearText="true" text="圣诞节活动">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Pivot" value="0.5,0"/>
+    <item time="0" type="Scale" tween="true" startValue="0.5,0.5" endValue="1,1" duration="6" ease="Back.Out"/>
+    <item time="0" type="Sound" value="tips1,100"/>
+    <item time="6" type="Pivot" value="0,0"/>
+  </transition>
+</component>

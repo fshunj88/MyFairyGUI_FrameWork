@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="140,140">
+  <displayList>
+    <loader id="n0_ir7y" name="n0" xy="20,10" size="100,100" url="ui://864gshxxpmd77e3z4" fill="scaleMatchWidth"/>
+    <component id="n1_tf0l" name="redHint" src="id0m9d" fileName="component/redHint1.xml" xy="93,-8" visible="false"/>
+    <text id="n2_pmd7" name="title" xy="41,107" size="57,33" fontSize="26" color="#5b2b0e" align="center" vAlign="middle" leading="0" text="国战">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Scale" tween="true" startValue="0.5,0.5" endValue="1,1" duration="6"/>
+  </transition>
+</component>

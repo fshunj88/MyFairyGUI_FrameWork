@@ -1,0 +1,85 @@
+2024-06-22T07:55:29.755Z - normal: Load ~/.CocosCreator/settings.json
+2024-06-22T07:55:29.828Z - normal: Initializing Asset Database
+2024-06-22T07:55:29.831Z - normal: checking language setting...
+2024-06-22T07:55:29.831Z - normal: Language: zh
+2024-06-22T07:55:30.474Z - success: preview server running at http://localhost:7456
+2024-06-22T07:55:30.487Z - success: protocol editor-framework registered
+2024-06-22T07:55:30.487Z - success: protocol app registered
+2024-06-22T07:55:30.488Z - success: protocol theme registered
+2024-06-22T07:55:30.488Z - success: protocol packages registered
+2024-06-22T07:55:30.488Z - success: protocol uuid registerred
+2024-06-22T07:55:30.488Z - success: protocol db registerred
+2024-06-22T07:55:30.488Z - success: protocol thumbnail registerred
+2024-06-22T07:55:30.488Z - success: protocol unpack registerred
+2024-06-22T07:55:30.488Z - success: protocol disable-commonjs registerred
+2024-06-22T07:55:30.791Z - normal: connected!
+2024-06-22T07:55:30.791Z - normal: Check project /Users/mac/Desktop/MyFairyGUI_FrameWork
+2024-06-22T07:55:30.793Z - normal: Initializing project /Users/mac/Desktop/MyFairyGUI_FrameWork
+2024-06-22T07:55:30.837Z - success: adapters loaded
+2024-06-22T07:55:30.842Z - success: asset-db-debugger loaded
+2024-06-22T07:55:30.942Z - success: fb-audience-network loaded
+2024-06-22T07:55:30.990Z - success: fb-live-stream loaded
+2024-06-22T07:55:30.993Z - success: google-play-instant loaded
+2024-06-22T07:55:30.999Z - success: huawei-runtime loaded
+2024-06-22T07:55:31.000Z - success: jkw-adapter loaded
+2024-06-22T07:55:31.001Z - success: jsb-adapter loaded
+2024-06-22T07:55:31.006Z - success: oppo-runtime loaded
+2024-06-22T07:55:31.012Z - success: package-manager loaded
+2024-06-22T07:55:31.013Z - success: qtt-adapter loaded
+2024-06-22T07:55:31.016Z - success: runtime-dev-tools loaded
+2024-06-22T07:55:31.023Z - success: sdkbox loaded
+2024-06-22T07:55:31.027Z - success: ui-kit-preview-extra loaded
+2024-06-22T07:55:31.031Z - success: ui-kit-preview loaded
+2024-06-22T07:55:31.038Z - success: vivo-runtime loaded
+2024-06-22T07:55:31.040Z - success: alipay-minigame loaded
+2024-06-22T07:55:31.094Z - success: assets loaded
+2024-06-22T07:55:31.097Z - success: baidugame-opendata loaded
+2024-06-22T07:55:31.100Z - success: baidugame loaded
+2024-06-22T07:55:31.104Z - success: builder loaded
+2024-06-22T07:55:31.351Z - success: cocos-services loaded
+2024-06-22T07:55:31.357Z - success: console loaded
+2024-06-22T07:55:31.371Z - success: fb-instant-games loaded
+2024-06-22T07:55:31.376Z - success: game-window loaded
+2024-06-22T07:55:31.378Z - success: google-instant-games loaded
+2024-06-22T07:55:31.384Z - success: hierarchy loaded
+2024-06-22T07:55:31.389Z - success: inspector loaded
+2024-06-22T07:55:31.811Z - success: cpk-publish loaded
+2024-06-22T07:55:31.816Z - success: keystore loaded
+2024-06-22T07:55:31.827Z - success: node-library loaded
+2024-06-22T07:55:31.832Z - success: open-recent-items loaded
+2024-06-22T07:55:31.841Z - success: package-asset loaded
+2024-06-22T07:55:31.850Z - success: preferences loaded
+2024-06-22T07:55:31.854Z - success: project-exporter loaded
+2024-06-22T07:55:31.859Z - success: project-importer loaded
+2024-06-22T07:55:31.863Z - success: project-settings loaded
+2024-06-22T07:55:31.879Z - success: qtt-runtime loaded
+2024-06-22T07:55:31.884Z - success: scene loaded
+2024-06-22T07:55:31.886Z - success: simulator-debugger loaded
+2024-06-22T07:55:31.887Z - success: sprite-editor loaded
+2024-06-22T07:55:31.891Z - success: store loaded
+2024-06-22T07:55:31.898Z - success: timeline loaded
+2024-06-22T07:55:31.903Z - success: wechatgame-opendata loaded
+2024-06-22T07:55:31.908Z - success: wechatgame loaded
+2024-06-22T07:55:31.913Z - success: xiaomi-runtime loaded
+2024-06-22T07:55:31.945Z - success: ccc-references-finder loaded
+2024-06-22T07:55:32.052Z - success: im-plugin loaded
+2024-06-22T07:55:32.055Z - success: hot-update loaded
+2024-06-22T07:55:33.678Z - normal: 引擎编译中，首次编译需要较长时间，请稍等。
+2024-06-22T07:55:34.162Z - info: Cocos Service load base data!
+2024-06-22T07:55:36.701Z - normal: Initializing Cocos2d
+2024-06-22T07:55:36.974Z - normal: Initializing engine extends
+2024-06-22T07:55:39.906Z - normal: Loading packages
+2024-06-22T07:55:39.912Z - normal: Watching packages
+2024-06-22T07:55:40.034Z - normal: Run Application
+2024-06-22T07:55:52.663Z - warn: Script attached to "Canvas" in scene "Fgui-Scene.fire" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Asset url: "db://assets/Scene/Fgui-Scene.fire"
+Script UUID: "f7e8d264-8b80-4527-bb98-661ad8398765"
+Class ID: "f7e8dJki4BFJ7uYZhrYOYdl"
+
+2024-06-22T07:57:11.943Z - warn: Script attached to "Canvas" in scene "Fgui-Scene.fire" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Asset url: "db://assets/Scene/Fgui-Scene.fire"
+Script UUID: "f7e8d264-8b80-4527-bb98-661ad8398765"
+Class ID: "f7e8dJki4BFJ7uYZhrYOYdl"
+

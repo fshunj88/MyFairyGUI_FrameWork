@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,87" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,disabled" selected="0"/>
+  <displayList>
+    <loader id="n1" name="icon" xy="0,0" size="200,87" url="ui://864gshxxbva5it" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n6_jed2" name="advert" xy="15,23" pivot="0.5,0.5" size="40,40" url="ui://864gshxxg4kh7e3se" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="n9_gz6z" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n9_gz6z" name="title" xy="58,12" size="135,62" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" strokeSize="3" autoClearText="true" text="金币10倍">
+      <relation target="n1" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button sound="click" downEffect="scale" downEffectValue="0.90"/>
+</component>

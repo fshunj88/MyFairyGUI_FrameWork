@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,70">
+  <controller name="status" pages="0,战斗中,1,队列中,2,进攻途中,3,攻城中" selected="3"/>
+  <controller name="time" pages="2,无时间,0,路途,1,攻城读条" selected="2"/>
+  <displayList>
+    <loader id="n17_xjab" name="bg" xy="0,0" pivot="0.5,0.5" size="400,70" url="ui://2ipmzghtn91y8v" fill="scaleFree"/>
+    <text id="n9_lwj0" name="playerName" xy="70,10" size="205,26" fontSize="20" color="#ffffff" vAlign="middle" leading="0" strokeColor="#333333" singleLine="true" text="玩家啊啊啊啊啊啊啊啊">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <component id="n16_xjab" name="head" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="10,7" size="55,55"/>
+    <text id="n26_uy1s" name="fightTxt" xy="70,38" size="52,22" fontSize="16" color="#336600" vAlign="middle" leading="0" singleLine="true" text="攻城中&#xA;">
+      <gearText controller="status" pages="0,1,2,3" values="战斗中|待命中|路途中|攻城中&#xA;"/>
+      <relation target="n16_xjab" sidePair="left-right"/>
+      <relation target="n9_lwj0" sidePair="top-bottom"/>
+    </text>
+    <text id="n28_12o58" name="timeTxt" xy="135,38" size="125,22" fontSize="16" color="#336600" vAlign="middle" leading="0" singleLine="true" text="300秒后攻击成功">
+      <gearDisplay controller="time" pages="0,1"/>
+      <gearText controller="time" pages="1" values="300秒后攻击成功" default="10:00抵达"/>
+      <relation target="n26_uy1s" sidePair="left-right"/>
+      <relation target="n9_lwj0" sidePair="top-bottom"/>
+    </text>
+    <loader id="n22_mhry" name="rankImg" xy="330,0" size="70,70" group="n33_91kp" touchable="false" url="ui://864gshxxgy104q" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="" sidePair="right-right"/>
+    </loader>
+    <text id="n23_mhry" name="rankTitleText" xy="337,23" size="49,26" group="n33_91kp" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000033" shadowColor="#000033" shadowOffset="1,1" text="专家I">
+      <relation target="n22_mhry" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n31_91kp" name="scoreText" xy="352,28" size="21,18" group="n33_91kp" fontSize="12" color="#cccccc" align="center" vAlign="middle" leading="0" strokeColor="#000000" strokeSize="3" autoClearText="true" text="123"/>
+    <group id="n33_91kp" name="n33" xy="330,0" size="70,70"/>
+  </displayList>
+</component>

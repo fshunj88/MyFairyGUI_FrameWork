@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="25,25" pivot="0.5,0.5" anchor="true">
+  <controller name="direction" pages="2,up,3,right_up,4,right,5,right_down,6,down,7,left_down,0,left,1,left_up" selected="1"/>
+  <displayList>
+    <loader id="n0_10xps" name="pos" xy="12,-10" size="1,1" visible="false" touchable="false"/>
+    <loader id="n2_mh0p" name="directionMark" xy="27,0" pivot="0.5,0.5" anchor="true" size="7,7" visible="false" url="ui://864gshxxu843av" fill="scaleFree">
+      <gearXY controller="direction" pages="2,3,4,5,6,7,0,1" values="13,0|27,0|26,13|25,26|13,26|-1,25|-1,13|0,0"/>
+    </loader>
+    <loader id="n6_mh0p" name="playerNumPos" xy="12,13" size="3,3" visible="false" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+</component>

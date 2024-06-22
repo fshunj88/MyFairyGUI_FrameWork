@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,500">
+  <displayList>
+    <loader id="n29_o71x" name="bg" xy="0,0" size="500,500" touchable="false" url="ui://864gshxxo71xe3r6" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <loader id="n1_d4nl" name="rankIcon" xy="50,50" size="400,400" touchable="false" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n16_dj43" name="n16" xy="225,7" pivot="0.5,0.5" size="50,50" aspect="true" url="ui://864gshxxs4e0jq" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n20_dj43" name="n20" xy="310,25" pivot="0.5,0.5" size="50,50" aspect="true" url="ui://864gshxxs4e0jq" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n21_dj43" name="n21" xy="140,25" pivot="0.5,0.5" size="50,50" aspect="true" url="ui://864gshxxs4e0jq" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n22_dj43" name="n22" xy="75,70" pivot="0.5,0.5" size="50,50" aspect="true" url="ui://864gshxxs4e0jq" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n23_dj43" name="n23" xy="385,70" pivot="0.5,0.5" size="50,50" aspect="true" url="ui://864gshxxs4e0jq" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n12_j4zv" name="star1" src="j4zv3p" fileName="component/starAni.xml" xy="75,70" pivot="0.5,0.5" size="50,50">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n11_j4zv" name="star2" src="j4zv3p" fileName="component/starAni.xml" xy="140,25" pivot="0.5,0.5" size="50,50">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n10_j4zv" name="star3" src="j4zv3p" fileName="component/starAni.xml" xy="225,7" pivot="0.5,0.5" size="50,50">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n9_j4zv" name="star4" src="j4zv3p" fileName="component/starAni.xml" xy="310,25" pivot="0.5,0.5" size="50,50">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n8_j4zv" name="star5" src="j4zv3p" fileName="component/starAni.xml" xy="385,70" pivot="0.5,0.5" size="50,50">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <loader id="n27_o71x" name="n27" xy="124,440" size="252,60" url="ui://864gshxxs4e0jp" fill="scaleFree">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <text id="n28_o71x" name="pvpTitleText" xy="156,448" size="185,44" fontSize="36" align="center" vAlign="middle" leading="0" autoClearText="true" text="pvpTitleText">
+      <relation target="n27_o71x" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

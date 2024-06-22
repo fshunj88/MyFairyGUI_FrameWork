@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,140">
+  <displayList>
+    <loader id="n0_efos" name="bg" xy="0,0" pivot="0.5,0.5" size="800,140" url="ui://eg2ecnn9hiflhk" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <component id="n1_efos" name="redHint" src="fs4l4g" fileName="component/redHint2.xml" pkg="864gshxx" xy="710,45" visible="false">
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </component>
+    <text id="n2_efos" name="txt" xy="50,51" size="328,38" visible="false" fontSize="30" color="#5b2b0e" leading="0" text="有{NUM}位豪杰申请加入">
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </text>
+  </displayList>
+</component>

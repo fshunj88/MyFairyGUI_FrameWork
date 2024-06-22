@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="132,132">
+  <displayList>
+    <loader id="n2_iafl" name="frameImg1" xy="0,0" size="132,132" url="ui://eg2ecnn9iafle3r0" fill="scaleFree" color="#000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n1_r724" name="fillImg" xy="0,0" size="132,132" align="center" vAlign="middle">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+</component>

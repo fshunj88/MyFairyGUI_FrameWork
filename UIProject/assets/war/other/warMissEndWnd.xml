@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,1600" pivot="0.5,0.5" bgColor="#000000">
+  <controller name="result" pages="0,fail,1,succ" selected="1"/>
+  <controller name="status" pages="12,未知,5,征粮军令,6,征税军令,13,建设军令,14,修筑军令,16,运币军令,15,运粮军令,7,掠夺据点军令,11,探索军令,3,迁移军令,10,防守军令,2,城市沦陷,17,对城市造成伤害,18,最后一击,32,征兵任务" selected="14"/>
+  <displayList>
+    <loader id="n73_p850" name="bg" xy="-2,-2" size="960,1600" alpha="0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n91_livs" name="n91" xy="13,448" pivot="0.5,0.5" size="902,704" url="ui://2ipmzghtoxut7e3zr" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <gearIcon controller="result" pages="0" values="ui://2ipmzghtoxut7e3zs" default="ui://2ipmzghtoxut7e3zr"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n95_pau2" name="n95" xy="353,1108" size="221,44" fontSize="36" color="#cccccc" leading="0" text="点击屏幕继续">
+      <relation target="n91_livs" sidePair="center-center,top-bottom"/>
+    </text>
+    <loader id="n97_mono" name="n97" xy="150,779" size="60,60" group="n101_mono" aspect="true" url="ui://2ipmzghtvasa8jd" fill="scaleFree"/>
+    <loader id="n98_mono" name="n98" xy="480,779" size="60,60" group="n101_mono" aspect="true" url="ui://2ipmzghtvasa8je" fill="scaleFree"/>
+    <text id="n99_mono" name="goldNum" xy="210,779" size="128,60" group="n101_mono" fontSize="50" color="#660000" vAlign="middle" leading="0" text="10000"/>
+    <text id="n102_mono" name="text1" xy="100,709" size="245,49" group="n101_mono" fontSize="40" color="#333333" leading="0" text="所属地获得："/>
+    <text id="n100_mono" name="foodNum" xy="540,784" size="24,49" group="n101_mono" fontSize="40" color="#660000" vAlign="middle" leading="0" text="5"/>
+    <group id="n101_mono" name="rewardForCity" xy="100,708" size="464,130" advanced="true">
+      <gearDisplay controller="status" pages="5,6,16,15,7,11,32"/>
+      <gearDisplay2 controller="result" pages="1" condition="0"/>
+      <relation target="n91_livs" sidePair="middle-middle"/>
+    </group>
+    <loader id="n115_91kp" name="featIcon" xy="135,937" size="60,60" group="n120_91kp" aspect="true" url="ui://2ipmzghtihr68ln" fill="scaleFree"/>
+    <text id="n117_91kp" name="featNum" xy="195,937" size="128,60" group="n120_91kp" fontSize="50" color="#660000" vAlign="middle" leading="0" text="10000"/>
+    <text id="n118_91kp" name="featText" xy="85,869" size="205,49" group="n120_91kp" fontSize="40" text="个人获得：">
+      <relation target="n91_livs" sidePair="bottom-bottom"/>
+    </text>
+    <group id="n120_91kp" name="rewardForPlayer" xy="85,868" size="238,128" advanced="true">
+      <gearDisplay controller="status" pages="5,6,13,14,16,15,7,11,10,17,18,32"/>
+      <gearDisplay2 controller="result" pages="1" condition="0"/>
+      <relation target="n91_livs" sidePair="middle-middle"/>
+    </group>
+    <text id="n122_mywh" name="xiuZhuTxt" xy="211,795" size="127,49" group="n127_qdc6" fontSize="40" color="#660000" autoSize="none" autoClearText="true" text="10"/>
+    <text id="n125_qdc6" name="featText2" xy="100,724" size="245,49" group="n127_qdc6" fontSize="40" text="所属地获得："/>
+    <loader id="n126_qdc6" name="HpIcon" xy="150,788" size="60,60" group="n127_qdc6" aspect="true" url="ui://2ipmzghtvasa8jf" fill="scaleFree"/>
+    <group id="n127_qdc6" name="n127" xy="100,724" size="245,124" advanced="true">
+      <gearDisplay controller="status" pages="14"/>
+      <gearDisplay2 controller="result" pages="1" condition="0"/>
+      <relation target="n91_livs" sidePair="middle-middle"/>
+    </group>
+    <text id="n114_91kp" name="text" xy="313,614" size="305,60" fontSize="50" color="#ffffff" leading="0" strokeColor="#000000" strokeSize="3" text="征兵军令完成">
+      <gearDisplay controller="result" pages="1"/>
+      <gearText controller="status" pages="12,6,13,14,16,15,7,11,3,10,2,17,18,32" values="未知军令完成|征税军令完成|建设军令完成|修筑军令完成|运币军令完成|运粮军令完成|掠夺军令完成|探索军令完成|迁移军令完成|防守成功|城市沦陷|对城市造成伤害|最后一击|征兵军令完成" default="征粮军令完成"/>
+      <relation target="n91_livs" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n111_mono" name="n111" xy="328,770" size="305,60" fontSize="50" color="#cccccc" align="center" vAlign="middle" leading="0" text="本次军令失败">
+      <gearDisplay controller="result" pages="0"/>
+      <gearText controller="status" pages="12,5,6,13,14,16,15,7,11,3,10,2" values="未知军令失败|本次征粮军令失败|本次征税军令失败|本次建设军令失败|本次修筑军令失败|本次运币军令失败|本次运粮军令失败|本次攻击军令失败|本次探索军令失败|本次迁移军令失败|本次防守军令失败|城市沦陷" default="本次军令失败"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n128_qdc6" name="text2" xy="85,703" size="245,49" fontSize="40" color="#333333" leading="0" text="所属地获得：">
+      <gearDisplay controller="status" pages="13"/>
+      <gearDisplay2 controller="result" pages="1" condition="0"/>
+    </text>
+    <text id="n131_pxgw" name="lastAttackOtherRewardTxt" xy="162,747" size="605,49" fontSize="40" autoClearText="true" text="你已攻陷【城市】获得额外的奖励">
+      <gearDisplay controller="status" pages="18"/>
+      <gearDisplay2 controller="result" pages="1" condition="0"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n129_qdc6" name="jianSheDuTxt" xy="131,780" size="564,49" fontSize="40" color="#660000" autoSize="none" autoClearText="true" text="建设度提升：10">
+      <gearDisplay controller="result" pages="1"/>
+      <gearDisplay2 controller="status" pages="13" condition="0"/>
+    </text>
+    <text id="n132_pxgw" name="hurtTxt" xy="289,758" size="382,49" fontSize="40" autoClearText="true" text="对城池造成了100伤害">
+      <gearDisplay controller="status" pages="17"/>
+      <gearDisplay2 controller="result" pages="1" condition="0"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n133_pxgw" name="lunXianTxt" xy="299,813" size="324,49" fontSize="40" autoSize="none" autoClearText="true" text="你的城市已经沦陷">
+      <gearDisplay controller="status" pages="2"/>
+      <gearDisplay2 controller="result" pages="1" condition="0"/>
+    </text>
+    <text id="n137_k7cf" name="yunBiTxt" xy="395,714" size="242,49" fontSize="40" autoClearText="true" text="云南金币+100">
+      <gearDisplay controller="result" pages="1"/>
+      <gearDisplay2 controller="status" pages="16" condition="0"/>
+    </text>
+    <text id="n139_k7cf" name="yunLiangTxt" xy="422,712" size="242,49" fontSize="40" autoClearText="true" text="云南粮食+100">
+      <gearDisplay controller="result" pages="1"/>
+      <gearDisplay2 controller="status" pages="15" condition="0"/>
+    </text>
+    <text id="n140_k7cf" name="moveTxt" xy="290,818" size="325,49" fontSize="40" autoClearText="true" text="你已经迁移到云南">
+      <gearDisplay controller="result" pages="1"/>
+      <gearDisplay2 controller="status" pages="3" condition="0"/>
+    </text>
+    <text id="n141_ip70" name="conscriptTxt" xy="403,713" size="359,49" fontSize="40" text="所属地戍卫部队+1！">
+      <gearDisplay controller="status" pages="32"/>
+      <relation target="n91_livs" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true" frameRate="30">
+    <item time="0" type="Alpha" target="n101_mono" value="0"/>
+    <item time="0" type="Alpha" target="n120_91kp" value="0"/>
+    <item time="0" type="Scale" target="n91_livs" tween="true" startValue="1,0" endValue="1,1" duration="6"/>
+    <item time="0" type="Size" target="n91_livs" tween="true" startValue="-,0" endValue="-,700" duration="6"/>
+    <item time="0" type="Sound" value="openBox,100"/>
+    <item time="6" type="Alpha" target="n101_mono" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="6" type="Alpha" target="n120_91kp" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+</component>

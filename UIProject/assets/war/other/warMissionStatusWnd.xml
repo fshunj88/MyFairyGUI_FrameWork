@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,500">
+  <controller name="status" pages="20,,0,征粮,1,征税,2,建设,3,修筑,4,运币,16,运粮,17,进攻据点,18,进攻城市,19,防守有行军者,22,探索,21,result,24,吟唱读条,25,进攻者自动战斗中,26,迁移,28,防守者中AI自动对战,29,已经加入防守队列，没入侵者，自行退出吧,30,正在防守，但是全部进攻者都在打,31,征兵" selected="0"/>
+  <controller name="canCancel" pages="0,no,1,yes" selected="0"/>
+  <displayList>
+    <loader id="n15_xjab" name="n15" xy="0,0" size="800,500" url="ui://2ipmzghtvasa8jp" align="center" vAlign="middle" fill="scaleFree"/>
+    <component id="n16_xjab" name="progress" src="d8ql5t" fileName="component/warProgress1.xml" xy="225,220" pivot="0.5,0" size="350,18" scale="2,2">
+      <gearDisplay controller="status" pages="0,1,2,3,4,16,17,18,19,22,24,26,31"/>
+      <relation target="n21_xjab" sidePair="center-center,middle-middle"/>
+      <ProgressBar value="92" max="100"/>
+    </component>
+    <text id="n21_xjab" name="timeTxt" xy="150,130" size="500,60" fontSize="40" color="#666666" align="center" vAlign="middle" leading="0" autoSize="shrink" autoClearText="true" text="剩余时间：3小时59分">
+      <gearDisplay controller="status" pages="0,1,2,3,4,16,17,18,19,22,24,26,31"/>
+      <gearXY controller="status" pages="19" values="150,172" default="150,130"/>
+    </text>
+    <text id="n39_kk99" name="doneTxt" xy="101,320" size="600,93" fontSize="36" color="#660000" align="center" vAlign="middle" leading="10" autoSize="height" autoClearText="true" text="任务完成后：功绩+50&#xA;所属地粮草+100">
+      <gearDisplay controller="status" pages="0,1,2,3,4,16,22,26,31"/>
+    </text>
+    <component id="n40_kk99" name="toGetMissionBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="300,336" visible="false" touchable="false">
+      <gearDisplay controller="status" pages="20"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="去领取" icon="ui://864gshxxbva5it"/>
+    </component>
+    <text id="n43_e3ip" name="text2" xy="289,259" size="205,49" fontSize="40" color="#333333" vAlign="middle" leading="0" text="等待对手中">
+      <gearDisplay controller="status" pages="28,29,30"/>
+      <gearText controller="status" pages="28,29" values="正在防御中&#xA;请耐心等待战斗结果|目前没有入侵者，自行退出吧" default="等待对手中"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n44_d5xi" name="failConfirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="299,336">
+      <gearDisplay controller="status" pages="21"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="确定" icon="ui://864gshxxbva5it"/>
+    </component>
+    <text id="n45_d5xi" name="text3" xy="100,160" size="600,103" fontSize="40" color="#666666" align="center" vAlign="middle" leading="10" autoSize="height" text="任务关联地点已被占领&#xA;任务失败">
+      <gearDisplay controller="status" pages="21"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n47_df7f" name="giveupBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="250,543" size="300,100">
+      <gearDisplay controller="canCancel" pages="1"/>
+      <Button title="放弃" icon="ui://864gshxxibcj7e3wm"/>
+    </component>
+    <text id="n31_xjab" name="waitTxt" xy="278,190" size="245,49" group="n48_ux7o" fontSize="40" color="#666666" align="center" vAlign="middle" leading="0" text="暂未接受军令">
+      <gearDisplay controller="status" pages="20"/>
+    </text>
+    <group id="n48_ux7o" name="0" xy="278,190" size="245,49" visible="false" advanced="true"/>
+    <text id="n19_xjab" name="title" xy="297,14" size="205,60" fontSize="50" color="#ffffff" vAlign="middle" leading="0" text="征粮任务">
+      <gearDisplay controller="status" pages="0,1,2,3,4,16,17,18,19,22,21,24,25,26,28,29,30,31"/>
+      <gearText controller="status" pages="0,1,2,3,4,16,17,18,19,22,21,24,25,26,28,29,30,31" values="征粮中|征税中|建设中|修筑中|运币中|运粮中|行军途中|行军途中|防守中|探索任务|任务结果|进攻准备|战斗中|迁移任务|防守中|防守中|防守中|征兵任务" default="征粮任务"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n41_e3ip" name="fightSelectBtn" src="gqml7e3wk" fileName="component/setChk3.xml" pkg="864gshxx" xy="271,326">
+      <gearDisplay controller="status" pages="17,18,19,24"/>
+      <Button title="手动战斗" titleColor="#660000" titleFontSize="50"/>
+    </component>
+    <text id="n50_urm8" name="text4" xy="100,198" size="600,103" fontSize="40" color="#660000" align="center" vAlign="middle" leading="10" autoSize="height" text="正在战斗中&#xA;请耐心等待战斗结果">
+      <gearDisplay controller="status" pages="25"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n51_unbe" name="defenceNum" xy="210,309" size="384,49" fontSize="40" autoClearText="true" text="前面还有3个人在防御">
+      <gearDisplay controller="status" pages="19"/>
+      <gearXY controller="status" pages="19,30" values="194,406|191,383" default="210,309"/>
+      <relation target="n15_xjab" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n53_isq9" name="attackerBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="576,3" visible="false" touchable="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="attackers"/>
+    </component>
+  </displayList>
+</component>

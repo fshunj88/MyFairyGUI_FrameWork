@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="700,240">
+  <displayList>
+    <loader id="n17_xjab" name="bg" xy="0,0" pivot="0.5,0.5" size="700,240" url="ui://2ipmzghtldwv47e40y" fill="scaleFree">
+      <relation target="" sidePair="width-width"/>
+    </loader>
+    <text id="n9_lwj0" name="cityName" xy="115,32" size="131,68" fontSize="40" color="#333333" vAlign="middle" leading="0" autoSize="none" singleLine="true" text="建业城">
+      <relation target="n26_ri8u" sidePair="left-right,top-top"/>
+    </text>
+    <loader id="n26_ri8u" name="icon" xy="33,32" size="68,68" url="ui://2ipmzghtqagc7e408" fill="scaleFree"/>
+    <component id="n45_ri8u" name="goAndSeeBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="478,113">
+      <relation target="n47_10cr4" sidePair="middle-middle"/>
+      <relation target="n17_xjab" sidePair="right-right"/>
+      <Button title="去查看" titleFontSize="30" icon="ui://864gshxxcbmu7e3uk"/>
+    </component>
+    <list id="n47_10cr4" name="rewardList" xy="24,102" size="437,110" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,20,0" colGap="20" defaultItem="ui://dvmsogfrgtjh5o" autoItemSize="false" vAlign="bottom" autoClearItems="true">
+      <relation target="" sidePair="left-left"/>
+      <relation target="n45_ri8u" sidePair="rightext-left"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n48_10cr4" name="timeTxt" xy="280,41" size="398,49" fontSize="40" align="right" vAlign="middle" autoSize="shrink" singleLine="true" text="奖励将于24:00:00后于目标城市商店内生成">
+      <relation target="n45_ri8u" sidePair="right-right"/>
+      <relation target="n9_lwj0" sidePair="middle-middle"/>
+    </text>
+  </displayList>
+</component>

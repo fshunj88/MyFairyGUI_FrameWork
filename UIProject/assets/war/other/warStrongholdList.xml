@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="860,1300">
+  <displayList>
+    <list id="n30_ri8u" name="strongholdList" xy="0,0" size="860,1300" overflow="scroll" lineGap="10" defaultItem="ui://2ipmzghtri8ubv">
+      <relation target="" sidePair="center-center,topext-top,bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n31_rd9i" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="0,1300"/>
+  </displayList>
+</component>

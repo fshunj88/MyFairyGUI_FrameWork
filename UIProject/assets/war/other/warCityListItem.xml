@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="860,240">
+  <controller name="isApplyJoin" pages="0,false,1,true,2,peopleOverLoaded,5,alreadyInPower" selected="0"/>
+  <controller name="hasPrefect" pages="0,false,1,true" selected="0"/>
+  <displayList>
+    <loader id="n17_xjab" name="bg" xy="0,0" pivot="0.5,0.5" size="860,240" url="ui://864gshxxq2ge3oq" fill="scaleFree">
+      <relation target="" sidePair="width-width"/>
+    </loader>
+    <text id="n9_lwj0" name="cityName" xy="270,140" size="130,49" group="n27_ri8u" fontSize="32" color="#333333" vAlign="middle" leading="0" autoSize="none" singleLine="true" text="建业城">
+      <relation target="n26_ri8u" sidePair="middle-middle,left-right"/>
+    </text>
+    <loader id="n26_ri8u" name="icon" xy="210,140" size="50,50" group="n27_ri8u" url="ui://2ipmzghtqagc7e408" fill="scaleFree"/>
+    <group id="n27_ri8u" name="n27" xy="210,140" size="190,50" advanced="true"/>
+    <loader id="n28_ri8u" name="ymBg" xy="205,30" size="310,80" group="n32_ri8u" url="ui://2ipmzghtlb4ehr" fill="scaleFree"/>
+    <component id="n29_ri8u" name="ymHead" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="205,30" size="80,80" group="n32_ri8u" touchable="false">
+      <relation target="n28_ri8u" sidePair="middle-middle,left-left"/>
+    </component>
+    <text id="n30_ri8u" name="yourMajesty" xy="285,50" size="220,40" group="n32_ri8u" fontSize="26" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#333333" strokeSize="3" singleLine="true" text="玩家啊啊啊啊啊啊啊啊">
+      <relation target="n28_ri8u" sidePair="middle-middle,left-left"/>
+    </text>
+    <loader id="n48_o90v" name="ymLoader" xy="208,29" size="310,80" group="n32_ri8u" fill="scaleFree"/>
+    <group id="n32_ri8u" name="n32" xy="205,29" size="313,81" advanced="true"/>
+    <loader id="n33_ri8u" name="preBg" xy="525,30" size="310,80" group="n37_ri8u" grayed="true" url="ui://2ipmzght91kp8ix" fill="scaleFree">
+      <gearLook controller="hasPrefect" pages="0" values="1,0,1,1" default="1,0,0,1"/>
+    </loader>
+    <component id="n34_ri8u" name="preHead" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="525,30" size="80,80" group="n37_ri8u" touchable="false">
+      <gearDisplay controller="hasPrefect" pages="1"/>
+      <relation target="n33_ri8u" sidePair="middle-middle"/>
+    </component>
+    <text id="n35_ri8u" name="prefect" xy="605,50" size="220,40" group="n37_ri8u" fontSize="26" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#333333" strokeSize="3" singleLine="true" text="玩家啊啊啊啊啊啊啊啊">
+      <gearDisplay controller="hasPrefect" pages="1"/>
+      <relation target="n33_ri8u" sidePair="middle-middle,left-left"/>
+    </text>
+    <text id="n46_sdva" name="n46" xy="629,54" size="101,31" group="n37_ri8u" fontSize="24" color="#ffffff" leading="0" strokeColor="#333333" strokeSize="3" text="暂无太守">
+      <gearDisplay controller="hasPrefect" pages="0"/>
+      <relation target="n33_ri8u" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n49_o90v" name="preLoader" xy="530,30" size="310,80" group="n37_ri8u" fill="scaleFree">
+      <gearDisplay controller="hasPrefect" pages="1"/>
+    </loader>
+    <group id="n37_ri8u" name="n37" xy="525,30" size="315,80" advanced="true">
+      <gearDisplay controller="hasPrefect" pages=""/>
+    </group>
+    <loader id="n38_ri8u" name="n38" xy="20,30" size="180,180" group="n39_ri8u" aspect="true" url="ui://864gshxxo71xe3r6" fill="scaleFree">
+      <relation target="" sidePair="left-left"/>
+    </loader>
+    <loader id="n24_mhry" name="flag" xy="40,41" size="140,157" group="n39_ri8u" aspect="true" url="ui://2ipmzghtmyl16v" fill="scaleMatchWidth">
+      <relation target="n38_ri8u" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n25_mhry" name="campName" xy="72,70" size="75,83" group="n39_ri8u" fontSize="70" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="清">
+      <relation target="n24_mhry" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n39_ri8u" name="n39" xy="20,30" size="180,180"/>
+    <loader id="n42_ri8u" name="n42" xy="410,140" size="50,50" group="n44_ri8u" url="ui://2ipmzghtmhry75" fill="scaleFree"/>
+    <text id="n43_ri8u" name="peopleNum" xy="470,140" size="130,49" group="n44_ri8u" fontSize="32" color="#333333" vAlign="middle" leading="0" autoSize="none" text="100/150">
+      <relation target="n42_ri8u" sidePair="middle-middle,left-right"/>
+    </text>
+    <group id="n44_ri8u" name="n44" xy="410,140" size="190,50" advanced="true"/>
+    <component id="n45_ri8u" name="joinBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="630,122">
+      <gearLook controller="isApplyJoin" pages="1,2,5" values="1,0,1,0|1,0,1,1|1,0,1,1" default="1,0,0,1"/>
+      <gearText controller="isApplyJoin" pages="1,2" values="已申请|人员已满" default="申请加入"/>
+      <relation target="n39_ri8u" sidePair="left-right"/>
+      <Button title="申请加入" titleFontSize="30" icon="ui://864gshxxcbmu7e3uk"/>
+    </component>
+  </displayList>
+</component>

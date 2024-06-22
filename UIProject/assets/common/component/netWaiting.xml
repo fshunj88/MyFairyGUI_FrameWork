@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,1600">
+  <displayList>
+    <graph id="n0_gwr7" name="bg" xy="0,0" size="960,1600" aspect="true" type="rect" lineColor="#00000000" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <loader id="n2_anrd" name="loadingBg" xy="428,748" size="104,104" visible="false" alpha="0" url="ui://864gshxxanrd7e3sa" fill="scaleFree" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n1_gwr7" name="loadingCircle" xy="330,650" pivot="0.5,0.5" size="300,300" aspect="true" visible="false" alpha="0" url="ui://864gshxxgwr76" fill="scaleFree" autoSize="true">
+      <relation target="n0_gwr7" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n4_anrd" name="loadingProg" src="anrd7e3sb" fileName="component/loadingProgBar.xml" xy="442,763" visible="false" alpha="0">
+      <relation target="n2_anrd" sidePair="bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

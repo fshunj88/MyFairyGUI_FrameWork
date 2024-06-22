@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,400" pivot="0.5,0.5" extention="Button">
+  <controller name="isBuy" pages="0,no,1,yes" selected="0"/>
+  <displayList>
+    <loader id="n27_duub" name="bg" xy="-1,-1" size="300,400" touchable="false" url="ui://994sajastzcwe3q5" fill="scaleFree">
+      <gearColor controller="isBuy" pages="1" values="#999999" default="#ffffff" tween="true"/>
+    </loader>
+    <loader id="n42_wnh3" name="priceBg" xy="40,270" size="220,70" url="ui://864gshxxibcj7e3wo" fill="scaleFree">
+      <gearLook controller="isBuy" pages="0,1" values="1,0,0,1|0,0,0,0"/>
+    </loader>
+    <component id="n55_i8wd" name="reward" src="gtjh5o" fileName="component/reward/rewardItem.xml" pkg="dvmsogfr" xy="75,109" size="150,150"/>
+    <loader id="n40_n3lb" name="resIcon" xy="87,278" size="50,50" touchable="false" url="ui://2ipmzghtihr68ln" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <gearDisplay controller="isBuy" pages="0"/>
+      <relation target="n41_n3lb" sidePair="middle-middle,right-left"/>
+    </loader>
+    <loader id="n47_wakn" name="n47" xy="50,103" size="200,163" aspect="true" touchable="false" url="ui://fsmplk58tn1u5r" fill="scaleFree">
+      <gearDisplay controller="isBuy" pages="1"/>
+    </loader>
+    <text id="n41_n3lb" name="price" xy="137,278" size="66,49" fontSize="40" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" strokeSize="3" autoClearText="true" text="200">
+      <gearDisplay controller="isBuy" pages="0"/>
+      <relation target="n42_wnh3" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n51_wfug" name="num" xy="71,60" size="153,38" fontSize="30" color="#666666" vAlign="middle" leading="0" autoSize="shrink" text="库存：1000">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n56_i8wd" name="purchaserName" xy="51,283" size="198,49" fontSize="40" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" strokeSize="3" autoClearText="true" text="xxx已购买">
+      <gearDisplay controller="isBuy" pages="1"/>
+      <relation target="n42_wnh3" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button sound="click" downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t0" options="4">
+    <item time="0" type="Scale" tween="true" startValue="1,1" endValue="0.9,0.9" duration="3"/>
+    <item time="3" type="Scale" tween="true" startValue="0.9,0.9" endValue="1,1" duration="3"/>
+  </transition>
+</component>

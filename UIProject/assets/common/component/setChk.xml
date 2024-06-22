@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="174,50" pivot="0.5,0.5" extention="Button" designImage="ui://8pche6l7royd0" designImageOffsetX="-36" designImageOffsetY="-128">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <loader id="n10_eygd" name="n10" xy="10,10" size="30,30" url="ui://864gshxxp4mpl1" fill="scaleFree"/>
+    <loader id="n11_eygd" name="down" xy="10,10" size="30,30" url="ui://864gshxxp4mpl2" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="button" pages="1,3"/>
+    </loader>
+    <text id="n7_uomq" name="title" xy="50,0" size="100,50" fontSize="36" color="#5b2b0e" vAlign="middle" leading="0" autoSize="shrink" autoClearText="true" text="主帅">
+      <gearColor controller="button" pages="0,1,2,3" values="#645c4d,#000000|#5b2b0e,#000000|#645c4d,#000000|#5b2b0e,#000000"/>
+      <gearText controller="button" pages="1,3" values="主帅|主帅" default="设为主帅"/>
+      <gearFontSize controller="button" pages="1,3" values="36|36" default="24"/>
+      <relation target="" sidePair="width-width,center-center"/>
+    </text>
+  </displayList>
+  <Button mode="Radio" sound="clickSmall"/>
+  <transition name="click" autoPlayRepeat="-1">
+    <item time="0" type="Scale" tween="true" startValue="1,1" endValue="0.9,0.9" duration="3"/>
+    <item time="3" type="Scale" tween="true" startValue="0.9,0.9" endValue="1,1" duration="3"/>
+  </transition>
+</component>

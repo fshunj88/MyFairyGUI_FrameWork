@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,40" pivot="0.5,0.5" extention="Label">
+  <displayList>
+    <loader id="n2_vasa" name="n2" xy="1,1" size="60,40" url="ui://2ipmzghtvasa8jq" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n1" name="title" xy="0,0" size="60,40" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text="主公">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="t0"/>
+</component>

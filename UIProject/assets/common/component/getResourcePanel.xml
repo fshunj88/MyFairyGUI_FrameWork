@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,1600">
+  <controller name="c1" pages="0,home,1,other,2,otherNoAni" selected="1">
+    <action type="play_transition" fromPage="0" toPage="1" transition="open"/>
+    <action type="play_transition" fromPage="0" toPage="2" transition="openNoFade"/>
+  </controller>
+  <controller name="cardpool" pages="0,没卡,1,有卡" selected="0"/>
+  <displayList>
+    <component id="n0_u83y" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" xy="0,0" size="960,1600" alpha="0" touchable="false"/>
+    <component id="n53_p3i3" name="homeTopCom" src="p3i33o4" fileName="component/homeTopCom.xml" pkg="8d3e8y55" xy="-1,0">
+      <relation target="n0_u83y" sidePair="width-width,center-center,top-top"/>
+    </component>
+    <component id="n58_pg7q" name="librayBtn" src="x6f63n" fileName="component/libraryChk.xml" pkg="8d3e8y55" xy="240,1445" pivot="0.5,1">
+      <gearDisplay controller="cardpool" pages="1"/>
+      <relation target="n0_u83y" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n31_eax7" name="resource1" src="eax7e3r2" fileName="component/getResourceAni.xml" xy="0,0" touchable="false">
+      <relation target="n0_u83y" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n32_eax7" name="resource2" src="eax7e3r2" fileName="component/getResourceAni.xml" xy="0,0" touchable="false">
+      <relation target="n0_u83y" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n33_eax7" name="resource3" src="eax7e3r2" fileName="component/getResourceAni.xml" xy="0,0" touchable="false">
+      <relation target="n0_u83y" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n54_qwnv" name="resource4" src="eax7e3r2" fileName="component/getResourceAni.xml" xy="0,0" touchable="false">
+      <relation target="n0_u83y" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n55_qwnv" name="resource5" src="eax7e3r2" fileName="component/getResourceAni.xml" xy="0,0" touchable="false">
+      <relation target="n0_u83y" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n56_qwnv" name="resource6" src="eax7e3r2" fileName="component/getResourceAni.xml" xy="0,-1" touchable="false">
+      <relation target="n0_u83y" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+  </displayList>
+  <transition name="open" options="4">
+    <item time="0" type="Alpha" target="n53_p3i3" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="48" type="Alpha" target="n53_p3i3" tween="true" startValue="1" endValue="0" duration="12"/>
+  </transition>
+  <transition name="openNoFade">
+    <item time="0" type="Alpha" target="n53_p3i3" value="1"/>
+    <item time="60" type="Alpha" target="n53_p3i3" value="0"/>
+  </transition>
+  <transition name="libraryScale">
+    <item time="0" type="Scale" target="n58_pg7q" tween="true" startValue="1,1" endValue="1.2,1.2" duration="3"/>
+    <item time="3" type="Scale" target="n58_pg7q" tween="true" startValue="1.2,1.2" endValue="1,1" duration="3"/>
+  </transition>
+</component>

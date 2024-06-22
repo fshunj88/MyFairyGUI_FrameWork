@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,1600" pivot="0.5,0.5">
+  <controller name="status" pages="0,noAdmin_here,1,noAdmin_noHere_inPower,2,hasAdmin_here,3,hasAdmin_noHere,4,part_noHere,9,noAdmin_noHere_notInPower" selected="0"/>
+  <controller name="hasPrefect" pages="0,false,1,true" selected="0"/>
+  <controller name="type" pages="0,军令,1,成员" selected="0"/>
+  <controller name="hasApply" pages="0,false,1,true" selected="0"/>
+  <controller name="showDetail" pages="0,false,1,true" selected="0"/>
+  <controller name="readyShow" pages="0,false,1,true" selected="1"/>
+  <displayList>
+    <loader id="n163_7mxs" name="bg" xy="0,0" size="960,1600" url="ui://2ipmzghtlb4ehp" fill="scaleFree"/>
+    <loader id="n179_lyq3" name="top" xy="1,3" size="958,149">
+      <relation target="n163_7mxs" sidePair="top-top"/>
+    </loader>
+    <loader id="n135_dsua" name="n135" xy="30,159" size="900,340" url="ui://2ipmzghtlb4ehx" fill="scaleFree">
+      <relation target="n179_lyq3" sidePair="top-bottom"/>
+    </loader>
+    <loader id="n117_dsua" name="bottom" xy="0,1424" size="960,176" url="ui://2ipmzghtlb4ehv" fill="scaleFree">
+      <relation target="n163_7mxs" sidePair="bottom-bottom"/>
+    </loader>
+    <loader id="n73_ri8u" name="n73" xy="30,179" size="180,180" aspect="true" url="ui://864gshxxo71xe3r6" fill="scaleFree">
+      <relation target="n135_dsua" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n45_o3cu" name="listBg" xy="30,650" pivot="0.5,1" size="900,784" touchable="false" url="ui://864gshxxcskr3ml" fill="scaleFree">
+      <relation target="n117_dsua" sidePair="bottomext-top"/>
+      <relation target="n135_dsua" sidePair="topext-bottom"/>
+    </loader>
+    <group id="n99_jawk" name="guoHaoCom" xy="53,194" size="140,157" group="n213_uqka" advanced="true">
+      <relation target="n73_ri8u" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n37_o3cu" name="campCom" src="wwgm5v" fileName="component/campItem.xml" xy="53,194" group="n99_jawk"/>
+    <list id="n106_emtm" name="playerList" xy="57,659" size="860,741" group="n213_uqka" overflow="scroll" defaultItem="ui://2ipmzghtxjaba" autoClearItems="true">
+      <gearDisplay controller="type" pages="1"/>
+      <relation target="n164_bljr" sidePair="topext-bottom"/>
+      <relation target="n117_dsua" sidePair="bottomext-top"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n106_emtm" name="btnList" xy="45,674" size="860,551" group="n213_uqka" layout="flow_hz" overflow="scroll" lineGap="20" colGap="20" defaultItem="ui://2ipmzghtefos8iz" align="center" autoClearItems="true">
+      <gearDisplay controller="type" pages="0"/>
+      <gearDisplay2 controller="status" pages="0,1,2,3,4" condition="0"/>
+      <relation target="n45_o3cu" sidePair="center-center,topext-top"/>
+      <relation target="n221_ra7x" sidePair="bottomext-top"/>
+      <item title="进攻" controllers="status,1"/>
+      <item title="防守" controllers="status,2"/>
+      <item title="征粮" controllers="status,2"/>
+      <item title="征税"/>
+      <item title="建设"/>
+      <item title="修筑"/>
+      <item title="运输(钱)"/>
+      <item title="运输(粮)"/>
+      <item title="探索"/>
+      <item title="迁移"/>
+    </list>
+    <loader id="n88_ri8u" name="goldLoader" xy="250,419" size="250,50" group="n89_ri8u" url="ui://864gshxxxv0q34" fill="scaleFree"/>
+    <loader id="n157_tpsj" name="foodLoader" xy="540,419" size="250,50" group="n89_ri8u" url="ui://864gshxxxv0q34" fill="scaleFree"/>
+    <loader id="n81_ri8u" name="n81" xy="255,419" size="50,50" group="n89_ri8u" aspect="true" url="ui://2ipmzghtvasa8jd" fill="scaleFree"/>
+    <loader id="n82_ri8u" name="n82" xy="545,419" size="50,50" group="n89_ri8u" aspect="true" url="ui://2ipmzghtvasa8je" fill="scaleFree"/>
+    <text id="n84_ri8u" name="goldNum" xy="310,414" size="170,60" group="n89_ri8u" fontSize="36" color="#ffffff" align="right" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="10000(-10)"/>
+    <text id="n85_ri8u" name="foodNum" xy="600,414" size="170,60" group="n89_ri8u" fontSize="36" color="#ffffff" align="right" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="100/100(-11)"/>
+    <group id="n89_ri8u" name="maintain" xy="250,414" size="540,60" group="n213_uqka" advanced="true">
+      <gearDisplay controller="status" pages="0,1,2,3,4"/>
+      <relation target="n135_dsua" sidePair="center-center,middle-middle"/>
+    </group>
+    <text id="n98_jawk" name="popularityTxt" xy="33,361" size="180,31" group="n213_uqka" fontSize="24" color="#333333" align="center" leading="0" autoSize="shrink" autoClearText="true" text="民望：1000/5000">
+      <relation target="n99_jawk" sidePair="center-center,top-bottom"/>
+    </text>
+    <text id="n38_o3cu" name="cityName" xy="379,279" size="95,38" group="n77_ri8u" fontSize="30" color="#333333" vAlign="middle" leading="0" autoClearText="true" text="建业城"/>
+    <loader id="n76_ri8u" name="icon" xy="250,279" size="120,120" group="n77_ri8u" url="ui://2ipmzghtqagc7e408" fill="scaleFree" clearOnPublish="true"/>
+    <text id="n100_jawk" name="buildTxt" xy="380,329" size="206,31" group="n77_ri8u" fontSize="24" color="#666666" vAlign="middle" leading="0" autoClearText="true" text="建设度：1000/5000"/>
+    <component id="n83_ri8u" name="cityHp" src="6od87e3xo" fileName="component/progress_400.xml" pkg="864gshxx" xy="380,379" group="n77_ri8u">
+      <relation target="n76_ri8u" sidePair="center-center,middle-middle"/>
+      <ProgressBar max="100"/>
+    </component>
+    <component id="n178_l6o5" name="citySkill" src="z1j03q9" fileName="component/citySkillItem.xml" pkg="dvmsogfr" xy="841,279" size="60,60" group="n77_ri8u"/>
+    <text id="n217_ip70" name="armTxt" xy="855,353" size="46,40" group="n219_vc6c" fontSize="32" align="center" vAlign="middle" autoSize="shrink" autoClearText="true" text="x/y">
+      <gearDisplay controller="readyShow" pages="1"/>
+    </text>
+    <loader id="n218_vc6c" name="n218" xy="799,348" size="50,50" group="n219_vc6c" url="ui://2ipmzghtvc6c47e41g" fill="scaleFree"/>
+    <loader id="n220_qi9y" name="armTxtLoader" xy="797,349" size="98,50" group="n219_vc6c"/>
+    <group id="n219_vc6c" name="n219" xy="797,348" size="104,51" group="n77_ri8u" advanced="true"/>
+    <loader id="n190_ov98" name="n190" xy="480,278" size="110,35" group="n222_ra7x" url="ui://2ipmzghtoxut7e3zv" fill="scaleFree"/>
+    <text id="n116_lfsj" name="gradeTxt" xy="485,280" size="101,31" group="n222_ra7x" fontSize="24" color="#666666" vAlign="middle" leading="0" autoClearText="true" text="等级：20&#xA;"/>
+    <loader id="n189_unbe" name="gradeClickLoader" xy="485,280" size="101,31" group="n222_ra7x"/>
+    <group id="n222_ra7x" name="n222" xy="480,278" size="110,35" group="n77_ri8u" advanced="true">
+      <relation target="n38_o3cu" sidePair="middle-middle,left-right"/>
+    </group>
+    <group id="n77_ri8u" name="cityinfo" xy="250,278" size="651,121" group="n213_uqka" advanced="true">
+      <relation target="n135_dsua" sidePair="left-left,top-top"/>
+    </group>
+    <component id="n109_jal0" name="joinCountryBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="355,1475" size="250,100" group="n213_uqka">
+      <gearDisplay controller="status" pages="9"/>
+      <relation target="n117_dsua" sidePair="center-center,middle-middle"/>
+      <Button title="申请加入" icon="ui://864gshxxcbmu7e3uk"/>
+    </component>
+    <loader id="n119_dsua" name="ymBg" xy="247,179" size="310,80" group="n124_dsua" url="ui://2ipmzghtlb4ehr" fill="scaleFree"/>
+    <component id="n120_dsua" name="yMHead" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="247,179" size="80,80" group="n124_dsua" touchable="false"/>
+    <text id="n122_dsua" name="yMName" xy="327,198" size="220,40" group="n124_dsua" fontSize="26" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#333333" strokeSize="3" singleLine="true" autoClearText="true" text="玩家啊啊啊啊啊啊啊啊">
+      <relation target="n119_dsua" sidePair="middle-middle,left-left"/>
+    </text>
+    <loader id="n216_o90v" name="ymLoader" xy="251,181" size="310,80" group="n124_dsua"/>
+    <group id="n124_dsua" name="ym" xy="247,179" size="314,82" group="n213_uqka" advanced="true">
+      <relation target="n135_dsua" sidePair="center-center,top-top"/>
+    </group>
+    <loader id="n125_dsua" name="preBg" xy="590,179" size="310,80" group="n130_dsua" touchable="false" grayed="true" url="ui://2ipmzght91kp8ix" fill="scaleFree">
+      <gearLook controller="hasPrefect" pages="0,1" values="1,0,1,0|1,0,0,1"/>
+    </loader>
+    <loader id="n114_lfsj" name="prefectClickLoader" xy="590,179" size="310,80" group="n130_dsua">
+      <gearDisplay controller="hasPrefect" pages="1"/>
+    </loader>
+    <component id="n126_dsua" name="preHead" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="590,179" size="80,80" group="n130_dsua" touchable="false">
+      <gearDisplay controller="hasPrefect" pages="1"/>
+    </component>
+    <text id="n128_dsua" name="preName" xy="670,199" size="220,40" group="n130_dsua" fontSize="26" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#333333" strokeSize="3" singleLine="true" text="玩家啊啊啊啊啊啊啊啊">
+      <gearDisplay controller="hasPrefect" pages="1"/>
+      <relation target="n125_dsua" sidePair="middle-middle,left-left"/>
+    </text>
+    <text id="n110_jal0" name="n110" xy="693,203" size="101,31" group="n130_dsua" fontSize="24" color="#ffffff" leading="0" strokeColor="#000000" strokeSize="3" text="暂无太守">
+      <gearDisplay controller="hasPrefect" pages="0"/>
+      <relation target="n114_lfsj" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n215_o90v" name="preLoader" xy="590,179" size="310,80" group="n130_dsua">
+      <gearDisplay controller="hasPrefect" pages="1"/>
+    </loader>
+    <group id="n130_dsua" name="prefect" xy="590,179" size="310,80" group="n213_uqka" advanced="true">
+      <relation target="n135_dsua" sidePair="center-center,top-top"/>
+    </group>
+    <component id="n48_o3cu" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="30,1476" size="100,100" group="n213_uqka">
+      <relation target="n117_dsua" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n154_wj7a" name="chk1" src="oxut7e3zq" fileName="component/functionChk.xml" xy="181,541" group="n213_uqka" aspect="true">
+      <relation target="n45_o3cu" sidePair="center-center,bottom-top"/>
+      <Button checked="true" title="军令" titleFontSize="40" controller="type" page="0"/>
+    </component>
+    <component id="n155_wj7a" name="chk2" src="oxut7e3zq" fileName="component/functionChk.xml" xy="491,541" group="n213_uqka" aspect="true">
+      <relation target="n45_o3cu" sidePair="center-center,bottom-top"/>
+      <Button title="成员" titleFontSize="40" controller="type" page="1"/>
+    </component>
+    <loader id="n156_wj7a" name="n156" xy="30,514" size="900,10" group="n213_uqka" url="ui://eg2ecnn9v05qe3sd" fill="scaleFree">
+      <relation target="n45_o3cu" sidePair="center-center,bottom-top"/>
+    </loader>
+    <loader id="n159_o31q" name="n159" xy="603,278" size="50,50" group="n161_o31q" url="ui://2ipmzghtmhry75" fill="scaleFree">
+      <relation target="n160_o31q" sidePair="middle-middle,right-left"/>
+    </loader>
+    <text id="n160_o31q" name="playerNumTxt" xy="659,283" size="109,40" group="n161_o31q" fontSize="32" color="#333333" align="right" vAlign="middle" leading="0" autoClearText="true" text="100/150">
+      <relation target="n135_dsua" sidePair="right-right"/>
+    </text>
+    <group id="n161_o31q" name="n161" xy="603,278" size="165,50" group="n213_uqka" advanced="true">
+      <relation target="n77_ri8u" sidePair="top-top"/>
+    </group>
+    <component id="n103_rd9i" name="exchangeBtn" src="vvhmbf" fileName="component/exchangeBtn.xml" xy="273,1239" size="180,180" group="n213_uqka">
+      <gearDisplay controller="status" pages="0,2"/>
+      <gearXY controller="status" pages="0" values="273,1239" default="160,1239"/>
+      <gearDisplay2 controller="type" pages="0" condition="0"/>
+      <relation target="n45_o3cu" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n95_dyal" name="donateBtn" src="91kp8in" fileName="component/donateBtn.xml" xy="503,1239" size="180,180" group="n213_uqka">
+      <gearDisplay controller="status" pages="0,2"/>
+      <gearXY controller="status" pages="0" values="503,1239" default="390,1239"/>
+      <gearDisplay2 controller="type" pages="0" condition="0"/>
+      <relation target="n103_rd9i" sidePair="bottom-bottom"/>
+      <Button icon="ui://2ipmzghtn91y8w"/>
+    </component>
+    <component id="n96_dyal" name="missionBtn" src="91kp8it" fileName="component/missionBtn.xml" xy="620,1239" size="180,180" group="n213_uqka">
+      <gearDisplay controller="status" pages="2,3"/>
+      <gearXY controller="status" pages="3" values="390,1239" default="620,1239"/>
+      <gearDisplay2 controller="type" pages="0" condition="0"/>
+      <relation target="n103_rd9i" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n164_bljr" name="applyItem" src="efos8j0" fileName="component/applyItem.xml" xy="53,664" size="860,0" group="n213_uqka">
+      <gearDisplay controller="hasApply" pages="1"/>
+      <gearSize controller="hasApply" pages="0,1" values="860,0,1,1|860,140,1,1"/>
+      <gearDisplay2 controller="type" pages="1" condition="0"/>
+      <relation target="n45_o3cu" sidePair="left-left,right-right,top-top"/>
+    </component>
+    <component id="n165_f6jl" name="quitPowerBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="65,414" size="150,60" group="n213_uqka" aspect="true">
+      <gearDisplay controller="status" pages="0,2"/>
+      <relation target="n135_dsua" sidePair="center-center,middle-middle"/>
+      <Button title="&#xD;" titleFontSize="20" icon="ui://2ipmzghtlb4ehy"/>
+    </component>
+    <loader id="n177_hw58" name="n177" xy="509,118" size="400,294" group="n175_hw58" url="ui://864gshxxcskr3ml" fill="scaleFree"/>
+    <loader id="n166_hw58" name="minxin" xy="537,145" size="344,44" group="n175_hw58"/>
+    <loader id="n167_hw58" name="feiwo" xy="537,196" size="344,44" group="n175_hw58"/>
+    <loader id="n168_hw58" name="fanrong" xy="537,246" size="344,44" group="n175_hw58"/>
+    <loader id="n184_10xps" name="jinBiWeiHu" xy="537,297" size="344,44" group="n175_hw58"/>
+    <loader id="n185_10xps" name="liangShiWeiHu" xy="533,349" size="344,44" group="n175_hw58"/>
+    <text id="n169_hw58" name="t1" xy="537,145" size="113,44" group="n175_hw58" fontSize="30" color="#666666" vAlign="middle" leading="0" autoSize="none" singleLine="true" text="民心度"/>
+    <text id="n170_hw58" name="t2" xy="537,196" size="185,44" group="n175_hw58" fontSize="30" color="#666666" vAlign="middle" leading="0" autoSize="none" singleLine="true" text="土地肥沃度"/>
+    <text id="n171_hw58" name="t3" xy="536,245" size="185,44" group="n175_hw58" fontSize="30" color="#666666" vAlign="middle" leading="0" autoSize="none" singleLine="true" text="市场繁荣度"/>
+    <text id="n172_hw58" name="minxinValue" xy="826,148" size="55,38" group="n175_hw58" fontSize="30" color="#666666" align="right" vAlign="middle" leading="0" singleLine="true" autoClearText="true" text="99%"/>
+    <text id="n173_hw58" name="feiwoValue" xy="826,199" size="55,38" group="n175_hw58" fontSize="30" color="#666666" align="right" vAlign="middle" leading="0" singleLine="true" autoClearText="true" text="99%"/>
+    <text id="n174_hw58" name="fanrongValue" xy="826,249" size="55,38" group="n175_hw58" fontSize="30" color="#666666" align="right" vAlign="middle" leading="0" singleLine="true" autoClearText="true" text="99%"/>
+    <text id="n180_lyq3" name="jinBiWeiHuTxt" xy="537,295" size="185,44" group="n175_hw58" fontSize="30" color="#666666" vAlign="middle" leading="0" autoSize="none" singleLine="true" text="金币维护"/>
+    <text id="n181_lyq3" name="liangShiWeiHuTxt" xy="539,345" size="185,44" group="n175_hw58" fontSize="30" color="#666666" vAlign="middle" leading="0" autoSize="none" singleLine="true" text="粮食维护"/>
+    <text id="n182_lyq3" name="goldMaintainTxt" xy="827,302" size="40,38" group="n175_hw58" fontSize="30" color="#666666" align="right" vAlign="middle" leading="0" singleLine="true" autoClearText="true" text="111"/>
+    <text id="n183_lyq3" name="foodMaintainTxt" xy="829,353" size="49,38" group="n175_hw58" fontSize="30" color="#666666" align="right" vAlign="middle" leading="0" singleLine="true" autoClearText="true" text="222"/>
+    <group id="n175_hw58" name="n175" xy="509,118" size="400,294" group="n213_uqka" advanced="true">
+      <gearDisplay controller="status" pages=""/>
+      <gearDisplay2 controller="showDetail" pages="1" condition="0"/>
+      <relation target="n135_dsua" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n176_hw58" name="n176" src="l6o57e403" fileName="component/functionChk_multi.xml" xy="810,414" size="100,60" group="n213_uqka">
+      <relation target="n135_dsua" sidePair="right-right,bottom-bottom"/>
+      <Button title="详情" titleFontSize="30" controller="showDetail" page="1"/>
+    </component>
+    <component id="n191_sste" name="overLoadBtn" src="l6o57e403" fileName="component/functionChk_multi.xml" xy="810,555" size="100,60" group="n213_uqka" visible="false">
+      <relation target="n135_dsua" sidePair="right-right"/>
+      <relation target="n155_wj7a" sidePair="middle-middle"/>
+      <Button checked="true" title="过载" titleFontSize="30" icon="ui://864gshxxal2v9n" selectedIcon="ui://864gshxxibcj7e3wm"/>
+    </component>
+    <loader id="n192_jamd" name="mingWangPos" xy="31,361" size="180,31" group="n213_uqka">
+      <gearDisplay controller="status" pages="0,1,2,3,4,9"/>
+      <relation target="n98_jawk" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n193_o5t8" name="gongGaoBtn" src="l6o57e403" fileName="component/functionChk_multi.xml" xy="50,555" size="100,60" group="n213_uqka">
+      <relation target="n154_wj7a" sidePair="middle-middle,right-left"/>
+      <Button checked="true" title="公告" titleFontSize="30" icon="ui://2ipmzghtoxut7e3zv" selectedIcon="ui://2ipmzghtoxut7e3zv"/>
+    </component>
+    <component id="n211_m1x3" name="attackBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="0,-3" group="n213_uqka" visible="false" touchable="false">
+      <relation target="n179_lyq3" sidePair="left-left,top-top"/>
+      <Button title="attackers"/>
+    </component>
+    <component id="n212_mh0p" name="modifyFlagBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="29,162" size="50,50" group="n213_uqka">
+      <relation target="n135_dsua" sidePair="left-left,top-top"/>
+      <Button title="&#xD;&#xD;" icon="ui://864gshxxegmwbb"/>
+    </component>
+    <loader id="n221_ra7x" name="n221" xy="30,1224" size="900,10" group="n213_uqka" url="ui://eg2ecnn9v05qe3sd" fill="scaleFree">
+      <gearDisplay controller="type" pages="0"/>
+      <relation target="n103_rd9i" sidePair="bottom-top"/>
+    </loader>
+    <group id="n213_uqka" name="readyShow" xy="0,-3" size="930,1579" advanced="true">
+      <gearDisplay controller="readyShow" pages="1"/>
+    </group>
+  </displayList>
+</component>

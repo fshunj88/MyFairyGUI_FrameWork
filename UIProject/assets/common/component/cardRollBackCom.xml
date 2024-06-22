@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="700,600">
+  <controller name="type" pages="0,card,1,equip" selected="1"/>
+  <controller name="try" pages="0,no,1,yes" selected="1"/>
+  <displayList>
+    <loader id="n1_drj6" name="n1" xy="0,2" size="700,50" url="ui://864gshxxs3oee3ra" fill="scaleFree"/>
+    <loader id="n3_drj6" name="campIcon" xy="275,2" size="50,50" url="ui://fsmplk58gdx57e3v6" fill="scaleFree" clearOnPublish="true">
+      <relation target="n2_drj6" sidePair="middle-middle,right-left"/>
+    </loader>
+    <component id="n4_nlzq" name="n4" src="clsp3pw" fileName="component/middleCard.xml" pkg="rdb04el0" xy="250,180">
+      <gearDisplay controller="type" pages="0"/>
+    </component>
+    <component id="n11_yrtf" name="equip" src="j66l3" fileName="component/equipItem.xml" pkg="g6ma6zzk" xy="275,225">
+      <gearDisplay controller="type" pages="1"/>
+    </component>
+    <text id="n2_drj6" name="cardName" xy="325,2" pivot="0.5,0.5" size="85,49" fontSize="40" color="#e8dbac" align="center" vAlign="middle" leading="0" singleLine="true" autoClearText="true" text="曹操"/>
+    <richtext id="n9_m05q" name="n9" xy="17,70" size="666,93" fontSize="40" color="#333333" align="center" vAlign="middle" leading="0" autoSize="none" text="已经过平衡性调整&#xA;7天内可原价售出">
+      <gearDisplay controller="try" pages="0"/>
+      <gearText controller="type" pages="1" values="已经过平衡性调整&#xA;7天内可原价售出" default="已经过平衡性调整&#xA;如为主帅，7天内可无损还职（回退）"/>
+      <relation target="" sidePair="center-center,top-top"/>
+    </richtext>
+    <richtext id="n12_ih0g" name="n12" xy="17,70" size="666,93" fontSize="40" color="#333333" align="center" vAlign="middle" leading="0" autoSize="none" text="体验卡已到期">
+      <gearDisplay controller="try" pages="1"/>
+      <relation target="" sidePair="center-center,top-top"/>
+    </richtext>
+    <loader id="n7_nlzq" name="goldIcon" xy="238,530" pivot="0.5,0.5" size="60,60" group="n13_ih0g" aspect="true" touchable="false" url="ui://eg2ecnn9iwyxe3s2" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="n8_nlzq" sidePair="center-center,right-left"/>
+    </loader>
+    <text id="n8_nlzq" name="goldText" xy="298,530" pivot="0.5,0.5" size="153,60" group="n13_ih0g" fontSize="50" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="999999">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n6_nlzq" name="n6" xy="272,470" size="155,38" group="n13_ih0g" fontSize="30" color="#666666" leading="0" text="已返还资源">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n13_ih0g" name="resource" xy="238,470" size="213,120" visible="false" advanced="true"/>
+  </displayList>
+</component>

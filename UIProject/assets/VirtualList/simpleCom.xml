@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,960">
+  <displayList>
+    <loader id="n0_q2gi" name="loader" xy="0,0" size="480,960" url="ui://qkteqwfpc8s26" fill="scaleMatchHeight">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n1_q2gi" name="n1" src="rpolb" fileName="Button1.xml" xy="182,83"/>
+  </displayList>
+</component>

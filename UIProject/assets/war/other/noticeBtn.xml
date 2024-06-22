@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="180,180" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n1" name="icon" xy="20,20" size="140,140" url="ui://2ipmzghtmhry74" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <component id="n6_xjab" name="redHint" src="id0m9d" fileName="component/redHint1.xml" pkg="864gshxx" xy="130,0" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <text id="n7_pmd7" name="n7" xy="47,131" size="85,49" fontSize="40" color="#ffffff" leading="0" strokeColor="#333333" strokeSize="3" text="聊天">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+  </displayList>
+  <Button sound="click" downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t0"/>
+</component>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,900" pivot="0.5,0.5" opaque="false">
+  <controller name="type" pages="13,none,2,征粮,0,征税,5,建设,6,修筑,7,运币,14,运粮,11,进攻据点,18,进攻城市,19,征兵" selected="9"/>
+  <controller name="isAtMaxMiss" pages="0,false,1,true,2,tran,3,attack" selected="0"/>
+  <displayList>
+    <loader id="n43_uh8v" name="n43" xy="0,480" size="750,200" url="ui://eg2ecnn9hiflhl" fill="scaleFree"/>
+    <loader id="n41_uh8v" name="n41" xy="10,300" size="350,160" url="ui://2ipmzghtuh8v8j4" fill="scaleFree"/>
+    <loader id="n34_uh8v" name="n34" xy="6,19" size="740,250" url="ui://2ipmzghtuh8v8j3" fill="scaleFree"/>
+    <text id="n35_uh8v" name="title1" xy="343,24" pivot="0.5,0.5" size="65,38" fontSize="30" color="#333333" align="center" leading="0" text="目标">
+      <relation target="n34_uh8v" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n27_v2ye" name="expenceTxt" xy="90,376" size="243,49" fontSize="40" color="#333333" align="center" vAlign="middle" leading="0" singleLine="true" text="50000/100000">
+      <gearDisplay controller="isAtMaxMiss" pages="0"/>
+      <relation target="n41_uh8v" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n28_v2ye" name="resIcon" xy="31,370" size="60,60" url="ui://2ipmzghtvasa8jd" fill="scaleFree">
+      <gearDisplay controller="isAtMaxMiss" pages="0"/>
+      <gearIcon controller="type" pages="14,11,18" values="ui://2ipmzghtvasa8je|ui://2ipmzghtvasa8je|ui://2ipmzghtvasa8je" default="ui://2ipmzghtvasa8jd"/>
+      <relation target="n27_v2ye" sidePair="right-left,middle-middle"/>
+    </loader>
+    <text id="n31_cqkr" name="doneText" xy="75,200" size="600,38" fontSize="30" color="#660000" align="center" vAlign="middle" leading="0" autoSize="shrink" autoClearText="true" text="任务完成后，功绩+50，所属地获得1队戍卫部队">
+      <gearDisplay controller="type" pages="2,0,5,6,7,14,11,18,19"/>
+      <gearText controller="type" pages="2,0,5,6,7,19" values="奖励：粮草＋1|所属地资金＋tax_target＊war_city表／tax_rev金币|完成时所属地建设度＋build_target|完成时城市生命值＋construct_target；|完成时目的地资金＋transport_gold；|任务完成后，功绩+50，所属地获得1队戍卫部队" default="任务完成后，功绩+50"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n38_uh8v" name="publishBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="103,735" size="300,100">
+      <Button title="设置" icon="ui://864gshxxibcj7e3wo"/>
+    </component>
+    <text id="n39_uh8v" name="t1" xy="80,525" size="245,38" fontSize="30" color="#666666" leading="0" text="滑动设置军令数量">
+      <relation target="n43_uh8v" sidePair="middle-middle,left-left"/>
+    </text>
+    <text id="n42_uh8v" name="t3" xy="122,313" size="125,38" fontSize="30" color="#666666" leading="0" text="发布开支">
+      <gearText controller="type" pages="7,14,11,18" values="单次运输消耗|单次运输消耗|单次进攻消耗|单次进攻消耗" default="发布开支"/>
+      <relation target="n41_uh8v" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n45_uh8v" name="n46" xy="390,300" size="350,160" url="ui://2ipmzghtuh8v8j4" fill="scaleFree"/>
+    <text id="n46_uh8v" name="timeTxt" xy="521,375" size="124,49" fontSize="40" color="#333333" align="center" vAlign="middle" leading="0" singleLine="true" text="99小时">
+      <relation target="n45_uh8v" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n47_uh8v" name="timeIcon" xy="462,370" size="60,60" url="ui://864gshxxeneijj" fill="scaleFree">
+      <relation target="n46_uh8v" sidePair="right-left,middle-middle"/>
+    </loader>
+    <text id="n48_uh8v" name="t4" xy="504,314" size="125,38" fontSize="30" color="#666666" leading="0" text="执行耗时">
+      <relation target="n45_uh8v" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n49_vasa" name="slider" src="vasa8ja" fileName="component/Slider1.xml" xy="80,590">
+      <relation target="n43_uh8v" sidePair="center-center,middle-middle"/>
+      <Slider value="1" max="100"/>
+    </component>
+    <loader id="n51_vasa" name="n51" xy="56,134" pivot="0.5,0.5" size="153,13" url="ui://864gshxxykzh7e3xa">
+      <relation target="n53_vasa" sidePair="middle-middle,right-left"/>
+    </loader>
+    <loader id="n52_vasa" name="n52" xy="545,134" pivot="0.5,0.5" size="153,13" scale="-1,1" url="ui://864gshxxykzh7e3xa">
+      <relation target="n53_vasa" sidePair="middle-middle,left-right"/>
+    </loader>
+    <text id="n53_vasa" name="textBig" xy="300,119" size="221,44" fontSize="36" color="#660000" align="center" vAlign="middle" leading="0" text="进攻【长沙】">
+      <relation target="n34_uh8v" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n54_vasa" name="n54" xy="227,111" size="60,60" url="ui://2ipmzghtvasa8jo" fill="scaleFree">
+      <gearIcon controller="type" pages="2,0,5,6,7,14" values="ui://2ipmzghtvasa8jl|ui://2ipmzghtvasa8jm|ui://2ipmzghtvasa8jh|ui://2ipmzghtvasa8jh|ui://2ipmzghtvasa8jk|ui://2ipmzghtvasa8jj" default="ui://2ipmzghtvasa8jo"/>
+      <relation target="n53_vasa" sidePair="middle-middle,right-left"/>
+    </loader>
+    <text id="n55_hzex" name="n56" xy="155,862" size="437,38" fontSize="30" color="#666666" leading="0" text="每日10点-22点才可接受进攻军令">
+      <gearDisplay controller="type" pages="11,18"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n56_mngy" name="autoPublishBtn" src="gqml7e3wk" fileName="component/setChk3.xml" pkg="864gshxx" xy="456,745" scale="0.7,0.7">
+      <relation target="n38_uh8v" sidePair="center-center,top-bottom"/>
+      <Button checked="true" title="自动发布" titleColor="#990000" titleFontSize="50"/>
+    </component>
+  </displayList>
+</component>

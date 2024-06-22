@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "war_atlas0",
+    "texture": "28b6492d-e988-4e11-b093-1dc8dfe1c811",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      2046,
+      2027
+    ],
+    "offset": [
+      -1,
+      10.5
+    ],
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,400" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n11_pdhx" name="bg1" xy="0,0" size="750,400" group="n16_ej80" url="ui://864gshxxcbmu7e3uj" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,center-center"/>
+    </loader>
+    <text id="n27_ej80" name="txt2" xy="75,50" size="600,144" group="n16_ej80" fontSize="36" color="#333333" align="center" vAlign="middle" leading="10" autoSize="height" text="你现在可以选择查看城市或列表来加入一个势力&#xA;或查看据点来创建一个势力">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n28_e3ip" name="seeSh" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="420,230" size="250,100" group="n16_ej80">
+      <Button title="查看据点总览" icon="ui://864gshxxbva5it"/>
+    </component>
+    <component id="n29_e3ip" name="seeCity" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="80,230" size="250,100" group="n16_ej80">
+      <Button title="查看城市总览" icon="ui://864gshxxbva5it"/>
+    </component>
+    <group id="n16_ej80" name="n16" xy="0,0" size="750,400" advanced="true"/>
+  </displayList>
+  <transition name="entry" autoPlay="true">
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="24" ease="Quart.Out"/>
+  </transition>
+</component>

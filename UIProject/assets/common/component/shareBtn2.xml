@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="180,70" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n1" name="icon1" xy="10,10" size="50,50" url="ui://864gshxxwq8j45" align="center" vAlign="middle" fill="scaleMatchHeight"/>
+    <text id="n2_m1um" name="title" xy="65,8" size="226,54" fontSize="40" color="#333333" vAlign="middle" leading="0" text="#TEXT_60370">
+      <relation target="n1" sidePair="left-right,middle-middle"/>
+    </text>
+  </displayList>
+  <Button sound="clickSmall"/>
+  <transition name="t0"/>
+</component>

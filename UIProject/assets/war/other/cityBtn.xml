@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="160,160" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="type" pages="0,据点,1,城市" selected="0"/>
+  <displayList>
+    <loader id="n6_vasa" name="icon" xy="10,10" size="140,140" url="ui://2ipmzght7mxs8lr" fill="scaleFree">
+      <gearIcon controller="type" pages="0,1" values="ui://2ipmzght7mxs8lr|ui://2ipmzght7mxs8ls"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n5_vasa" name="n5" xy="-2,111" size="165,49" fontSize="40" color="#ffffff" leading="0" strokeColor="#000000" strokeSize="3" text="我的属地">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <component id="n7_mh0p" name="redHint" src="id0m9d" fileName="component/redHint1.xml" pkg="864gshxx" xy="120,-10">
+      <relation target="n6_vasa" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+  <Button sound="click" downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t0"/>
+</component>

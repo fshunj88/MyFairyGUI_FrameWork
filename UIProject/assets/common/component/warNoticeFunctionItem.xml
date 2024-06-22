@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="900,160">
+  <displayList>
+    <loader id="n6_jbrh" name="bottom" xy="10,60" size="880,90" group="n14_j7l7" touchable="false" url="ui://864gshxxhyug2" fill="scaleFree">
+      <relation target="n22_tm4l" sidePair="height-height"/>
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <component id="n21_j7k2" name="head" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="0,0" size="70,70" group="n14_j7l7" visible="false"/>
+    <text id="n23_uv4l" name="time" xy="0,0" size="900,50" group="n14_j7l7" fontSize="30" color="#645c4d" align="center" vAlign="middle" leading="0" autoSize="none" autoClearText="true" text="11:22">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n4_jbrh" name="name" xy="5,3" size="149,44" group="n14_j7l7" fontSize="36" color="#333333" vAlign="middle" leading="0" singleLine="true" text="系统通知">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <richtext id="n22_tm4l" name="title" xy="30,80" size="840,49" group="n14_j7l7" fontSize="40" leading="0" autoSize="height" autoClearText="true" text="大都督"/>
+    <group id="n14_j7l7" name="contentGrp" xy="0,0" size="900,150" advanced="true"/>
+  </displayList>
+  <relation target="n6_jbrh" sidePair="height-height"/>
+</component>

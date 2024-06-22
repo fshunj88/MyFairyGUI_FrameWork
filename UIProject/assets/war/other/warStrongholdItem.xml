@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="40,40" pivot="0.5,0.5" anchor="true" extention="Button">
+  <displayList>
+    <component id="n25_qcu5" name="bottom" src="qcu57e40p" fileName="component/warItemBottomPosForSh.xml" xy="20,20"/>
+    <component id="n18_b92k" name="arrow" src="7mxs7e3zo" fileName="component/warArrow.xml" xy="20,6" size="38,96">
+      <relation target="n25_qcu5" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n16_b92k" name="icon" src="b92kca" fileName="component/warStrongholdIcon.xml" xy="20,20">
+      <relation target="n25_qcu5" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n19_b92k" name="terrain" src="b92kcd" fileName="component/warStrongholdTerrain.xml" xy="20,20">
+      <relation target="n25_qcu5" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n20_enmx" name="textPicLayer" src="7mxs7e3zn" fileName="component/shTextPic.xml" xy="20,20">
+      <relation target="n25_qcu5" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+  <Button sound="click" downEffect="scale" downEffectValue="0.80"/>
+</component>

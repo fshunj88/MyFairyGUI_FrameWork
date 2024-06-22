@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,1200" pivot="0.5,0.5">
+  <controller name="official" pages="5,normal,0,renMianJunShi,1,renMianTaiShou,2,baMian,3,shanRang,4,quZhu" selected="0"/>
+  <displayList>
+    <loader id="n39_pmd7" name="bottom" xy="0,0" size="960,1200" touchable="false" url="ui://2ipmzghtoxut7e3zx" fill="scaleFree"/>
+    <component id="n18_j66l" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="30,1230">
+      <relation target="n39_pmd7" sidePair="left-left,top-bottom"/>
+    </component>
+    <list id="n21_j66l" name="playerList" xy="80,140" size="800,1000" overflow="scroll" scrollBarFlags="4" scrollBar="auto" defaultItem="ui://2ipmzghtxjaba" align="center" renderOrder="descent" autoClearItems="true">
+      <relation target="n39_pmd7" sidePair="center-center,top-top,bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n37_kk99" name="title" xy="437,5" size="85,49" fontSize="40" color="#660000" leading="0" text="成员">
+      <gearText controller="official" pages="5,0,1,2,3,4" values="成员|任命军师|任命太守|免职|禅让|驱逐"/>
+      <relation target="n39_pmd7" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n38_pmd7" name="title2" xy="475,85" size="10,38" fontSize="30" color="#333333" leading="0" text="">
+      <gearText controller="official" pages="5,0,1,2,3,4" values="|军师拥有势力部分管理权限|太守拥有本城管理权限|免去1名成员所有职位|将主公职位移交给指定成员|将指定玩家移出本势力"/>
+      <relation target="n39_pmd7" sidePair="center-center,top-top"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

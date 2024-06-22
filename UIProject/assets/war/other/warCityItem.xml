@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,60" pivot="0.5,0.5" extention="Button">
+  <controller name="choose" pages="0,normal,1,choose" selected="0"/>
+  <controller name="fight" pages="0,guard,1,fight,2,destroy" selected="0"/>
+  <displayList>
+    <component id="n27_qcu5" name="bottom" src="qcu57e40o" fileName="component/warItemBottomPosForCity.xml" xy="30,32" size="60,60"/>
+    <component id="n16_b92k" name="arrow" src="7mxs7e3zo" fileName="component/warArrow.xml" xy="30,14" size="60,106">
+      <relation target="n27_qcu5" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n18_b92k" name="icon" src="b92kc9" fileName="component/warCityItemIcon.xml" xy="30,32" size="60,60">
+      <relation target="n27_qcu5" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n9_d8ql" name="expProgressBar" src="yh3x7e40q" fileName="component/warProgress2.xml" xy="0,60" scale="0.4,0.4">
+      <relation target="n27_qcu5" sidePair="center-center,middle-middle"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n15_jqvs" name="textPicLayer" src="7mxs7e3zl" fileName="component/cityTextPic.xml" xy="30,30" size="60,60">
+      <relation target="n27_qcu5" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n17_b92k" name="flag" src="7mxs7e3zp" fileName="component/flag.xml" xy="29,-8" size="60,60">
+      <relation target="n27_qcu5" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n19_fyad" name="textNativeLayer" src="7mxs7e3zm" fileName="component/nativeText.xml" xy="30,-10" size="60,60">
+      <relation target="n17_b92k" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n28_lynl" name="otherComLayer" src="lynl47e415" fileName="component/wciOtherCom.xml" xy="30,36" touchable="false">
+      <relation target="n27_qcu5" sidePair="center-center,middle-middle"/>
+    </component>
+    <loader id="n20_emtm" name="clickArea" xy="0,-50" size="60,120"/>
+  </displayList>
+  <Button sound="click" downEffect="scale" downEffectValue="0.80"/>
+</component>

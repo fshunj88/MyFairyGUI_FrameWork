@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,120" pivot="0.5,0.5" opaque="false" extention="Label">
+  <displayList>
+    <loader id="n11_pdhx" name="bg1" xy="0,0" size="960,120" group="n16_ej80" url="ui://864gshxxtzcwe3rs" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <text id="n15_eo7t" name="title" xy="49,31" size="800,60" group="n16_ej80" fontSize="40" color="#ffffff" vAlign="middle" leading="6" autoSize="none" text="fgdsgdfgdf">
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </text>
+    <group id="n16_ej80" name="n16" xy="0,0" size="960,120" advanced="true"/>
+  </displayList>
+  <transition name="entry" autoPlay="true">
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="24" ease="Quart.Out"/>
+  </transition>
+</component>

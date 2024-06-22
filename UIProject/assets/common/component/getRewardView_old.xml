@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,1600" pivot="0.5,0.5" bgColorEnabled="true" bgColor="#000000">
+  <controller name="type" pages="0,resource,1,randomCard,3,randomCardExp,16,randomCardPiece,4,card,11,cardExp,14,cardPiece,15,skin,17,headFrame,18,head,19,emoji,20,cardPack,21,vip,22,tryCard" selected="0"/>
+  <controller name="share" pages="0,没分享,1,有分享" selected="0"/>
+  <displayList>
+    <loader id="n73_p850" name="bg" xy="0,0" size="960,1600" alpha="0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n71_d54g" name="n71" xy="80,400" pivot="0.5,0.5" size="800,800" alpha="0.5" touchable="false" url="ui://eg2ecnn9ceeg3mv" align="center" vAlign="middle" fill="scaleFree" color="#ffffcc">
+      <gearIcon controller="type" default="ui://eg2ecnn9ceeg3mv"/>
+    </loader>
+    <component id="n89_6a2z" name="shareBtn" src="6a2z7e3sz" fileName="component/shareBtn.xml" xy="355,1450" size="250,100">
+      <gearDisplay controller="share" pages="1"/>
+      <relation target="n73_p850" sidePair="center-center,bottom-bottom"/>
+      <Button title="分享"/>
+    </component>
+    <component id="n91_i3dp" name="rewardItem" src="k7cu3q6" fileName="component/reward/rewardItemBig2.xml" pkg="dvmsogfr" xy="330,650" size="300,300" customData="b"/>
+    <text id="n86_xl31" name="title" xy="378,500" size="205,54" fontSize="50" color="#ffffff" align="center" leading="0" strokeColor="#000000" strokeSize="3" text="获得奖励">
+      <gearText controller="type" pages="0,1,3,16,4,11,14,15,17,18,19,21" values="获得奖励|获得卡牌|获得卡牌经验|获得卡牌碎片|获得卡牌|获得卡牌经验|获得卡牌碎片|获得皮肤|获得头像框|获得头像|获得表情|获得通行证" default="获得卡包"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n87_ehm7" name="desc" xy="80,1100" size="800,54" restrictSize="0,800,0,0" fontSize="50" color="#ffffff" align="center" leading="0" autoSize="height" strokeColor="#000000" strokeSize="3" autoClearText="true" text="有效期{0}天">
+      <gearDisplay controller="type" pages="21,22"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n90_6a2z" name="t1" xy="358,1300" size="245,44" fontSize="40" color="#cccccc" align="center" leading="0" text="点击屏幕继续">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" tween="true" startValue="0.6" endValue="1" duration="6"/>
+    <item time="0" type="Scale" tween="true" startValue="0.6,0.6" endValue="1,1" duration="6" ease="Back.Out"/>
+  </transition>
+</component>

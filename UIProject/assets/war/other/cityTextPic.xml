@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,60" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <loader id="n4_fhl9" name="bg" xy="0,39" size="60,21" aspect="true" url="ui://2ipmzghtr46vh3" fill="scaleFree">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <loader id="n3_fyad" name="cityName" xy="0,40" size="60,20" url="ui://2ipmzghtpv36du" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="n4_fhl9" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+</component>

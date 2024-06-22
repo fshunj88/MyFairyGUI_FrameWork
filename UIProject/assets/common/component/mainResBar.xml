@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="760,60">
+  <controller name="model" pages="0,defalut,1,shop,2,library,3,animation" selected="2"/>
+  <displayList>
+    <loader id="n0_dxbx" name="gold" xy="0,5" size="250,50" url="ui://864gshxxxv0q34" fill="scaleFree">
+      <gearDisplay controller="model" pages="0,1,3"/>
+      <relation target="" sidePair="left-left"/>
+    </loader>
+    <loader id="n1_dxbx" name="jade" xy="255,5" size="250,50" url="ui://864gshxxxv0q34" fill="scaleFree">
+      <gearDisplay controller="model" pages="0,1,3"/>
+      <relation target="" sidePair="left-left"/>
+    </loader>
+    <loader id="n4_dxbx" name="feat" xy="0,5" size="250,50" url="ui://864gshxxxv0q34" fill="scaleFree">
+      <gearDisplay controller="model" pages="2,3"/>
+      <relation target="" sidePair="left-left"/>
+    </loader>
+    <loader id="n15_qrkq" name="book" xy="510,5" size="250,50" url="ui://864gshxxxv0q34" fill="scaleFree">
+      <gearDisplay controller="model" pages="2,3"/>
+      <relation target="" sidePair="left-left"/>
+    </loader>
+    <loader id="n9_ok8s" name="cash" xy="510,5" size="250,50" url="ui://864gshxxxv0q34" fill="scaleFree">
+      <gearDisplay controller="model" pages="0,1,3"/>
+      <relation target="" sidePair="left-left"/>
+    </loader>
+    <loader id="n12_qrkq" name="warBook" xy="255,5" size="250,50" url="ui://864gshxxxv0q34" fill="scaleFree">
+      <gearDisplay controller="model" pages="2,3"/>
+      <relation target="" sidePair="left-left"/>
+    </loader>
+    <loader id="n19_p6b6" name="n19" xy="2,-2" pivot="0.5,0.5" size="65,65" touchable="false" url="ui://864gshxxh4f57e3wv" fill="scaleFree">
+      <gearDisplay controller="model" pages="0,1,3"/>
+      <relation target="n2_dxbx" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n20_h4f5" name="n20" xy="257,-2" pivot="0.5,0.5" size="65,65" touchable="false" url="ui://864gshxxh4f57e3wv" fill="scaleFree">
+      <gearDisplay controller="model" pages="0,1,3"/>
+      <relation target="n3_dxbx" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n21_h4f5" name="n21" xy="2,-2" pivot="0.5,0.5" size="65,65" touchable="false" url="ui://864gshxxh4f57e3wv" fill="scaleFree">
+      <gearDisplay controller="model" pages="2,3"/>
+      <relation target="n10_ok8s" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n22_h4f5" name="n22" xy="512,-2" pivot="0.5,0.5" size="65,65" touchable="false" url="ui://864gshxxh4f57e3wv" fill="scaleFree">
+      <gearDisplay controller="model" pages="0,1,3"/>
+      <relation target="n5_dxbx" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n23_h4f5" name="n23" xy="257,-2" pivot="0.5,0.5" size="65,65" touchable="false" url="ui://864gshxxh4f57e3wv" fill="scaleFree">
+      <gearDisplay controller="model" pages="2,3"/>
+      <relation target="n14_qrkq" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n24_h4f5" name="n24" xy="512,-2" pivot="0.5,0.5" size="65,65" touchable="false" url="ui://864gshxxh4f57e3wv" fill="scaleFree">
+      <gearDisplay controller="model" pages="2,3"/>
+      <relation target="n16_qrkq" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n2_dxbx" name="goldIcon" xy="5,0" pivot="0.5,0.5" size="60,60" aspect="true" touchable="false" url="ui://eg2ecnn9nf1s9a" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <gearDisplay controller="model" pages="0,1,3"/>
+      <relation target="n0_dxbx" sidePair="left-left,middle-middle"/>
+    </loader>
+    <loader id="n3_dxbx" name="jadeIcon" xy="260,0" pivot="0.5,0.5" size="60,60" aspect="true" touchable="false" url="ui://eg2ecnn9nf1s9b" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <gearDisplay controller="model" pages="0,1,3"/>
+      <relation target="n1_dxbx" sidePair="left-left,middle-middle"/>
+    </loader>
+    <loader id="n10_ok8s" name="featIcon" xy="5,0" pivot="0.5,0.5" size="60,60" aspect="true" touchable="false" url="ui://eg2ecnn9iwyxe3s2" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <gearDisplay controller="model" pages="2,3"/>
+      <relation target="n4_dxbx" sidePair="middle-middle,left-left"/>
+    </loader>
+    <loader id="n5_dxbx" name="cashIcon" xy="515,0" pivot="0.5,0.5" size="60,60" aspect="true" touchable="false" url="ui://eg2ecnn9ph4p3ml" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <gearDisplay controller="model" pages="0,1,3"/>
+      <relation target="n9_ok8s" sidePair="middle-middle,left-left"/>
+    </loader>
+    <loader id="n14_qrkq" name="warBookIcon" xy="260,0" pivot="0.5,0.5" size="60,60" aspect="true" touchable="false" url="ui://eg2ecnn9k5qbe3s3" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <gearDisplay controller="model" pages="2,3"/>
+      <relation target="n12_qrkq" sidePair="left-left,middle-middle"/>
+    </loader>
+    <loader id="n16_qrkq" name="bookIcon" xy="515,0" pivot="0.5,0.5" size="60,60" aspect="true" touchable="false" url="ui://eg2ecnn9jziee3rz" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <gearDisplay controller="model" pages="2,3"/>
+      <relation target="n15_qrkq" sidePair="middle-middle,left-left"/>
+    </loader>
+    <text id="n7_dxbx" name="goldText" xy="65,0" pivot="0.5,0.5" size="170,60" fontSize="36" color="#ffffff" align="right" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="999999">
+      <gearDisplay controller="model" pages="0,1,3"/>
+      <relation target="n2_dxbx" sidePair="middle-middle,left-right"/>
+    </text>
+    <text id="n8_dxbx" name="jadeText" xy="320,0" pivot="0.5,0.5" size="170,60" fontSize="36" color="#ffffff" align="right" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="999999">
+      <gearDisplay controller="model" pages="0,1,3"/>
+      <relation target="n3_dxbx" sidePair="middle-middle,left-right"/>
+    </text>
+    <text id="n6_dxbx" name="featText" xy="65,0" pivot="0.5,0.5" size="130,60" fontSize="36" color="#ffffff" align="right" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="999999">
+      <gearDisplay controller="model" pages="2,3"/>
+      <relation target="n10_ok8s" sidePair="middle-middle,left-right"/>
+    </text>
+    <text id="n11_ok8s" name="cashText" xy="575,0" pivot="0.5,0.5" size="170,60" fontSize="36" color="#ffffff" align="right" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="999999">
+      <gearDisplay controller="model" pages="0,1,3"/>
+      <relation target="n5_dxbx" sidePair="middle-middle,left-right"/>
+    </text>
+    <text id="n17_qrkq" name="bookText" xy="583,0" pivot="0.5,0.5" size="116,60" fontSize="36" color="#ffffff" align="right" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="999999">
+      <gearDisplay controller="model" pages="2,3"/>
+      <relation target="n16_qrkq" sidePair="middle-middle,left-right"/>
+    </text>
+    <text id="n13_qrkq" name="warBookText" xy="328,0" pivot="0.5,0.5" size="116,60" fontSize="36" color="#ffffff" align="right" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="999999">
+      <gearDisplay controller="model" pages="2,3"/>
+      <relation target="n14_qrkq" sidePair="middle-middle,left-right"/>
+    </text>
+    <loader id="n25_ykzh" name="n25" xy="200,5" size="50,50" touchable="false" url="ui://864gshxxb3cojx" fill="scaleFree">
+      <gearDisplay controller="model" pages="2"/>
+      <relation target="n4_dxbx" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n26_recl" name="exchangeLoader" xy="448,6" size="50,50" url="ui://864gshxxb3cojx" fill="scaleFree">
+      <gearDisplay controller="model" pages="2"/>
+      <relation target="n4_dxbx" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n27_k01b" name="addGuiJiaLoader" xy="706,5" size="50,50" url="ui://864gshxxb3cojx" fill="scaleFree">
+      <gearDisplay controller="model" pages="2"/>
+      <relation target="n16_qrkq" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <transition name="aniStart">
+    <item time="0" type="XY" target="n12_qrkq" tween="true" startValue="255,0" endValue="255,60" duration="6"/>
+    <item time="0" type="XY" target="n15_qrkq" tween="true" startValue="510,0" endValue="510,60" duration="6"/>
+    <item time="0" type="XY" target="n4_dxbx" tween="true" startValue="0,0" endValue="0,60" duration="6"/>
+  </transition>
+  <transition name="aniEnd">
+    <item time="0" type="XY" target="n12_qrkq" value="255,0"/>
+    <item time="0" type="XY" target="n15_qrkq" value="510,0"/>
+    <item time="0" type="XY" target="n4_dxbx" value="0,0"/>
+  </transition>
+</component>

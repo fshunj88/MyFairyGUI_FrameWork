@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,120" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,disable" selected="0"/>
+  <displayList>
+    <loader id="n10_hfmh" name="btn" xy="-17,-13" size="335,140" aspect="true" url="ui://864gshxxx39e7e3wc" align="center" vAlign="middle" fill="scaleFree">
+      <gearLook controller="button" pages="4" values="1,0,1,1" default="1,0,0,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n11_hfmh" name="icon" xy="49,20" pivot="1,0.5" size="80,80" aspect="true" url="ui://eg2ecnn9nf1s9b" align="right" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="n12_hfmh" sidePair="middle-middle,right-left"/>
+      <relation target="" sidePair="height-height%"/>
+    </loader>
+    <text id="n12_hfmh" name="title" xy="129,30" size="102,60" fontSize="50" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" strokeSize="3" autoClearText="true" text="1000">
+      <relation target="" sidePair="center-center%,middle-middle"/>
+    </text>
+  </displayList>
+  <Button sound="click" downEffect="scale" downEffectValue="0.90"/>
+  <transition name="t0"/>
+</component>

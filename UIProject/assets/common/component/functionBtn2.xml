@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="320,100" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,disabled,6,selectedDisabled" selected="0"/>
+  <displayList>
+    <loader id="n1" name="icon" xy="0,0" size="320,100" url="ui://864gshxxibcj7e3wn" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n4_jed2" name="title" xy="117,20" size="86,60" fontSize="50" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" strokeColor="#000000" strokeSize="3" shadowColor="#000000" shadowOffset="2,2" autoClearText="true" text="text">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button sound="click" downEffect="scale" downEffectValue="0.90"/>
+  <transition name="t0"/>
+</component>

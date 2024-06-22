@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "VirtualList_atlas0",
+    "texture": "c9a282a2-5109-4d20-96f2-9026dbaf417a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      486,
+      230
+    ],
+    "offset": [
+      -13,
+      13
+    ],
+    "originalSize": [
+      512,
+      256
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

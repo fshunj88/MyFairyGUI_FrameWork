@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,1000" pivot="0.5,0.5">
+  <controller name="hasPeople" pages="1,false,0,true" selected="1"/>
+  <displayList>
+    <loader id="n17_j66l" name="n17" xy="0,0" size="960,1000" url="ui://2ipmzghtoxut7e3zx" fill="scaleFree"/>
+    <component id="n18_j66l" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="30,1030">
+      <relation target="n17_j66l" sidePair="left-left,top-bottom"/>
+    </component>
+    <list id="n21_j66l" name="playerList" xy="61,60" size="838,920" overflow="scroll" scrollBarFlags="4" scrollBar="auto" defaultItem="ui://2ipmzghtrd9ico" align="center" renderOrder="descent" autoClearItems="true">
+      <gearDisplay controller="hasPeople" pages="0"/>
+      <relation target="n17_j66l" sidePair="height-height,center-center,top-top"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n33_ooha" name="emptyHintText" src="n8z0e3rm" fileName="component/emptyHint.xml" pkg="864gshxx" xy="115,453" visible="false">
+      <gearDisplay controller="hasPeople" pages="1"/>
+      <relation target="n21_j66l" sidePair="center-center,middle-middle"/>
+      <Label title="暂无申请记录"/>
+    </component>
+    <text id="n37_kk99" name="title" xy="397,5" size="165,49" fontSize="40" color="#660000" leading="0" text="申请记录">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

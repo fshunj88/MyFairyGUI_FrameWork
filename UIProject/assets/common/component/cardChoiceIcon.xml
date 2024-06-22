@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,130">
+  <displayList>
+    <loader id="n58_pbio" name="baseImg" xy="0,0" size="100,130" touchable="false" align="center" vAlign="middle" fill="scaleFree"/>
+    <component id="n61_hfd2" name="charName" src="uf3je3u0" fileName="component/cardCharNameCom.xml" pkg="rdb04el0" xy="-45,-57" pivot="0.5,0.5" scale="0.53,0.53"/>
+    <loader id="n34_rk7d" name="cardImg" xy="0,0" size="100,130" fill="scaleFree"/>
+    <loader id="n59_pbio" name="frameImg" xy="0,0" size="100,130" fill="scaleFree"/>
+  </displayList>
+  <transition name="shake">
+    <item time="0" type="Shake" value="3,0.5"/>
+    <item time="3" type="Shake" value="3,0.5"/>
+  </transition>
+</component>

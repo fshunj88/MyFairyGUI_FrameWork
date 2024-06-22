@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,890" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_xjab" name="n0" xy="0,0" size="600,890" url="ui://2ipmzghtonso6b" fill="scaleFree">
+      <relation target="" sidePair="height-height,middle-middle"/>
+    </loader>
+    <component id="n2_xjab" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="200,670" size="200,87" group="n20_xjab">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="确定"/>
+    </component>
+    <text id="n26_gv98" name="n26" xy="150,240" size="300,38" group="n20_xjab" fontSize="30" color="#ffffff" align="center" leading="0" autoSize="height" strokeColor="#000000" text="#TEXT_60361">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n27_uivn" name="n27" src="wwgm5v" fileName="component/campItem.xml" xy="230,290" group="n20_xjab"/>
+    <component id="n31_uivn" name="lordHead" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="250,481" size="100,100" group="n20_xjab">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <text id="n32_uivn" name="lordName" xy="149,580" size="300,38" group="n20_xjab" fontSize="30" color="#ffffff" align="center" leading="0" autoSize="shrink" strokeColor="#000000" text="主公名字啊啊啊">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n20_xjab" name="n20" xy="149,240" size="301,517" advanced="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n20_xjab" value="0"/>
+    <item time="0" type="XY" tween="true" startValue="0,-600" endValue="0,0" duration="9"/>
+    <item time="9" type="Alpha" target="n20_xjab" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+</component>

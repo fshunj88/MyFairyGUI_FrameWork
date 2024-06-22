@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,80" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,disabled,7,selectedDisabled" selected="0"/>
+  <displayList>
+    <loader id="n1" name="icon" xy="0,0" size="200,80" url="ui://864gshxxbva5it" fill="scaleFree">
+      <gearLook controller="button" pages="4,7" values="1,0,1,1|1,0,1,1" default="1,0,0,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <richtext id="n4_jed2" name="title" xy="56,7" size="86,60" fontSize="50" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" strokeColor="#000000" strokeSize="3" shadowColor="#000000" shadowOffset="2,2" autoClearText="true" text="text">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+  </displayList>
+  <Button sound="click" downEffect="scale" downEffectValue="0.90"/>
+  <transition name="t0"/>
+</component>

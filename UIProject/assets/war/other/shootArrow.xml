@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,60">
+  <displayList>
+    <loader id="n10_qnfi" name="n10" xy="0,0" size="60,60"/>
+    <movieclip id="n7_qnfi" name="f1" src="g5907e40n" fileName="warEffect/attackAni2.jta" xy="-14,14" scale="0.5,0.5" rotation="-25.1"/>
+    <movieclip id="n8_qnfi" name="f2" src="g5907e40n" fileName="warEffect/attackAni2.jta" xy="15,-7" size="79,50" scale="0.5,0.5" rotation="25.7"/>
+    <movieclip id="n9_qnfi" name="f3" src="g5907e40n" fileName="warEffect/attackAni2.jta" xy="39,3" size="80,50" scale="0.5,0.5" rotation="37"/>
+  </displayList>
+</component>

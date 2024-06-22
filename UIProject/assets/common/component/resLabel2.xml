@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,60" extention="Label">
+  <displayList>
+    <loader id="n7_ehm7" name="n7" xy="0,0" size="300,60" url="ui://864gshxxxv0q34" fill="scaleFree"/>
+    <loader id="n4_lmb3" name="icon" xy="0,0" size="60,60" visible="false" alpha="0" touchable="false" url="ui://eg2ecnn9msuecc" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n6_ehm7" name="resIcon" xy="240,0" size="60,60" touchable="false" url="ui://eg2ecnn9msuecc" align="center" vAlign="middle" fill="scale"/>
+    <text id="n5_c3kw" name="title" xy="183,5" size="57,49" fontSize="40" color="#ffffff" align="right" vAlign="middle" leading="0" autoClearText="true" text="+11">
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </text>
+  </displayList>
+</component>

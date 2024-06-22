@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="900,48" overflow="scroll" scroll="horizontal">
+  <displayList>
+    <richtext id="n14_gtjh" name="text" xy="0,0" size="1726,49" touchable="false" fontSize="40" color="#ffffff" leading="0" ubb="true" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="没钱没卡你还想上天？做梦吧您嘞！啊奥术大师大所大所大所大所大所多阿斯达盛大阿斯达阿斯达"/>
+  </displayList>
+  <relation target="n14_gtjh" sidePair="height-height"/>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="930,49">
+  <displayList>
+    <loader id="n8_s3oe" name="bg" xy="0,-30" size="930,79" url="ui://864gshxxmngy7e403" fill="scaleFree"/>
+    <component id="n10_qqcn" name="bar" src="hmqs7e3vj" fileName="component/cityHpBar.xml" xy="20,21"/>
+  </displayList>
+  <transition name="attacked" frameRate="30">
+    <item time="0" type="Shake" value="2,0.5"/>
+  </transition>
+  <transition name="heal">
+    <item time="0" type="Size" target="n10_qqcn" label="star" tween="true" startValue="0,-" endValue="908,-" duration="12" label2="end"/>
+  </transition>
+</component>

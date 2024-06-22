@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,60" extention="Label">
+  <displayList>
+    <loader id="n2_rqc2" name="icon" xy="0,0" pivot="0.5,0.5" size="60,60" scale="-1,1" url="ui://2ipmzghtefos8j1" align="center" vAlign="middle" fill="scaleFree" color="#ffff00">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <text id="n3_rqc2" name="title" xy="26,0" size="34,38" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="99&#xA;">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

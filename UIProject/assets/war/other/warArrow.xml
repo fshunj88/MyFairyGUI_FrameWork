@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,106" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <loader id="n0_b92k" name="arrow" xy="30,53" pivot="0.5,0.5" anchor="true" size="60,106" url="ui://2ipmzghtl2zza6" align="center" fill="scaleMatchHeight">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="140,157" pivot="0.5,0.5">
+  <controller name="create" pages="1,yes,0,no" selected="0"/>
+  <displayList>
+    <loader id="n4_xjab" name="campFlag" xy="0,0" size="140,157" url="ui://2ipmzghtmyl16x" align="center" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n5_wwgm" name="campName" xy="31,30" size="76,83" restrictSize="16,0,16,0" fontSize="70" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#333333" strokeSize="3" autoClearText="true" text="王">
+      <gearDisplay controller="create" pages="1"/>
+      <relation target="" sidePair="width-width,height-height,center-center"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,1000">
+  <displayList>
+    <loader id="n73_12o58" name="_bg" xy="0,0" size="960,1000" url="ui://864gshxxtzcwe3rr" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n74_12o58" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="8,1008">
+      <relation target="n73_12o58" sidePair="left-left,top-bottom"/>
+    </component>
+    <loader id="n47_lxfs" name="resultTxt2" xy="490,125" pivot="0.5,0.5" size="400,800" touchable="false" url="ui://lqr4ztsbayhu6w" fill="scaleFree"/>
+    <loader id="n48_lxfs" name="resultTxt1" xy="70,125" pivot="0.5,0.5" size="400,800" touchable="false" url="ui://lqr4ztsbayhu6x" fill="scaleFree"/>
+    <text id="n28_rk7d" name="name1" xy="70,70" size="400,49" fontSize="30" align="center" vAlign="middle" leading="0" autoSize="none" text="防守队列">
+      <relation target="" sidePair="top-top"/>
+    </text>
+    <text id="n29_rk7d" name="name2" xy="490,70" size="400,49" fontSize="30" align="center" vAlign="middle" leading="6" autoSize="none" text="进攻队列">
+      <relation target="n28_rk7d" sidePair="left-right"/>
+      <relation target="n77_12o58" sidePair="bottom-top"/>
+    </text>
+    <text id="n75_12o58" name="title" xy="380,12" size="200,49" fontSize="40" color="#660000" align="center" vAlign="middle" leading="0" autoSize="none" text="军情">
+      <relation target="n73_12o58" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n76_12o58" name="defenceList" xy="67,125" size="400,800" overflow="scroll" defaultItem="ui://2ipmzghtgv9810" autoClearItems="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n77_12o58" name="attackList" xy="493,125" size="400,800" overflow="scroll" defaultItem="ui://2ipmzghtgv9810">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <transition name="t0"/>
+</component>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="900,1000" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n80_ir7y" name="bg" xy="0,0" size="900,1000" url="ui://2ipmzghtoxut7e3zx" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <list id="n79_ipob" name="buildList" xy="75,65" size="750,900" layout="row" overflow="scroll" scrollBarFlags="32" lineGap="5" defaultItem="ui://2ipmzghtt2089h" align="center" autoClearItems="true" foldInvisibleItems="true">
+      <relation target="n80_ir7y" sidePair="center-center,middle-middle,bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n81_e3ip" name="title" xy="407,5" size="85,49" fontSize="40" color="#660000" leading="0" text="军令">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n82_oxut" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="30,1030" touchable="false">
+      <relation target="" sidePair="left-left,top-bottom"/>
+    </component>
+  </displayList>
+  <transition name="open" autoPlay="true" frameRate="30">
+    <item time="0" type="Scale" tween="true" startValue="1,0" endValue="1,1" duration="6"/>
+  </transition>
+</component>

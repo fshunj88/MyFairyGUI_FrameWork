@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,1600">
+  <displayList>
+    <component id="n0_u83y" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" xy="0,0" size="960,1600" alpha="0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n1_u83y" name="resource1" xy="409,714" pivot="0.5,0.5" size="100,100" touchable="false" url="ui://eg2ecnn9nf1s9a" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n0_u83y" sidePair="middle-middle,center-center"/>
+    </loader>
+    <loader id="n2_u83y" name="resource2" xy="343,668" pivot="0.5,0.5" size="100,100" touchable="false" url="ui://eg2ecnn9nf1s9a" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n0_u83y" sidePair="middle-middle,center-center"/>
+    </loader>
+    <loader id="n3_u83y" name="resource3" xy="405,764" pivot="0.5,0.5" size="100,100" touchable="false" url="ui://eg2ecnn9nf1s9a" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n0_u83y" sidePair="middle-middle,center-center"/>
+    </loader>
+    <loader id="n4_u83y" name="resource4" xy="516,653" pivot="0.5,0.5" size="100,100" touchable="false" url="ui://eg2ecnn9nf1s9a" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n0_u83y" sidePair="middle-middle,center-center"/>
+    </loader>
+    <loader id="n5_u83y" name="resource5" xy="473,707" pivot="0.5,0.5" size="100,100" touchable="false" url="ui://eg2ecnn9nf1s9a" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n0_u83y" sidePair="middle-middle,center-center"/>
+    </loader>
+    <loader id="n6_u83y" name="resource6" xy="456,782" pivot="0.5,0.5" size="100,100" touchable="false" url="ui://eg2ecnn9nf1s9a" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n0_u83y" sidePair="middle-middle,center-center"/>
+    </loader>
+    <loader id="n7_u83y" name="resource7" xy="357,736" pivot="0.5,0.5" size="100,100" touchable="false" url="ui://eg2ecnn9nf1s9a" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n0_u83y" sidePair="middle-middle,center-center"/>
+    </loader>
+    <loader id="n8_u83y" name="resource8" xy="420,651" pivot="0.5,0.5" size="100,100" touchable="false" url="ui://eg2ecnn9nf1s9a" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n0_u83y" sidePair="middle-middle,center-center"/>
+    </loader>
+    <loader id="n9_u83y" name="resource9" xy="537,694" pivot="0.5,0.5" size="100,100" touchable="false" url="ui://eg2ecnn9nf1s9a" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n0_u83y" sidePair="middle-middle,center-center"/>
+    </loader>
+    <loader id="n10_u83y" name="resource10" xy="507,758" pivot="0.5,0.5" size="100,100" touchable="false" url="ui://eg2ecnn9nf1s9a" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="n0_u83y" sidePair="middle-middle,center-center"/>
+    </loader>
+  </displayList>
+  <transition name="1" options="4" frameRate="30">
+    <item time="0" type="Alpha" target="n10_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n1_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n2_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n3_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n4_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n5_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n6_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n7_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n8_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n9_u83y" value="1"/>
+    <item time="0" type="Scale" target="n10_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n1_u83y" tween="true" startValue="0,0" endValue="1,1" duration="18" ease="Elastic.Out"/>
+    <item time="0" type="Scale" target="n2_u83y" tween="true" startValue="0,0" endValue="1,1" duration="19" ease="Elastic.Out"/>
+    <item time="0" type="Scale" target="n3_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n4_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n5_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n6_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n7_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n8_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n9_u83y" value="0,0"/>
+    <item time="0" type="XY" target="n10_u83y" value="507,758"/>
+    <item time="0" type="XY" target="n1_u83y" value="409,714"/>
+    <item time="0" type="XY" target="n2_u83y" value="343,668"/>
+    <item time="0" type="XY" target="n3_u83y" value="405,764"/>
+    <item time="0" type="XY" target="n4_u83y" value="516,653"/>
+    <item time="0" type="XY" target="n5_u83y" value="473,707"/>
+    <item time="0" type="XY" target="n6_u83y" value="456,782"/>
+    <item time="0" type="XY" target="n7_u83y" value="357,736"/>
+    <item time="0" type="XY" target="n8_u83y" value="420,651"/>
+    <item time="0" type="XY" target="n9_u83y" value="537,694"/>
+    <item time="1" type="Scale" target="n3_u83y" tween="true" startValue="0,0" endValue="1,1" duration="19" ease="Elastic.Out"/>
+    <item time="1" type="Scale" target="n4_u83y" tween="true" startValue="0,0" endValue="1,1" duration="20" ease="Elastic.Out"/>
+    <item time="2" type="Scale" target="n5_u83y" tween="true" startValue="0,0" endValue="1,1" duration="20" ease="Elastic.Out"/>
+    <item time="2" type="Scale" target="n6_u83y" tween="true" startValue="0,0" endValue="1,1" duration="21" ease="Elastic.Out"/>
+    <item time="3" type="Scale" target="n7_u83y" tween="true" startValue="0,0" endValue="1,1" duration="21" ease="Elastic.Out"/>
+    <item time="3" type="Scale" target="n8_u83y" tween="true" startValue="0,0" endValue="1,1" duration="22" ease="Elastic.Out"/>
+    <item time="4" type="Scale" target="n10_u83y" tween="true" startValue="0,0" endValue="1,1" duration="23" ease="Elastic.Out"/>
+    <item time="4" type="Scale" target="n9_u83y" tween="true" startValue="0,0" endValue="1,1" duration="22" ease="Elastic.Out"/>
+    <item time="12" type="XY" target="n10_u83y" tween="true" startValue="-,-" endValue="15,10" duration="27" label2="end10" ease="Back.In"/>
+    <item time="12" type="XY" target="n1_u83y" tween="true" startValue="-,-" endValue="15,10" duration="18" label2="end1" ease="Back.In"/>
+    <item time="12" type="XY" target="n2_u83y" tween="true" startValue="-,-" endValue="15,10" duration="19" label2="end2" ease="Back.In"/>
+    <item time="12" type="XY" target="n3_u83y" tween="true" startValue="-,-" endValue="15,10" duration="20" label2="end3" ease="Back.In"/>
+    <item time="12" type="XY" target="n4_u83y" tween="true" startValue="-,-" endValue="15,10" duration="21" label2="end4" ease="Back.In"/>
+    <item time="12" type="XY" target="n5_u83y" tween="true" startValue="-,-" endValue="15,10" duration="22" label2="end5" ease="Back.In"/>
+    <item time="12" type="XY" target="n6_u83y" tween="true" startValue="-,-" endValue="15,10" duration="23" label2="end6" ease="Back.In"/>
+    <item time="12" type="XY" target="n7_u83y" tween="true" startValue="-,-" endValue="15,10" duration="24" label2="end7" ease="Back.In"/>
+    <item time="12" type="XY" target="n8_u83y" tween="true" startValue="-,-" endValue="15,10" duration="25" label2="end8" ease="Back.In"/>
+    <item time="12" type="XY" target="n9_u83y" tween="true" startValue="-,-" endValue="15,10" duration="26" label2="end9" ease="Back.In"/>
+    <item time="18" type="Scale" target="n1_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="19" type="Scale" target="n2_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="20" type="Scale" target="n3_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="21" type="Scale" target="n4_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="22" type="Scale" target="n5_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="23" type="Scale" target="n6_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="24" type="Scale" target="n7_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="25" type="Scale" target="n8_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="26" type="Scale" target="n9_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="27" type="Scale" target="n10_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="30" type="Alpha" target="n1_u83y" value="0"/>
+    <item time="31" type="Alpha" target="n2_u83y" value="0"/>
+    <item time="32" type="Alpha" target="n3_u83y" value="0"/>
+    <item time="33" type="Alpha" target="n4_u83y" value="0"/>
+    <item time="34" type="Alpha" target="n5_u83y" value="0"/>
+    <item time="35" type="Alpha" target="n6_u83y" value="0"/>
+    <item time="36" type="Alpha" target="n7_u83y" value="0"/>
+    <item time="37" type="Alpha" target="n8_u83y" value="0"/>
+    <item time="38" type="Alpha" target="n9_u83y" value="0"/>
+    <item time="39" type="Alpha" target="n10_u83y" value="0"/>
+  </transition>
+  <transition name="2" options="4" frameRate="30">
+    <item time="0" type="Alpha" target="n10_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n1_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n2_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n3_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n4_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n5_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n6_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n7_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n8_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n9_u83y" value="1"/>
+    <item time="0" type="Scale" target="n10_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n1_u83y" tween="true" startValue="0,0" endValue="1,1" duration="18" ease="Elastic.Out"/>
+    <item time="0" type="Scale" target="n2_u83y" tween="true" startValue="0,0" endValue="1,1" duration="19" ease="Elastic.Out"/>
+    <item time="0" type="Scale" target="n3_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n4_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n5_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n6_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n7_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n8_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n9_u83y" value="0,0"/>
+    <item time="0" type="XY" target="n10_u83y" value="507,758"/>
+    <item time="0" type="XY" target="n1_u83y" value="409,714"/>
+    <item time="0" type="XY" target="n2_u83y" value="343,668"/>
+    <item time="0" type="XY" target="n3_u83y" value="405,764"/>
+    <item time="0" type="XY" target="n4_u83y" value="516,653"/>
+    <item time="0" type="XY" target="n5_u83y" value="473,707"/>
+    <item time="0" type="XY" target="n6_u83y" value="456,782"/>
+    <item time="0" type="XY" target="n7_u83y" value="357,736"/>
+    <item time="0" type="XY" target="n8_u83y" value="420,651"/>
+    <item time="0" type="XY" target="n9_u83y" value="537,694"/>
+    <item time="1" type="Scale" target="n3_u83y" tween="true" startValue="0,0" endValue="1,1" duration="19" ease="Elastic.Out"/>
+    <item time="1" type="Scale" target="n4_u83y" tween="true" startValue="0,0" endValue="1,1" duration="20" ease="Elastic.Out"/>
+    <item time="2" type="Scale" target="n5_u83y" tween="true" startValue="0,0" endValue="1,1" duration="20" ease="Elastic.Out"/>
+    <item time="2" type="Scale" target="n6_u83y" tween="true" startValue="0,0" endValue="1,1" duration="21" ease="Elastic.Out"/>
+    <item time="3" type="Scale" target="n7_u83y" tween="true" startValue="0,0" endValue="1,1" duration="21" ease="Elastic.Out"/>
+    <item time="3" type="Scale" target="n8_u83y" tween="true" startValue="0,0" endValue="1,1" duration="22" ease="Elastic.Out"/>
+    <item time="4" type="Scale" target="n10_u83y" tween="true" startValue="0,0" endValue="1,1" duration="23" ease="Elastic.Out"/>
+    <item time="4" type="Scale" target="n9_u83y" tween="true" startValue="0,0" endValue="1,1" duration="22" ease="Elastic.Out"/>
+    <item time="12" type="XY" target="n10_u83y" tween="true" startValue="-,-" endValue="15,10" duration="27" label2="end10" ease="Back.In"/>
+    <item time="12" type="XY" target="n1_u83y" tween="true" startValue="-,-" endValue="15,10" duration="18" label2="end1" ease="Back.In"/>
+    <item time="12" type="XY" target="n2_u83y" tween="true" startValue="-,-" endValue="15,10" duration="19" label2="end2" ease="Back.In"/>
+    <item time="12" type="XY" target="n3_u83y" tween="true" startValue="-,-" endValue="15,10" duration="20" label2="end3" ease="Back.In"/>
+    <item time="12" type="XY" target="n4_u83y" tween="true" startValue="-,-" endValue="15,10" duration="21" label2="end4" ease="Back.In"/>
+    <item time="12" type="XY" target="n5_u83y" tween="true" startValue="-,-" endValue="15,10" duration="22" label2="end5" ease="Back.In"/>
+    <item time="12" type="XY" target="n6_u83y" tween="true" startValue="-,-" endValue="15,10" duration="23" label2="end6" ease="Back.In"/>
+    <item time="12" type="XY" target="n7_u83y" tween="true" startValue="-,-" endValue="15,10" duration="24" label2="end7" ease="Back.In"/>
+    <item time="12" type="XY" target="n8_u83y" tween="true" startValue="-,-" endValue="15,10" duration="25" label2="end8" ease="Back.In"/>
+    <item time="12" type="XY" target="n9_u83y" tween="true" startValue="-,-" endValue="15,10" duration="26" label2="end9" ease="Back.In"/>
+    <item time="18" type="Scale" target="n1_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="19" type="Scale" target="n2_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="20" type="Scale" target="n3_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="21" type="Scale" target="n4_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="22" type="Scale" target="n5_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="23" type="Scale" target="n6_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="24" type="Scale" target="n7_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="25" type="Scale" target="n8_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="26" type="Scale" target="n9_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="27" type="Scale" target="n10_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="30" type="Alpha" target="n1_u83y" value="0"/>
+    <item time="31" type="Alpha" target="n2_u83y" value="0"/>
+    <item time="32" type="Alpha" target="n3_u83y" value="0"/>
+    <item time="33" type="Alpha" target="n4_u83y" value="0"/>
+    <item time="34" type="Alpha" target="n5_u83y" value="0"/>
+    <item time="35" type="Alpha" target="n6_u83y" value="0"/>
+    <item time="36" type="Alpha" target="n7_u83y" value="0"/>
+    <item time="37" type="Alpha" target="n8_u83y" value="0"/>
+    <item time="38" type="Alpha" target="n9_u83y" value="0"/>
+    <item time="39" type="Alpha" target="n10_u83y" value="0"/>
+  </transition>
+  <transition name="3" options="4" frameRate="30">
+    <item time="0" type="Alpha" target="n10_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n1_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n2_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n3_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n4_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n5_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n6_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n7_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n8_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n9_u83y" value="1"/>
+    <item time="0" type="Scale" target="n10_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n1_u83y" tween="true" startValue="0,0" endValue="1,1" duration="18" ease="Elastic.Out"/>
+    <item time="0" type="Scale" target="n2_u83y" tween="true" startValue="0,0" endValue="1,1" duration="19" ease="Elastic.Out"/>
+    <item time="0" type="Scale" target="n3_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n4_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n5_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n6_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n7_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n8_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n9_u83y" value="0,0"/>
+    <item time="0" type="XY" target="n10_u83y" value="507,758"/>
+    <item time="0" type="XY" target="n1_u83y" value="409,714"/>
+    <item time="0" type="XY" target="n2_u83y" value="343,668"/>
+    <item time="0" type="XY" target="n3_u83y" value="405,764"/>
+    <item time="0" type="XY" target="n4_u83y" value="516,653"/>
+    <item time="0" type="XY" target="n5_u83y" value="473,707"/>
+    <item time="0" type="XY" target="n6_u83y" value="456,782"/>
+    <item time="0" type="XY" target="n7_u83y" value="357,736"/>
+    <item time="0" type="XY" target="n8_u83y" value="420,651"/>
+    <item time="0" type="XY" target="n9_u83y" value="537,694"/>
+    <item time="1" type="Scale" target="n3_u83y" tween="true" startValue="0,0" endValue="1,1" duration="19" ease="Elastic.Out"/>
+    <item time="1" type="Scale" target="n4_u83y" tween="true" startValue="0,0" endValue="1,1" duration="20" ease="Elastic.Out"/>
+    <item time="2" type="Scale" target="n5_u83y" tween="true" startValue="0,0" endValue="1,1" duration="20" ease="Elastic.Out"/>
+    <item time="2" type="Scale" target="n6_u83y" tween="true" startValue="0,0" endValue="1,1" duration="21" ease="Elastic.Out"/>
+    <item time="3" type="Scale" target="n7_u83y" tween="true" startValue="0,0" endValue="1,1" duration="21" ease="Elastic.Out"/>
+    <item time="3" type="Scale" target="n8_u83y" tween="true" startValue="0,0" endValue="1,1" duration="22" ease="Elastic.Out"/>
+    <item time="4" type="Scale" target="n10_u83y" tween="true" startValue="0,0" endValue="1,1" duration="23" ease="Elastic.Out"/>
+    <item time="4" type="Scale" target="n9_u83y" tween="true" startValue="0,0" endValue="1,1" duration="22" ease="Elastic.Out"/>
+    <item time="12" type="XY" target="n10_u83y" tween="true" startValue="-,-" endValue="15,10" duration="27" label2="end10" ease="Back.In"/>
+    <item time="12" type="XY" target="n1_u83y" tween="true" startValue="-,-" endValue="15,10" duration="18" label2="end1" ease="Back.In"/>
+    <item time="12" type="XY" target="n2_u83y" tween="true" startValue="-,-" endValue="15,10" duration="19" label2="end2" ease="Back.In"/>
+    <item time="12" type="XY" target="n3_u83y" tween="true" startValue="-,-" endValue="15,10" duration="20" label2="end3" ease="Back.In"/>
+    <item time="12" type="XY" target="n4_u83y" tween="true" startValue="-,-" endValue="15,10" duration="21" label2="end4" ease="Back.In"/>
+    <item time="12" type="XY" target="n5_u83y" tween="true" startValue="-,-" endValue="15,10" duration="22" label2="end5" ease="Back.In"/>
+    <item time="12" type="XY" target="n6_u83y" tween="true" startValue="-,-" endValue="15,10" duration="23" label2="end6" ease="Back.In"/>
+    <item time="12" type="XY" target="n7_u83y" tween="true" startValue="-,-" endValue="15,10" duration="24" label2="end7" ease="Back.In"/>
+    <item time="12" type="XY" target="n8_u83y" tween="true" startValue="-,-" endValue="15,10" duration="25" label2="end8" ease="Back.In"/>
+    <item time="12" type="XY" target="n9_u83y" tween="true" startValue="-,-" endValue="15,10" duration="26" label2="end9" ease="Back.In"/>
+    <item time="18" type="Scale" target="n1_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="19" type="Scale" target="n2_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="20" type="Scale" target="n3_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="21" type="Scale" target="n4_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="22" type="Scale" target="n5_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="23" type="Scale" target="n6_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="24" type="Scale" target="n7_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="25" type="Scale" target="n8_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="26" type="Scale" target="n9_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="27" type="Scale" target="n10_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="30" type="Alpha" target="n1_u83y" value="0"/>
+    <item time="31" type="Alpha" target="n2_u83y" value="0"/>
+    <item time="32" type="Alpha" target="n3_u83y" value="0"/>
+    <item time="33" type="Alpha" target="n4_u83y" value="0"/>
+    <item time="34" type="Alpha" target="n5_u83y" value="0"/>
+    <item time="35" type="Alpha" target="n6_u83y" value="0"/>
+    <item time="36" type="Alpha" target="n7_u83y" value="0"/>
+    <item time="37" type="Alpha" target="n8_u83y" value="0"/>
+    <item time="38" type="Alpha" target="n9_u83y" value="0"/>
+    <item time="39" type="Alpha" target="n10_u83y" value="0"/>
+  </transition>
+  <transition name="4" options="4" frameRate="30">
+    <item time="0" type="Alpha" target="n10_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n1_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n2_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n3_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n4_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n5_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n6_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n7_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n8_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n9_u83y" value="1"/>
+    <item time="0" type="Scale" target="n10_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n1_u83y" tween="true" startValue="0,0" endValue="1,1" duration="18" ease="Elastic.Out"/>
+    <item time="0" type="Scale" target="n2_u83y" tween="true" startValue="0,0" endValue="1,1" duration="19" ease="Elastic.Out"/>
+    <item time="0" type="Scale" target="n3_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n4_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n5_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n6_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n7_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n8_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n9_u83y" value="0,0"/>
+    <item time="0" type="XY" target="n10_u83y" value="507,758"/>
+    <item time="0" type="XY" target="n1_u83y" value="409,714"/>
+    <item time="0" type="XY" target="n2_u83y" value="343,668"/>
+    <item time="0" type="XY" target="n3_u83y" value="405,764"/>
+    <item time="0" type="XY" target="n4_u83y" value="516,653"/>
+    <item time="0" type="XY" target="n5_u83y" value="473,707"/>
+    <item time="0" type="XY" target="n6_u83y" value="456,782"/>
+    <item time="0" type="XY" target="n7_u83y" value="357,736"/>
+    <item time="0" type="XY" target="n8_u83y" value="420,651"/>
+    <item time="0" type="XY" target="n9_u83y" value="537,694"/>
+    <item time="1" type="Scale" target="n3_u83y" tween="true" startValue="0,0" endValue="1,1" duration="19" ease="Elastic.Out"/>
+    <item time="1" type="Scale" target="n4_u83y" tween="true" startValue="0,0" endValue="1,1" duration="20" ease="Elastic.Out"/>
+    <item time="2" type="Scale" target="n5_u83y" tween="true" startValue="0,0" endValue="1,1" duration="20" ease="Elastic.Out"/>
+    <item time="2" type="Scale" target="n6_u83y" tween="true" startValue="0,0" endValue="1,1" duration="21" ease="Elastic.Out"/>
+    <item time="3" type="Scale" target="n7_u83y" tween="true" startValue="0,0" endValue="1,1" duration="21" ease="Elastic.Out"/>
+    <item time="3" type="Scale" target="n8_u83y" tween="true" startValue="0,0" endValue="1,1" duration="22" ease="Elastic.Out"/>
+    <item time="4" type="Scale" target="n10_u83y" tween="true" startValue="0,0" endValue="1,1" duration="23" ease="Elastic.Out"/>
+    <item time="4" type="Scale" target="n9_u83y" tween="true" startValue="0,0" endValue="1,1" duration="22" ease="Elastic.Out"/>
+    <item time="12" type="XY" target="n10_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="27" label2="end10" ease="Back.In"/>
+    <item time="12" type="XY" target="n1_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="18" label2="end1" ease="Back.In"/>
+    <item time="12" type="XY" target="n2_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="19" label2="end2" ease="Back.In"/>
+    <item time="12" type="XY" target="n3_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="20" label2="end3" ease="Back.In"/>
+    <item time="12" type="XY" target="n4_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="21" label2="end4" ease="Back.In"/>
+    <item time="12" type="XY" target="n5_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="22" label2="end5" ease="Back.In"/>
+    <item time="12" type="XY" target="n6_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="23" label2="end6" ease="Back.In"/>
+    <item time="12" type="XY" target="n7_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="24" label2="end7" ease="Back.In"/>
+    <item time="12" type="XY" target="n8_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="25" label2="end8" ease="Back.In"/>
+    <item time="12" type="XY" target="n9_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="26" label2="end9" ease="Back.In"/>
+    <item time="18" type="Scale" target="n1_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="19" type="Scale" target="n2_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="20" type="Scale" target="n3_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="21" type="Scale" target="n4_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="22" type="Scale" target="n5_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="23" type="Scale" target="n6_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="24" type="Scale" target="n7_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="25" type="Scale" target="n8_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="26" type="Scale" target="n9_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="27" type="Scale" target="n10_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="30" type="Alpha" target="n1_u83y" value="0"/>
+    <item time="31" type="Alpha" target="n2_u83y" value="0"/>
+    <item time="32" type="Alpha" target="n3_u83y" value="0"/>
+    <item time="33" type="Alpha" target="n4_u83y" value="0"/>
+    <item time="34" type="Alpha" target="n5_u83y" value="0"/>
+    <item time="35" type="Alpha" target="n6_u83y" value="0"/>
+    <item time="36" type="Alpha" target="n7_u83y" value="0"/>
+    <item time="37" type="Alpha" target="n8_u83y" value="0"/>
+    <item time="38" type="Alpha" target="n9_u83y" value="0"/>
+    <item time="39" type="Alpha" target="n10_u83y" value="0"/>
+  </transition>
+  <transition name="5" options="4" frameRate="30">
+    <item time="0" type="Alpha" target="n10_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n1_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n2_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n3_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n4_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n5_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n6_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n7_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n8_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n9_u83y" value="1"/>
+    <item time="0" type="Scale" target="n10_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n1_u83y" tween="true" startValue="0,0" endValue="1,1" duration="18" ease="Elastic.Out"/>
+    <item time="0" type="Scale" target="n2_u83y" tween="true" startValue="0,0" endValue="1,1" duration="19" ease="Elastic.Out"/>
+    <item time="0" type="Scale" target="n3_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n4_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n5_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n6_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n7_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n8_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n9_u83y" value="0,0"/>
+    <item time="0" type="XY" target="n10_u83y" value="507,758"/>
+    <item time="0" type="XY" target="n1_u83y" value="409,714"/>
+    <item time="0" type="XY" target="n2_u83y" value="343,668"/>
+    <item time="0" type="XY" target="n3_u83y" value="405,764"/>
+    <item time="0" type="XY" target="n4_u83y" value="516,653"/>
+    <item time="0" type="XY" target="n5_u83y" value="473,707"/>
+    <item time="0" type="XY" target="n6_u83y" value="456,782"/>
+    <item time="0" type="XY" target="n7_u83y" value="357,736"/>
+    <item time="0" type="XY" target="n8_u83y" value="420,651"/>
+    <item time="0" type="XY" target="n9_u83y" value="537,694"/>
+    <item time="1" type="Scale" target="n3_u83y" tween="true" startValue="0,0" endValue="1,1" duration="19" ease="Elastic.Out"/>
+    <item time="1" type="Scale" target="n4_u83y" tween="true" startValue="0,0" endValue="1,1" duration="20" ease="Elastic.Out"/>
+    <item time="2" type="Scale" target="n5_u83y" tween="true" startValue="0,0" endValue="1,1" duration="20" ease="Elastic.Out"/>
+    <item time="2" type="Scale" target="n6_u83y" tween="true" startValue="0,0" endValue="1,1" duration="21" ease="Elastic.Out"/>
+    <item time="3" type="Scale" target="n7_u83y" tween="true" startValue="0,0" endValue="1,1" duration="21" ease="Elastic.Out"/>
+    <item time="3" type="Scale" target="n8_u83y" tween="true" startValue="0,0" endValue="1,1" duration="22" ease="Elastic.Out"/>
+    <item time="4" type="Scale" target="n10_u83y" tween="true" startValue="0,0" endValue="1,1" duration="23" ease="Elastic.Out"/>
+    <item time="4" type="Scale" target="n9_u83y" tween="true" startValue="0,0" endValue="1,1" duration="22" ease="Elastic.Out"/>
+    <item time="12" type="XY" target="n10_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="27" label2="end10" ease="Back.In"/>
+    <item time="12" type="XY" target="n1_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="18" label2="end1" ease="Back.In"/>
+    <item time="12" type="XY" target="n2_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="19" label2="end2" ease="Back.In"/>
+    <item time="12" type="XY" target="n3_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="20" label2="end3" ease="Back.In"/>
+    <item time="12" type="XY" target="n4_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="21" label2="end4" ease="Back.In"/>
+    <item time="12" type="XY" target="n5_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="22" label2="end5" ease="Back.In"/>
+    <item time="12" type="XY" target="n6_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="23" label2="end6" ease="Back.In"/>
+    <item time="12" type="XY" target="n7_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="24" label2="end7" ease="Back.In"/>
+    <item time="12" type="XY" target="n8_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="25" label2="end8" ease="Back.In"/>
+    <item time="12" type="XY" target="n9_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="26" label2="end9" ease="Back.In"/>
+    <item time="18" type="Scale" target="n1_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="19" type="Scale" target="n2_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="20" type="Scale" target="n3_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="21" type="Scale" target="n4_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="22" type="Scale" target="n5_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="23" type="Scale" target="n6_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="24" type="Scale" target="n7_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="25" type="Scale" target="n8_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="26" type="Scale" target="n9_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="27" type="Scale" target="n10_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="30" type="Alpha" target="n1_u83y" value="0"/>
+    <item time="31" type="Alpha" target="n2_u83y" value="0"/>
+    <item time="32" type="Alpha" target="n3_u83y" value="0"/>
+    <item time="33" type="Alpha" target="n4_u83y" value="0"/>
+    <item time="34" type="Alpha" target="n5_u83y" value="0"/>
+    <item time="35" type="Alpha" target="n6_u83y" value="0"/>
+    <item time="36" type="Alpha" target="n7_u83y" value="0"/>
+    <item time="37" type="Alpha" target="n8_u83y" value="0"/>
+    <item time="38" type="Alpha" target="n9_u83y" value="0"/>
+    <item time="39" type="Alpha" target="n10_u83y" value="0"/>
+  </transition>
+  <transition name="6" options="4" frameRate="30">
+    <item time="0" type="Alpha" target="n10_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n1_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n2_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n3_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n4_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n5_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n6_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n7_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n8_u83y" value="1"/>
+    <item time="0" type="Alpha" target="n9_u83y" value="1"/>
+    <item time="0" type="Scale" target="n10_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n1_u83y" tween="true" startValue="0,0" endValue="1,1" duration="18" ease="Elastic.Out"/>
+    <item time="0" type="Scale" target="n2_u83y" tween="true" startValue="0,0" endValue="1,1" duration="19" ease="Elastic.Out"/>
+    <item time="0" type="Scale" target="n3_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n4_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n5_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n6_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n7_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n8_u83y" value="0,0"/>
+    <item time="0" type="Scale" target="n9_u83y" value="0,0"/>
+    <item time="0" type="XY" target="n10_u83y" value="507,758"/>
+    <item time="0" type="XY" target="n1_u83y" value="409,714"/>
+    <item time="0" type="XY" target="n2_u83y" value="343,668"/>
+    <item time="0" type="XY" target="n3_u83y" value="405,764"/>
+    <item time="0" type="XY" target="n4_u83y" value="516,653"/>
+    <item time="0" type="XY" target="n5_u83y" value="473,707"/>
+    <item time="0" type="XY" target="n6_u83y" value="456,782"/>
+    <item time="0" type="XY" target="n7_u83y" value="357,736"/>
+    <item time="0" type="XY" target="n8_u83y" value="420,651"/>
+    <item time="0" type="XY" target="n9_u83y" value="537,694"/>
+    <item time="1" type="Scale" target="n3_u83y" tween="true" startValue="0,0" endValue="1,1" duration="19" ease="Elastic.Out"/>
+    <item time="1" type="Scale" target="n4_u83y" tween="true" startValue="0,0" endValue="1,1" duration="20" ease="Elastic.Out"/>
+    <item time="2" type="Scale" target="n5_u83y" tween="true" startValue="0,0" endValue="1,1" duration="20" ease="Elastic.Out"/>
+    <item time="2" type="Scale" target="n6_u83y" tween="true" startValue="0,0" endValue="1,1" duration="21" ease="Elastic.Out"/>
+    <item time="3" type="Scale" target="n7_u83y" tween="true" startValue="0,0" endValue="1,1" duration="21" ease="Elastic.Out"/>
+    <item time="3" type="Scale" target="n8_u83y" tween="true" startValue="0,0" endValue="1,1" duration="22" ease="Elastic.Out"/>
+    <item time="4" type="Scale" target="n10_u83y" tween="true" startValue="0,0" endValue="1,1" duration="23" ease="Elastic.Out"/>
+    <item time="4" type="Scale" target="n9_u83y" tween="true" startValue="0,0" endValue="1,1" duration="22" ease="Elastic.Out"/>
+    <item time="12" type="XY" target="n10_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="27" label2="end10" ease="Back.In"/>
+    <item time="12" type="XY" target="n1_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="18" label2="end1" ease="Back.In"/>
+    <item time="12" type="XY" target="n2_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="19" label2="end2" ease="Back.In"/>
+    <item time="12" type="XY" target="n3_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="20" label2="end3" ease="Back.In"/>
+    <item time="12" type="XY" target="n4_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="21" label2="end4" ease="Back.In"/>
+    <item time="12" type="XY" target="n5_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="22" label2="end5" ease="Back.In"/>
+    <item time="12" type="XY" target="n6_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="23" label2="end6" ease="Back.In"/>
+    <item time="12" type="XY" target="n7_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="24" label2="end7" ease="Back.In"/>
+    <item time="12" type="XY" target="n8_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="25" label2="end8" ease="Back.In"/>
+    <item time="12" type="XY" target="n9_u83y" tween="true" startValue="-,-" endValue="151,1520" duration="26" label2="end9" ease="Back.In"/>
+    <item time="18" type="Scale" target="n1_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="19" type="Scale" target="n2_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="20" type="Scale" target="n3_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="21" type="Scale" target="n4_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="22" type="Scale" target="n5_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="23" type="Scale" target="n6_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="24" type="Scale" target="n7_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="25" type="Scale" target="n8_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="26" type="Scale" target="n9_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="27" type="Scale" target="n10_u83y" tween="true" startValue="1,1" endValue="0.6,0.6" duration="12" ease="Linear"/>
+    <item time="30" type="Alpha" target="n1_u83y" value="0"/>
+    <item time="31" type="Alpha" target="n2_u83y" value="0"/>
+    <item time="32" type="Alpha" target="n3_u83y" value="0"/>
+    <item time="33" type="Alpha" target="n4_u83y" value="0"/>
+    <item time="34" type="Alpha" target="n5_u83y" value="0"/>
+    <item time="35" type="Alpha" target="n6_u83y" value="0"/>
+    <item time="36" type="Alpha" target="n7_u83y" value="0"/>
+    <item time="37" type="Alpha" target="n8_u83y" value="0"/>
+    <item time="38" type="Alpha" target="n9_u83y" value="0"/>
+    <item time="39" type="Alpha" target="n10_u83y" value="0"/>
+  </transition>
+</component>

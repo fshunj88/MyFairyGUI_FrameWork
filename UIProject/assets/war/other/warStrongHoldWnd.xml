@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,1600" pivot="0.5,0.5">
+  <controller name="couldBuildPower" pages="0,no,1,yes" selected="0"/>
+  <controller name="hasPower" pages="1,false,0,true" selected="1"/>
+  <controller name="isInit" pages="0,false,1,true" selected="1"/>
+  <displayList>
+    <loader id="n17_j66l" name="bg" xy="0,0" size="960,1600" fill="scaleFree"/>
+    <loader id="n46_7mxs" name="bg1" xy="0,0" size="960,1600" url="ui://2ipmzghtlb4ehp" fill="scaleFree">
+      <relation target="n17_j66l" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <loader id="n45_gzb7" name="top" xy="0,0" size="960,154" touchable="false" fill="scaleFree">
+      <relation target="n17_j66l" sidePair="width-width,center-center,top-top"/>
+    </loader>
+    <loader id="n43_lczn" name="bottom" xy="0,1411" size="960,189" url="ui://2ipmzghtlb4ehv" fill="scaleFree">
+      <relation target="n17_j66l" sidePair="width-width,center-center,bottom-bottom"/>
+    </loader>
+    <loader id="n42_lczn" name="n42" xy="0,155" size="960,154" aspect="true" url="ui://2ipmzghtpmd7i2" fill="scaleFree">
+      <relation target="n45_gzb7" sidePair="center-center,top-bottom"/>
+    </loader>
+    <component id="n18_j66l" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="30,1470">
+      <relation target="n43_lczn" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n31_e3ip" name="shName" xy="446,207" size="126,49" group="n33_e3ip" fontSize="40" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" strokeSize="3" singleLine="true" text="建业城">
+      <relation target="n42_lczn" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n44_zspq" name="n44" xy="387,202" size="60,60" group="n33_e3ip" aspect="true" url="ui://2ipmzghtkm1mbq" fill="scaleFree">
+      <relation target="n31_e3ip" sidePair="middle-middle,right-left"/>
+    </loader>
+    <loader id="n32_e3ip" name="icon" xy="392,207" size="50,50" group="n33_e3ip" url="ui://2ipmzghtc0wx1k" fill="scaleFree">
+      <relation target="n44_zspq" sidePair="center-center,middle-middle"/>
+    </loader>
+    <group id="n33_e3ip" name="n33" xy="387,202" size="185,60" advanced="true">
+      <gearDisplay controller="isInit" pages="1"/>
+    </group>
+    <component id="n34_rd9i" name="createPowerBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="355,1470" size="250,100">
+      <gearDisplay controller="couldBuildPower" pages="1"/>
+      <gearDisplay2 controller="isInit" pages="1" condition="0"/>
+      <relation target="n43_lczn" sidePair="center-center,middle-middle"/>
+      <Button title="创建势力" icon="ui://864gshxxcbmu7e3uk"/>
+    </component>
+    <component id="n35_rd9i" name="searchBtn" src="yykey" fileName="component/searchBtn.xml" pkg="864gshxx" xy="833,1470" visible="false">
+      <relation target="n43_lczn" sidePair="center-center,middle-middle"/>
+    </component>
+    <list id="n38_rd9i" name="strongholdList" xy="7,320" size="941,1100" overflow="scroll" lineGap="5" defaultItem="ui://2ipmzghtri8ubv" autoClearItems="true">
+      <gearDisplay controller="hasPower" pages="0"/>
+      <gearDisplay2 controller="isInit" pages="1" condition="0"/>
+      <relation target="n42_lczn" sidePair="topext-top"/>
+      <relation target="n43_lczn" sidePair="bottomext-top"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n41_iu0c" name="n41" src="n8z0e3rm" fileName="component/emptyHint.xml" pkg="864gshxx" xy="115,778">
+      <gearDisplay controller="hasPower" pages="1"/>
+      <gearDisplay2 controller="isInit" pages="1" condition="0"/>
+      <relation target="" sidePair="center-center"/>
+      <Label title="本据点暂无势力"/>
+    </component>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

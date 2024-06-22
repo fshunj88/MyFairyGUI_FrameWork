@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="174,226">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,disabled" selected="0"/>
+  <displayList>
+    <loader id="n1" name="n1" xy="0,0" size="174,226" url="ui://864gshxxjed2w" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+</component>

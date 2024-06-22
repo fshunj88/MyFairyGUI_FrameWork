@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,1600" pivot="0.5,0.5">
+  <controller name="switch" pages="1,world,0,war" selected="0"/>
+  <controller name="readyShow" pages="0,false,1,true" selected="1"/>
+  <displayList>
+    <loader id="n12_gk8n" name="bg" xy="0,0" size="960,1600" url="ui://864gshxx921j7e3ub" fill="scaleFree"/>
+    <loader id="n16_gk8n" name="top" xy="0,0" size="960,154" group="n19_uqka" url="ui://864gshxxt9ubju" fill="scaleFree">
+      <relation target="n12_gk8n" sidePair="top-top"/>
+    </loader>
+    <loader id="n13_gk8n" name="bottom" xy="0,1411" size="960,189" group="n19_uqka" touchable="false" url="ui://864gshxxceeg3mo" fill="scaleFree">
+      <relation target="n12_gk8n" sidePair="width-width,center-center,bottom-bottom"/>
+    </loader>
+    <loader id="n14_gk8n" name="n14" xy="161,43" size="637,68" group="n19_uqka" url="ui://864gshxxt9ub4c" fill="scaleFree" autoSize="true">
+      <relation target="n16_gk8n" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <component id="n11_iro7" name="chatComWar" src="jbrh1" fileName="component/worldChat.xml" pkg="739g5yti" xy="10,160" size="940,1266" group="n19_uqka">
+      <gearDisplay controller="switch" pages="0"/>
+      <relation target="n13_gk8n" sidePair="bottomext-top"/>
+      <relation target="n16_gk8n" sidePair="topext-bottom"/>
+    </component>
+    <text id="n15_gk8n" name="t1" xy="405,55" size="149,44" group="n19_uqka" fontSize="36" color="#333333" vAlign="middle" leading="0" text="世界聊天">
+      <gearText controller="switch" pages="1" values="世界聊天" default="势力聊天"/>
+      <relation target="n14_gk8n" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </text>
+    <component id="n17_mn89" name="chatComWorld" src="jbrh1" fileName="component/worldChat.xml" pkg="739g5yti" xy="10,160" size="940,1266" group="n19_uqka">
+      <gearDisplay controller="switch" pages="1"/>
+      <relation target="n13_gk8n" sidePair="bottomext-top"/>
+      <relation target="n16_gk8n" sidePair="topext-bottom"/>
+    </component>
+    <component id="n18_mn89" name="switchBtn" src="gk8n7e3u8" fileName="component/refreshBtn.xml" pkg="739g5yti" xy="20,1339" group="n19_uqka" visible="false" alpha="0">
+      <relation target="n13_gk8n" sidePair="bottom-bottom"/>
+      <Button title="世界" selectedTitle="势力" controller="switch" page="0"/>
+    </component>
+    <loader id="n20_ixny" name="hideLoader" xy="46,1472" size="95,95" group="n19_uqka" url="ui://864gshxxceeg3mp" fill="scaleFree" autoSize="true">
+      <relation target="n13_gk8n" sidePair="center-center,middle-middle"/>
+    </loader>
+    <group id="n19_uqka" name="readyShow" xy="0,0" size="960,1600" advanced="true">
+      <gearDisplay controller="readyShow" pages="1"/>
+    </group>
+  </displayList>
+  <transition name="t0" frameRate="30">
+    <item time="0" type="Scale" tween="true" startValue="0.5,0.5" endValue="1,1" duration="6"/>
+  </transition>
+</component>

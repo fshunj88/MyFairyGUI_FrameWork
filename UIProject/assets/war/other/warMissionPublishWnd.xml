@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="900,1200" pivot="0.5,0.5">
+  <controller name="status" pages="0,未选择,1,已选择" selected="0">
+    <action type="play_transition" fromPage="0" toPage="1" transition="open"/>
+  </controller>
+  <displayList>
+    <loader id="n80_ir7y" name="bg" xy="0,0" size="900,1200" url="ui://2ipmzghtoxut7e3zx" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <list id="n83_vasa" name="attackOrderList" xy="76,151" size="750,235" layout="flow_hz" overflow="scroll" scroll="horizontal" lineGap="40" lineItemCount="50" defaultItem="ui://2ipmzghtefos8iz" align="center" autoClearItems="true" foldInvisibleItems="true">
+      <gearDisplay controller="status" pages="0"/>
+      <gearSize controller="status" pages="0,1" values="750,235,1,1|750,900,0,1" tween="true" duration="0.2"/>
+      <relation target="n80_ir7y" sidePair="center-center,middle-middle"/>
+      <item title="进攻据点"/>
+      <item title="进攻城市" name="attackBtn" controllers="status,1"/>
+      <item title="征粮" name="foodBtn"/>
+      <item title="征税" name="texaBtn"/>
+      <item title="建设" name="buildBtn"/>
+      <item title="修筑" name="constructBtn"/>
+      <item title="运输(钱)" name="transportGoldBtn"/>
+      <item title="运输(粮)" name="transportFoodBtn"/>
+      <item title="防守" name="defenceBtn" controllers="status,2"/>
+      <item title="探索" name="exploreBtn"/>
+      <item title="迁移" name="moveBtn"/>
+    </list>
+    <list id="n79_ipob" name="buildList" xy="75,165" pivot="1,0" size="750,1100" scale="0,1" layout="row" overflow="scroll" lineGap="5" defaultItem="ui://2ipmzghtvasa8j6" align="center" autoClearItems="true">
+      <gearDisplay controller="status" pages="1"/>
+      <gearSize controller="status" pages="0,1" values="750,1100,0,1|750,1100,1,1" tween="true" duration="0.2"/>
+      <relation target="n80_ir7y" sidePair="middle-middle,bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n81_e3ip" name="title" xy="367,5" size="165,49" fontSize="40" color="#660000" leading="0" text="发布命令">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n84_vasa" name="returnBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="30,1230" size="100,100">
+      <gearDisplay controller="status" pages="1"/>
+      <relation target="" sidePair="left-left,top-bottom"/>
+      <Button title=" " icon="ui://864gshxxceeg3mp" controller="status" page="0"/>
+    </component>
+    <component id="n85_oxut" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="30,1230">
+      <gearDisplay controller="status" pages="0"/>
+      <relation target="" sidePair="left-left,top-bottom"/>
+    </component>
+    <text id="n86_jksu" name="curPublishTxt" xy="70,481" size="360,40" fontSize="30" color="#666666" leading="0" autoSize="none" autoClearText="true" text="当前已发布政令：">
+      <gearDisplay controller="status" pages="0"/>
+      <relation target="n80_ir7y" sidePair="left-left,bottom-bottom"/>
+    </text>
+    <text id="n87_jksu" name="remainPublishTxt" xy="469,481" size="360,40" fontSize="30" color="#666666" leading="0" autoSize="none" autoClearText="true" text="剩余可发布政令：">
+      <gearDisplay controller="status" pages="0"/>
+      <relation target="n80_ir7y" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <list id="n88_pluo" name="politicalOrderList" xy="75,542" size="750,617" layout="flow_hz" overflow="scroll" lineGap="40" colGap="40" lineItemCount="3" defaultItem="ui://2ipmzghtefos8iz" align="center" autoClearItems="true" foldInvisibleItems="true">
+      <gearDisplay controller="status" pages="0"/>
+      <gearSize controller="status" pages="0,1" values="750,617,1,1|750,900,0,1" tween="true" duration="0.2"/>
+      <relation target="n80_ir7y" sidePair="center-center,middle-middle"/>
+      <item title="进攻据点"/>
+      <item title="进攻城市" name="attackBtn" controllers="status,1"/>
+      <item title="征粮" name="foodBtn"/>
+      <item title="征税" name="texaBtn"/>
+      <item title="建设" name="buildBtn"/>
+      <item title="修筑" name="constructBtn"/>
+      <item title="运输(钱)" name="transportGoldBtn"/>
+      <item title="运输(粮)" name="transportFoodBtn"/>
+      <item title="防守" name="defenceBtn" controllers="status,2"/>
+      <item title="探索" name="exploreBtn"/>
+      <item title="迁移" name="moveBtn"/>
+    </list>
+    <loader id="n90_pluo" name="n90" xy="257,72" size="385,61" group="n94_p1vk" url="ui://2ipmzghtpmd7i0"/>
+    <text id="n91_pluo" name="attackTitleTxt" xy="312,78" size="295,49" group="n94_p1vk" fontSize="40" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="军令">
+      <relation target="n90_pluo" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n94_p1vk" name="n94" xy="257,72" size="385,61" advanced="true">
+      <gearDisplay controller="status" pages="0"/>
+    </group>
+    <loader id="n92_pluo" name="n92" xy="257,397" size="385,61" group="n96_p1vk" url="ui://2ipmzghtpmd7i0"/>
+    <text id="n93_pluo" name="title2" xy="312,403" size="295,49" group="n96_p1vk" fontSize="40" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="政令">
+      <relation target="n92_pluo" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n96_p1vk" name="n96" xy="257,397" size="385,61" advanced="true">
+      <gearDisplay controller="status" pages="0"/>
+    </group>
+  </displayList>
+  <transition name="open" autoPlay="true" frameRate="30">
+    <item time="0" type="Scale" tween="true" startValue="1,0" endValue="1,1" duration="6"/>
+  </transition>
+</component>

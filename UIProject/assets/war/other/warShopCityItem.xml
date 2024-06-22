@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="940,1043">
+  <displayList>
+    <loader id="n3_m1x3" name="n3" xy="-20,0" size="960,60" group="n6_m1x3" url="ui://864gshxxs3oee3ra" fill="scaleFree">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <text id="n4_m1x3" name="cityName" xy="326,3" pivot="0.5,0.5" size="266,54" group="n6_m1x3" fontSize="40" color="#e8dbac" align="center" vAlign="middle" leading="0" autoSize="none" text="洛阳">
+      <relation target="n3_m1x3" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n5_m1x3" name="timeTxt" xy="664,3" pivot="0.5,0.5" size="266,54" group="n6_m1x3" fontSize="36" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" autoClearText="true" text="24:00:00">
+      <relation target="n3_m1x3" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n6_m1x3" name="n6" xy="-20,0" size="960,60" advanced="true">
+      <relation target="" sidePair="top-top"/>
+    </group>
+    <list id="n2_m1x3" name="list" xy="0,60" size="936,979" layout="flow_hz" overflow="hidden" lineGap="26" colGap="5" lineItemCount="3" defaultItem="ui://2ipmzghti8wdbt" autoClearItems="true">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+      <relation target="n6_m1x3" sidePair="top-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

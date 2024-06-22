@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="590,15" extention="Slider">
+  <displayList>
+    <loader id="n0_vasa" name="n0" xy="0,0" size="590,15" url="ui://2ipmzghtvasa8j7">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n1_vasa" name="bar" src="vasa8jc" fileName="component/pro_bar.xml" xy="0,0"/>
+    <component id="n2_vasa" name="grip" src="vasa8j9" fileName="component/Slider1_grip.xml" xy="540,-20" size="100,129" aspect="true">
+      <relation target="n1_vasa" sidePair="left-right"/>
+    </component>
+    <text id="n4_im4v" name="title" xy="455,-70" size="135,49" fontSize="40" color="#660000" align="right" vAlign="middle" leading="0" text="100/100">
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </text>
+  </displayList>
+  <Slider titleType="valueAndmax" wholeNumbers="true"/>
+</component>

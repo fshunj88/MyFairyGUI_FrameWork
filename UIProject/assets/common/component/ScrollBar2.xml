@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,0" extention="ScrollBar">
+  <displayList>
+    <graph id="n4_jzjo" name="bar" xy="0,-1" size="800,2" type="rect" lineSize="0" fillColor="#ff333333">
+      <relation target="" sidePair="width-width,left-left"/>
+    </graph>
+    <component id="n3" name="grip" src="gvaqbm" fileName="component/ScrollBar_grip2.xml" xy="169,-7"/>
+  </displayList>
+  <ScrollBar fixedGripSize="true"/>
+</component>

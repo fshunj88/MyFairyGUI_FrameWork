@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="250,120">
+  <controller name="status" pages="0,ym_click_self_in_city,1,ym_click_co_in_sh,19,ym_click_co_in_city,2,ym_click_pre,18,ym_click_coPre,3,ym_click_nor_sh,20,ym_click_nor_city,4,co_click_self,9,pre_click_self,12,pre_click_nor" selected="9"/>
+  <controller name="isUp" pages="0,false,1,true" selected="0"/>
+  <displayList>
+    <loader id="n113_gegy" name="bg" xy="0,0" pivot="0,0.5" size="250,120" group="n119_txsi" scale="1,-1" url="ui://739g5ytikm82346" fill="scaleFree">
+      <gearSize controller="status" pages="1,19,2,18,3,20" values="250,210,1,-1|250,294,1,-1|250,299,1,-1|250,193,1,-1|250,296,1,-1|250,391,1,-1" default="250,120,1,-1"/>
+      <relation target="" sidePair="middle-middle"/>
+    </loader>
+    <component id="n98_ir7y" name="appointPrefrectBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="39,109" size="200,85" group="n119_txsi">
+      <gearDisplay controller="status" pages="0,19,20"/>
+      <gearXY controller="status" pages="0,1,19,3,20" values="35,20|35,25|35,15|33,121|36,110" default="39,109"/>
+      <gearText controller="status" pages="0" values="兼任太守" default="任命太守"/>
+      <relation target="n113_gegy" sidePair="center-center"/>
+      <Button title="任命太守" icon="ui://864gshxxibcj7e3wn"/>
+    </component>
+    <component id="n107_gegy" name="dismissBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="39,306" size="200,85" group="n119_txsi">
+      <gearDisplay controller="status" pages="1,19,2,18"/>
+      <gearXY controller="status" pages="0,1,19,2,18,3" values="39,306|35,105|35,205|35,205|35,105|39,306" default="39,306"/>
+      <relation target="n113_gegy" sidePair="center-center"/>
+      <Button title="免职" icon="ui://864gshxxibcj7e3wm"/>
+    </component>
+    <component id="n104_ir7y" name="handOverBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="38,209" size="200,85" group="n119_txsi">
+      <gearDisplay controller="status" pages="1,19,2,18,3,20"/>
+      <gearXY controller="status" pages="0,1,19,2,18,3,20" values="38,209|35,10|35,110|35,110|35,10|37,110|36,205" default="38,209"/>
+      <relation target="n113_gegy" sidePair="center-center"/>
+      <Button title="禅让" icon="ui://864gshxxibcj7e3wn"/>
+    </component>
+    <component id="n101_ir7y" name="appointCounselBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="35,15" size="200,85" group="n119_txsi">
+      <gearDisplay controller="status" pages="2,3,20"/>
+      <relation target="n113_gegy" sidePair="center-center"/>
+      <Button title="任命军师" icon="ui://864gshxxibcj7e3wn"/>
+    </component>
+    <component id="n115_mx6u" name="resignBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="35,20" size="200,85" group="n119_txsi">
+      <gearDisplay controller="status" pages="4,9"/>
+      <gearXY controller="status" pages="0,1,19,2,18,3,20,4,9,12" values="35,20|35,15|35,15|41,397|41,397|41,397|41,397|35,20|35,20|35,20"/>
+      <Button title="辞官" icon="ui://864gshxxibcj7e3wm"/>
+    </component>
+    <component id="n118_bljr" name="quzhuBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="35,20" size="200,85" group="n119_txsi">
+      <gearDisplay controller="status" pages="3,20,12"/>
+      <gearXY controller="status" pages="0,2,3,20,12" values="35,498|36,127|35,205|35,300|35,20" default="36,125"/>
+      <Button title="驱逐" icon="ui://864gshxxibcj7e3wm"/>
+    </component>
+    <group id="n119_txsi" name="whole" xy="0,0" size="250,391" advanced="true"/>
+  </displayList>
+  <relation target="n113_gegy" sidePair="width-width,height-height"/>
+</component>

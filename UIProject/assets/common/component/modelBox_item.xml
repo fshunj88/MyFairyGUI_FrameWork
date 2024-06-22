@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="341,79" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3_o71x" name="n3" xy="0,0" size="341,79" url="ui://864gshxxbva5it" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <text id="n2_dq56" name="title" xy="148,15" size="45,49" fontSize="40" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" strokeSize="3" singleLine="true" text="魏">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button mode="Radio" sound="check2"/>
+</component>

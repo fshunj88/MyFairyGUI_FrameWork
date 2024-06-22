@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="2ipmzght">
+  <resources>
+    <component id="xjab0" name="map.xml" path="/other/" exported="true"/>
+    <component id="xjab1" name="warHomeView.xml" path="/cur/" exported="true"/>
+    <component id="xjaba" name="warPlayerItem.xml" path="/other/" exported="true"/>
+    <component id="xjabc" name="warMissionWnd.xml" path="/other/" exported="true"/>
+    <component id="xjabe" name="warAdminOption.xml" path="/other/" exported="true"/>
+    <component id="xjabo" name="warMissionStatusWnd.xml" path="/other/" exported="true"/>
+    <component id="xjabr" name="noticeBtn.xml" path="/other/" exported="true"/>
+    <component id="xjabu" name="worldBtn.xml" path="/other/" exported="true"/>
+    <component id="gv9810" name="warQueueplayerItem.xml" path="/other/" exported="true"/>
+    <component id="gv9812" name="warCityListItem.xml" path="/other/" exported="true"/>
+    <component id="gv9813" name="addBtn.xml" path="/other/" exported="true"/>
+    <component id="rian17" name="warDonateWndX.xml" path="/other/"/>
+    <component id="hh1f5b" name="warCityItem.xml" path="/other/" exported="true"/>
+    <component id="qjxh5j" name="mainMap.xml" path="/other/" exported="true"/>
+    <component id="qjxh5m" name="warStatusPanel.xml" path="/other/" exported="true"/>
+    <component id="bm3t5q" name="warBeginStatusCom.xml" path="/other/" exported="true"/>
+    <component id="d8ql5t" name="warProgress1.xml" path="/other/" exported="true"/>
+    <component id="wwgm5v" name="campItem.xml" path="/other/" exported="true"/>
+    <component id="uivn62" name="warOver.xml" path="/other/" exported="true"/>
+    <image id="a07467" name="fakePathPoint.png" path="/"/>
+    <image id="onso6a" name="foodBagIcon.png" path="/"/>
+    <image id="onso6b" name="gameOverWnd.png" path="/"/>
+    <image id="onso6j" name="honorIcon.png" path="/"/>
+    <component id="myl16n" name="warCityInfoWnd.xml" path="/other/" exported="true"/>
+    <image id="mhry74" name="noticeBtn.png" path="/"/>
+    <image id="mhry75" name="peopleIcon.png" path="/"/>
+    <image id="mhry76" name="worldBtnImage.png" path="/"/>
+    <component id="mhry77" name="cityBtn.xml" path="/other/" exported="true"/>
+    <component id="u5xl8n" name="warDonateRecordWnd.xml" path="/other/" exported="true"/>
+    <component id="u5xl8o" name="warDonateRecordItem.xml" path="/other/" exported="true"/>
+    <component id="u5xl8p" name="warFlagModifyWnd.xml" path="/other/" exported="true"/>
+    <image id="n91y8w" name="jobBtn.png" path="/"/>
+    <component id="n91y8x" name="jobBtn.xml" path="/other/" exported="true"/>
+    <component id="t2089h" name="warMissionItem.xml" path="/other/" exported="true"/>
+    <image id="l2zza2" name="cityBreakImg.png" path="/"/>
+    <component id="l2zza4" name="closeBtn.xml" path="/other/" exported="true"/>
+    <image id="l2zza6" name="arrow.png" path="/" exported="true"/>
+    <image id="l2zza7" name="progress_bar1.png" path="/"/>
+    <image id="pgn0ai" name="progress_bar2.png" path="/"/>
+    <image id="pgn0ak" name="progress_bg1.png" path="/"/>
+    <image id="pgn0al" name="progress_bg2.png" path="/"/>
+    <component id="c0o2b0" name="warNoticeChatWnd.xml" path="/other/" exported="true"/>
+    <component id="vvhmbf" name="exchangeBtn.xml" path="/other/" exported="true"/>
+    <image id="km1mbm" name="mountain.png" path="/"/>
+    <image id="km1mbn" name="cave.png" path="/"/>
+    <image id="km1mbo" name="canyon.png" path="/"/>
+    <image id="km1mbp" name="city.png" path="/"/>
+    <image id="km1mbq" name="dot.png" path="/"/>
+    <component id="i8wdbr" name="warEditNameWnd.xml" path="/other/" exported="true"/>
+    <component id="i8wdbs" name="warShopWnd.xml" path="/other/" exported="true"/>
+    <component id="i8wdbt" name="warShopItem.xml" path="/other/" exported="true"/>
+    <component id="kk99bu" name="warCityWnd.xml" path="/other/" exported="true"/>
+    <component id="ri8ubv" name="warStrongholdListItem.xml" path="/other/" exported="true"/>
+    <component id="j3ihbx" name="warMerit.xml" path="/other/" exported="true"/>
+    <component id="fnsrby" name="warStrongholdItem.xml" path="/other/" exported="true"/>
+    <component id="b92kc9" name="warCityItemIcon.xml" path="/other/" exported="true"/>
+    <component id="b92kca" name="warStrongholdIcon.xml" path="/other/" exported="true"/>
+    <component id="b92kcd" name="warStrongholdTerrain.xml" path="/other/" exported="true"/>
+    <component id="cqkrce" name="warAppointOptionWnd.xml" path="/other/" exported="true"/>
+    <component id="mwgzcg" name="mapLayer1.xml" path="/other/" exported="true"/>
+    <component id="mwgzch" name="mapLayer2.xml" path="/other/" exported="true"/>
+    <component id="mwgzci" name="mapLayer3.xml" path="/other/" exported="true"/>
+    <component id="mwgzcj" name="mapLayer4.xml" path="/other/" exported="true"/>
+    <component id="rd9icl" name="warCityList.xml" path="/other/" exported="true"/>
+    <component id="rd9icm" name="warStrongholdList.xml" path="/other/" exported="true"/>
+    <component id="rd9ico" name="warPlayerApplyItem.xml" path="/other/" exported="true"/>
+    <component id="rd9icp" name="warApplyListWnd.xml" path="/other/" exported="true"/>
+    <component id="monoge" name="warMissEndWnd.xml" path="/other/" exported="true"/>
+    <component id="monogg" name="warBuffCom.xml" path="/other/" exported="true"/>
+    <image id="r46vh3" name="nameBg2.png" path="/"/>
+    <image id="r46vh4" name="nameBg1.png" path="/"/>
+    <component id="oko5h6" name="mapLayer0.xml" path="/other/" exported="true"/>
+    <component id="emtmh7" name="mapLayer5.xml" path="/other/" exported="true"/>
+    <component id="h4enhh" name="warCityPlayerListOfficialWnd.xml" path="/other/" exported="true"/>
+    <component id="iu0chj" name="warStrongHoldWnd.xml" path="/other/" exported="true"/>
+    <component id="iu0chl" name="campModifyItem.xml" path="/other/" exported="true"/>
+    <component id="nqmzhf" name="warPlayerPosition.xml" path="/other/" exported="true"/>
+    <component id="92nbhm" name="warStrongHoldPlayerListOfficialWnd.xml" path="/other/" exported="true"/>
+    <component id="cyzbid" name="warGameoverWnd.xml" path="/other/" exported="true"/>
+    <component id="tm4lif" name="warCityPublishMissionWnd.xml" path="/other/" exported="true"/>
+    <image id="pk51ij" name="self1.png" path="/"/>
+    <image id="pk51ik" name="self2.png" path="/"/>
+    <component id="12o58il" name="warBattleQueueWnd.xml" path="/other/" exported="true"/>
+    <component id="91kp8im" name="warSearchPowerWndFromSh.xml" path="/other/" exported="true"/>
+    <component id="91kp8in" name="donateBtn.xml" path="/other/" exported="true"/>
+    <component id="91kp8io" name="mapLayer6.xml" path="/other/" exported="true"/>
+    <component id="91kp8ip" name="warSearchPowerWndFromAll.xml" path="/other/" exported="true"/>
+    <component id="91kp8ir" name="warAllPowerWnd.xml" path="/other/" exported="true"/>
+    <component id="91kp8is" name="warShOrCityListItem.xml" path="/other/" exported="true"/>
+    <component id="91kp8it" name="missionBtn.xml" path="/other/" exported="true"/>
+    <component id="o31q8iy" name="warShpInfoWnd.xml" path="/other/" exported="true"/>
+    <component id="bd2h8iz" name="troops.xml" path="/other/" exported="true"/>
+    <component id="mx6u8ll" name="warCityOrShpItem.xml" path="/other/" exported="true"/>
+    <component id="efos8iz" name="warMissionBtn.xml" path="/other/" exported="true"/>
+    <component id="efos8j0" name="applyItem.xml" path="/other/" exported="true"/>
+    <image id="efos8j1" name="hint.png" path="/"/>
+    <image id="uh8v8j3" name="wnd.png" path="/" scale="9grid" scale9grid="0,80,573,392"/>
+    <image id="uh8v8j4" name="wnd2.png" path="/" scale9grid="60,0,119,107"/>
+    <component id="vasa8j5" name="warMissionPublishWnd.xml" path="/other/" exported="true"/>
+    <component id="vasa8j6" name="warMissionPublishItem.xml" path="/other/" exported="true"/>
+    <image id="vasa8j7" name="pro_bg.png" path="/"/>
+    <image id="vasa8j8" name="pro_bar.png" path="/"/>
+    <component id="vasa8j9" name="Slider1_grip.xml" path="/other/" exported="true"/>
+    <component id="vasa8ja" name="Slider1.xml" path="/other/" exported="true"/>
+    <image id="vasa8jb" name="pro_arrow.png" path="/"/>
+    <component id="vasa8jc" name="pro_bar.xml" path="/other/" exported="true"/>
+    <image id="vasa8jd" name="war_goldIcon.png" path="/"/>
+    <image id="vasa8je" name="war_foodIcon.png" path="/"/>
+    <image id="vasa8jf" name="cityHpIcon.png" path="/"/>
+    <image id="vasa8jg" name="war_spiritIcon.png" path="/"/>
+    <image id="vasa8jh" name="war_mission_icon8.png" path="/"/>
+    <image id="vasa8ji" name="war_mission_icon7.png" path="/"/>
+    <image id="vasa8jj" name="war_mission_icon6.png" path="/"/>
+    <image id="vasa8jk" name="war_mission_icon5.png" path="/"/>
+    <image id="vasa8jl" name="war_mission_icon4.png" path="/"/>
+    <image id="vasa8jm" name="war_mission_icon3.png" path="/"/>
+    <image id="vasa8jn" name="war_mission_icon2.png" path="/"/>
+    <image id="vasa8jo" name="war_mission_icon1.png" path="/"/>
+    <image id="vasa8jp" name="panel.png" path="/" scale="9grid" scale9grid="162,168,324,336"/>
+    <image id="vasa8jq" name="textBg.png" path="/" scale="9grid" scale9grid="15,15,83,17"/>
+    <image id="vasa8jr" name="close.png" path="/"/>
+    <image id="ihr68ln" name="reward.png" path="/"/>
+    <component id="efos7e3zj" name="redHint_num.xml" path="/other/" exported="true"/>
+    <image id="7mxs8lp" name="war_mission_icon10.png" path="/"/>
+    <image id="7mxs8lq" name="war_mission_icon9.png" path="/"/>
+    <image id="7mxs8lr" name="city1.png" path="/"/>
+    <image id="7mxs8ls" name="city2.png" path="/"/>
+    <image id="7mxs8lt" name="cityBg1.png" path="/"/>
+    <image id="7mxs8lu" name="cityBg2.png" path="/"/>
+    <component id="7mxs7e3zl" name="cityTextPic.xml" path="/other/" exported="true"/>
+    <component id="7mxs7e3zm" name="nativeText.xml" path="/other/" exported="true"/>
+    <component id="7mxs7e3zn" name="shTextPic.xml" path="/other/" exported="true"/>
+    <component id="7mxs7e3zo" name="warArrow.xml" path="/other/" exported="true"/>
+    <component id="7mxs7e3zp" name="flag.xml" path="/other/" exported="true"/>
+    <component id="oxut7e3zq" name="functionChk.xml" path="/other/" exported="true"/>
+    <image id="oxut7e3zr" name="mission_succ.png" path="/" scale="9grid" scale9grid="0,200,750,186"/>
+    <image id="oxut7e3zs" name="mission_fail.png" path="/"/>
+    <image id="oxut7e3zt" name="item2.png" path="/"/>
+    <image id="oxut7e3zu" name="item1.png" path="/"/>
+    <image id="oxut7e3zv" name="chk2.png" path="/"/>
+    <image id="oxut7e3zw" name="chk1.png" path="/"/>
+    <image id="oxut7e3zx" name="panel_bg.png" path="/" scale="9grid" scale9grid="0,200,736,614"/>
+    <component id="mybk7e402" name="warAttackAni.xml" path="/other/" exported="true"/>
+    <image id="xz9g7e3zq" name="war_spiritIcon2.png" path="/"/>
+    <component id="l6o57e403" name="functionChk_multi.xml" path="/other/"/>
+    <component id="l6o57e404" name="warLabel.xml" path="/other/" exported="true"/>
+    <component id="jrla7e406" name="warCityDestroyWnd.xml" path="/other/" exported="true"/>
+    <component id="qagc7e40c" name="warMissionStatusCom.xml" path="/other/" exported="true"/>
+    <image id="hjz77e407" name="cityHpIcon2.png" path="/"/>
+    <component id="iuzj7e40f" name="warMissCommonBtn.xml" path="/other/" exported="true"/>
+    <image id="e4n67e40k" name="war_spiritIcon3.png" path="/"/>
+    <component id="qcu57e40o" name="warItemBottomPosForCity.xml" path="/other/" exported="true"/>
+    <component id="qcu57e40p" name="warItemBottomPosForSh.xml" path="/other/" exported="true"/>
+    <component id="yh3x7e40q" name="warProgress2.xml" path="/other/" exported="true"/>
+    <component id="10cr47e40r" name="warGuanXingInfoWnd.xml" path="/other/" exported="true"/>
+    <component id="10cr47e40s" name="warGuanXingInfoItem.xml" path="/other/" exported="true"/>
+    <component id="g7rp47e40t" name="warShootAniCom.xml" path="/other/" exported="true"/>
+    <component id="qnfi47e40v" name="shootDirectionJustSee.xml" path="/other/"/>
+    <component id="qnfi47e40w" name="shootArrow.xml" path="/other/"/>
+    <component id="ldwv47e410" name="warShoptitle.xml" path="/other/" exported="true"/>
+    <component id="o5t847e411" name="starBtn.xml" path="/other/" exported="true"/>
+    <component id="o5t847e413" name="warEditTextWnd.xml" path="/other/" exported="true"/>
+    <component id="m1x347e414" name="warShopCityItem.xml" path="/other/" exported="true"/>
+    <component id="lynl47e415" name="wciOtherCom.xml" path="/other/" exported="true"/>
+    <image id="m3pp47e416" name="rewardIcon.png" path="/" exported="true"/>
+    <component id="mh0p47e419" name="warTroopPlayerNumCom.xml" path="/other/" exported="true"/>
+    <component id="wgyc47e41a" name="warDonateWnd.xml" path="/other/" exported="true"/>
+    <component id="ka7l47e41b" name="warJadeBtn.xml" path="/other/" exported="true"/>
+    <component id="ip7047e41d" name="warMovingShBtn.xml" path="/other/" exported="true"/>
+    <image id="w4t847e41e" name="shMoveBtn.png" path="/"/>
+    <image id="w4t847e41f" name="zhengbing.png" path="/"/>
+    <image id="vc6c47e41g" name="armIcon.png" path="/"/>
+  </resources>
+  <publish name="war">
+    <atlas compression="true" index="0"/>
+  </publish>
+</packageDescription>

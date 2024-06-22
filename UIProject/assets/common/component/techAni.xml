@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,120" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_u6us" name="n0" xy="-300,0" size="960,120" touchable="false" url="ui://eg2ecnn9hiflhk" fill="scaleFree">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <text id="n1_u6us" name="text" xy="136,0" pivot="0,0.5" size="500,120" fontSize="50" color="#333333" vAlign="middle" leading="0" autoSize="shrink" singleLine="true" autoClearText="true" text="天赋名字：天赋效果">
+      <relation target="n0_u6us" sidePair="left-left"/>
+    </text>
+    <loader id="n2_pz4o" name="icon" xy="21,10" size="100,100" url="ui://47ikzi2anf1m15" fill="scaleFree">
+      <relation target="n0_u6us" sidePair="left-left,middle-middle"/>
+    </loader>
+  </displayList>
+  <transition name="t0" options="4" autoPlay="true">
+    <item time="0" type="Alpha" value="1"/>
+    <item time="0" type="XY" tween="true" startValue="-1000,-" endValue="0,-" duration="12" ease="Back.Out"/>
+    <item time="96" type="Alpha" value="0"/>
+  </transition>
+</component>

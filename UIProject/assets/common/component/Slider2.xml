@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="598,50" extention="Slider">
+  <displayList>
+    <loader id="n0_n91y" name="n0" xy="0,1" size="598,47" url="ui://864gshxxwy8skq" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n1_n91y" name="bar" src="q2gee3rf" fileName="component/slider2_bar.xml" xy="9,9"/>
+    <component id="n3_n91y" name="grip" src="q2gee3rg" fileName="component/Slider2_grip.xml" xy="550,9" size="80,80">
+      <relation target="n1_n91y" sidePair="right-right"/>
+    </component>
+    <text id="n2_n91y" name="title" xy="583,-50" size="64,54" group="n6_z1j0" fontSize="40" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" strokeSize="3" autoClearText="true" text="999"/>
+    <loader id="n5_z1j0" name="resIcon" xy="533,-48" pivot="0.5,0.5" size="50,50" group="n6_z1j0" touchable="false" url="ui://eg2ecnn9ph4p3ml" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="n2_n91y" sidePair="middle-middle,right-left"/>
+    </loader>
+    <group id="n6_z1j0" name="n6" xy="533,-50" size="114,54" advanced="true">
+      <relation target="n3_n91y" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <Slider titleType="value" wholeNumbers="true" changeOnClick="false"/>
+</component>

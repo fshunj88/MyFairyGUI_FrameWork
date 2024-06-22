@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,50">
+  <displayList>
+    <loader id="n2_rqc2" name="n2" xy="0,0" size="50,50" aspect="true" url="ui://864gshxxu843av" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n4_ykzh" name="n4" xy="0,0" size="50,50" url="ui://864gshxxbtxre3ry" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="" sidePair="width-width%,height-height%,center-center,middle-middle"/>
+    </loader>
+    <text id="n3_rqc2" name="textNum" xy="3,8" size="43,33" visible="false" fontSize="26" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="99+">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

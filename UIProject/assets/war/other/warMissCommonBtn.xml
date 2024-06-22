@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,85" pivot="0.5,0.5" extention="Button">
+  <controller name="status" pages="4,noMiss,0,freeMiss,1,attack,5,denfece,7,otherMiss,8,AIAttacking,9,AIDefence" selected="2"/>
+  <displayList>
+    <loader id="n4_eehz" name="icon" xy="0,7" size="600,70" url="ui://864gshxxtzcwe3rs" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <text id="n2_pmd7" name="titleTxt" xy="33,13" size="158,38" fontSize="30" color="#ffffff" vAlign="middle" leading="0" strokeColor="#000000" strokeSize="3" autoClearText="true" text="进攻准备中">
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </text>
+    <text id="n3_e4n6" name="timeTxt" xy="191,6" size="291,50" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" strokeColor="#333333" strokeSize="4" autoClearText="true" text="1小时32分57秒">
+      <gearDisplay controller="status" pages="0,1,5,7"/>
+      <relation target="n2_pmd7" sidePair="left-right"/>
+    </text>
+    <component id="n7_eehz" name="fightSelectBtn" src="gqml7e3wk" fileName="component/setChk3.xml" pkg="864gshxx" xy="415,2" scale="0.7,0.7">
+      <gearDisplay controller="status" pages="1,5"/>
+      <relation target="" sidePair="middle-middle,right-right"/>
+      <Button title="手动战斗" titleColor="#ffffff" titleFontSize="50"/>
+    </component>
+    <component id="n8_eehz" name="giveupBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="590,-7" size="300,100" scale="0.5,0.5">
+      <gearDisplay controller="status" pages="0,5"/>
+      <gearXY controller="status" pages="0,1,5" values="369,-8|590,-7|590,-7" default="590,-5"/>
+      <relation target="" sidePair="middle-middle"/>
+      <Button title="放弃" icon="ui://864gshxxibcj7e3wm"/>
+    </component>
+    <component id="n10_k0we" name="pro" src="d8ql5t" fileName="component/warProgress1.xml" xy="45,59" pivot="0.5,0" size="350,18">
+      <gearDisplay controller="status" pages="0,1,5,7"/>
+      <ProgressBar value="92" max="100"/>
+    </component>
+  </displayList>
+  <Button sound="click"/>
+  <transition name="t0"/>
+</component>

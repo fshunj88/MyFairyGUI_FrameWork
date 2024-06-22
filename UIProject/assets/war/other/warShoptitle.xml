@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="940,100">
+  <displayList>
+    <loader id="n0_ldwv" name="n0" xy="-10,0" size="960,60" url="ui://864gshxxs3oee3ra" fill="scaleFree">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <text id="n1_ldwv" name="title" xy="336,3" pivot="0.5,0.5" size="266,54" fontSize="40" color="#e8dbac" align="center" vAlign="middle" leading="0" autoSize="none" text="洛阳">
+      <relation target="n0_ldwv" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n3_ldwv" name="time" xy="674,3" pivot="0.5,0.5" size="266,54" fontSize="36" color="#ffffff" align="right" vAlign="bottom" leading="0" autoSize="none" text="24:00:00">
+      <relation target="n0_ldwv" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

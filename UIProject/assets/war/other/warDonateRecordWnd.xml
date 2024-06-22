@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,1400" pivot="0.5,0.5">
+  <controller name="c1" pages="0,has,1,no" selected="0"/>
+  <displayList>
+    <loader id="n17_j66l" name="n17" xy="0,0" size="960,1400" url="ui://864gshxxtzcwe3rr" fill="scaleFree"/>
+    <component id="n18_j66l" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="8,1408"/>
+    <list id="n21_j66l" name="playerList" xy="70,70" size="820,1280" overflow="scroll" scrollBarFlags="4" scrollBar="auto" defaultItem="ui://2ipmzghtu5xl8o" align="center" renderOrder="descent" autoClearItems="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n33_ooha" name="emptyHintText" src="n8z0e3rm" fileName="component/emptyHint.xml" pkg="864gshxx" xy="115,633" visible="false">
+      <gearDisplay controller="c1" pages="1"/>
+      <Label title="暂无捐献记录"/>
+    </component>
+    <text id="n37_kk99" name="title" xy="398,12" size="164,49" fontSize="40" color="#660000" leading="0" text="捐献记录">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

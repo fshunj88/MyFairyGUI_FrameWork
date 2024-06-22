@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,400" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n11_pdhx" name="bg1" xy="-2,6" size="640,400" group="n16_ej80" url="ui://864gshxxcbmu7e3uj" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,center-center"/>
+    </loader>
+    <text id="n15_eo7t" name="attackTxt" xy="115,79" size="405,49" group="n16_ej80" fontSize="40" color="#ff0000" align="center" vAlign="middle" leading="0" autoClearText="true" text="【长沙】被【民】攻占">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n46_fnsr" name="n46" xy="216,198" size="50,50" group="n52_fnsr" aspect="true" url="ui://eg2ecnn9nf1s9a" fill="scaleFree"/>
+    <loader id="n47_fnsr" name="n47" xy="216,260" size="50,50" group="n52_fnsr" aspect="true" url="ui://eg2ecnn9hhu5e3sg" fill="scaleFree"/>
+    <text id="n48_fnsr" name="goldNum" xy="276,198" size="135,50" group="n52_fnsr" fontSize="30" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" autoClearText="true" text="10000"/>
+    <text id="n49_fnsr" name="foodNum" xy="276,260" size="135,50" group="n52_fnsr" fontSize="30" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" autoClearText="true" text="100/100"/>
+    <group id="n52_fnsr" name="n52" xy="216,198" size="195,112" group="n16_ej80" advanced="true"/>
+    <text id="n53_fnsr" name="transferTxt" xy="99,150" size="445,26" group="n16_ej80" fontSize="20" color="#333333" align="center" vAlign="middle" leading="0" autoClearText="true" text="现将以下残存物资与所有城内成员转移至【成都】">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n16_ej80" name="n16" xy="-2,6" size="640,400" advanced="true"/>
+  </displayList>
+  <transition name="entry" autoPlay="true">
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="24" ease="Quart.Out"/>
+  </transition>
+</component>

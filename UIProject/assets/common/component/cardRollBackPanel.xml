@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="900,1000" pivot="0.5,0.5" opaque="false">
+  <controller name="type" pages="0,card,1,equip" selected="0"/>
+  <displayList>
+    <loader id="n2_ijr4" name="n2" xy="0,0" size="900,1000" url="ui://864gshxxtzcwe3rr" align="center" vAlign="middle" fill="scaleFree"/>
+    <component id="n22_drj6" name="list2" src="nlzq7e3vu" fileName="component/cardRollBackCom.xml" xy="100,150" pivot="0.5,0" size="700,600"/>
+    <component id="n23_drj6" name="closeBtn" src="jed213" fileName="component/functionBtn.xml" xy="300,800" size="300,100">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="关闭" icon="ui://864gshxxal2v9n"/>
+    </component>
+    <component id="n21_drj6" name="nextBtn" src="jed213" fileName="component/functionBtn.xml" xy="300,800" size="300,100">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="下一个(1/5)" icon="ui://864gshxxibcj7e3wn"/>
+    </component>
+    <text id="n17_emvz" name="n17" xy="376,15" size="147,44" fontSize="36" align="center" vAlign="middle" leading="0" text="卡牌修改">
+      <gearText controller="type" pages="1" values="装备修改" default="卡牌修改"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <transition name="t0" frameRate="30">
+    <item time="0" type="Scale" tween="true" startValue="0,0" endValue="1,1" duration="12" ease="Back.Out"/>
+    <item time="0" type="Visible" target="n21_drj6" value="false"/>
+    <item time="0" type="Visible" target="n23_drj6" value="false"/>
+    <item time="60" type="Visible" target="n21_drj6" value="true"/>
+    <item time="60" type="Visible" target="n23_drj6" value="true"/>
+  </transition>
+</component>

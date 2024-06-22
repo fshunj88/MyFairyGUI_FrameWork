@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="74,74" overflow="hidden">
+  <displayList>
+    <loader id="n4_anrd" name="loadingProg" xy="0,0" size="74,74" url="ui://864gshxxanrd7e3s9" fill="scaleFree" autoSize="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </loader>
+  </displayList>
+</component>

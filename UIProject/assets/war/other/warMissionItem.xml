@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,900" pivot="0.5,0.5">
+  <controller name="type" pages="13,none,2,征粮,0,征税,5,建设,6,修筑,7,运币,14,运粮,11,进攻据点,15,进攻城市,16,探索,17,迁移,12,防守,18,征兵" selected="10"/>
+  <controller name="hasMission" pages="0,false,1,true" selected="0"/>
+  <displayList>
+    <loader id="n34_uh8v" name="n34" xy="5,20" size="740,250" group="n50_im4v" url="ui://2ipmzghtuh8v8j3" fill="scaleFree"/>
+    <text id="n35_uh8v" name="title1" xy="342,25" pivot="0.5,0.5" size="65,38" group="n50_im4v" fontSize="30" color="#333333" align="center" leading="0" text="目标">
+      <relation target="n34_uh8v" sidePair="center-center,top-top"/>
+    </text>
+    <loader id="n36_uh8v" name="n36" xy="56,135" pivot="0.5,0.5" size="153,13" group="n50_im4v" url="ui://864gshxxykzh7e3xa">
+      <relation target="n4_g0v3" sidePair="middle-middle,right-left"/>
+    </loader>
+    <loader id="n37_uh8v" name="n37" xy="543,135" pivot="0.5,0.5" size="153,13" group="n50_im4v" scale="-1,1" url="ui://864gshxxykzh7e3xa">
+      <relation target="n4_g0v3" sidePair="middle-middle,left-right"/>
+    </loader>
+    <text id="n31_cqkr" name="doneText" xy="75,200" size="600,38" group="n50_im4v" fontSize="30" color="#660000" align="center" vAlign="middle" leading="0" autoSize="shrink" autoClearText="true" text="任务完成时使所属地资金＋tax_target＊war_city表／tax_rev金币">
+      <gearDisplay controller="type" pages="2,0,5,6,7,14,11,15,16,17,12"/>
+    </text>
+    <component id="n38_uh8v" name="acceptBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="225,750" size="300,100" group="n50_im4v">
+      <gearDisplay controller="hasMission" pages="1"/>
+      <gearXY controller="type" pages="13,2,0,5,6,11,15,16,17,12" values="225,750|225,750|225,750|225,750|225,750|225,750|225,750|225,750|225,750|225,750" default="415,750"/>
+      <Button title="接受" icon="ui://864gshxxibcj7e3wo"/>
+    </component>
+    <text id="n4_g0v3" name="textBig" xy="300,120" size="221,44" group="n50_im4v" fontSize="36" color="#660000" align="center" vAlign="middle" leading="0" autoClearText="true" text="进攻【长沙】">
+      <relation target="n34_uh8v" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n49_vasa" name="n49" xy="227,112" size="60,60" group="n50_im4v" url="ui://2ipmzghtvasa8jo" fill="scaleFree">
+      <gearIcon controller="type" pages="2,0,5,6,7,14,16,12" values="ui://2ipmzghtvasa8jl|ui://2ipmzghtvasa8jm|ui://2ipmzghtvasa8jh|ui://2ipmzghtvasa8jh|ui://2ipmzghtvasa8jk|ui://2ipmzghtvasa8jj|ui://2ipmzghtvasa8ji|ui://2ipmzghtvasa8jn" default="ui://2ipmzghtvasa8jo"/>
+      <relation target="n4_g0v3" sidePair="middle-middle,right-left"/>
+    </loader>
+    <component id="n52_im4v" name="canDel" src="l2zza4" fileName="component/closeBtn.xml" xy="697,12" size="50,50" group="n50_im4v" visible="false"/>
+    <loader id="n43_uh8v" name="n43" xy="1,300" size="750,200" group="n50_im4v" url="ui://eg2ecnn9hiflhl" fill="scaleFree"/>
+    <loader id="n45_uh8v" name="n46" xy="390,530" size="350,160" group="n54_r110" url="ui://2ipmzghtuh8v8j4" fill="scaleFree"/>
+    <text id="n46_uh8v" name="timeTxt" xy="525,605" size="124,49" group="n54_r110" fontSize="40" color="#333333" align="center" vAlign="middle" leading="0" singleLine="true" autoClearText="true" text="99小时">
+      <relation target="n45_uh8v" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n47_uh8v" name="timeIcon" xy="476,605" size="50,50" group="n54_r110" url="ui://864gshxxeneijj" fill="scaleFree">
+      <relation target="n46_uh8v" sidePair="right-left,middle-middle"/>
+    </loader>
+    <text id="n48_uh8v" name="t4" xy="502,544" size="125,38" group="n54_r110" fontSize="30" color="#666666" leading="0" text="所需时间">
+      <relation target="n45_uh8v" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n54_r110" name="n54" xy="390,530" size="350,160" group="n50_im4v" advanced="true">
+      <gearDisplay controller="type" pages="2,0,5,6,7,14,16,17,18"/>
+    </group>
+    <loader id="n41_uh8v" name="n41" xy="10,530" size="350,160" group="n55_f6jl" url="ui://2ipmzghtuh8v8j4" fill="scaleFree"/>
+    <text id="n27_v2ye" name="spiritCntTxt" xy="152,606" size="119,49" group="n55_f6jl" fontSize="40" color="#333333" align="center" vAlign="middle" leading="0" singleLine="true" autoClearText="true" text="50/100">
+      <relation target="n41_uh8v" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n28_v2ye" name="spiritIcon" xy="103,605" size="50,50" group="n55_f6jl" url="ui://2ipmzghtvasa8jg" fill="scaleFree">
+      <relation target="n27_v2ye" sidePair="right-left,middle-middle"/>
+    </loader>
+    <text id="n42_uh8v" name="t3" xy="152,544" size="65,38" group="n55_f6jl" fontSize="30" color="#666666" leading="0" text="消耗">
+      <relation target="n41_uh8v" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n55_f6jl" name="n55" xy="10,530" size="350,160" group="n50_im4v" advanced="true">
+      <gearXY controller="type" pages="13,14,11,15,12" values="200,530|10,530|22,547|7,562|200,530" default="10,530"/>
+    </group>
+    <text id="n30_e3ip" name="remainText" xy="647,409" size="44,49" group="n56_f6jl" fontSize="40" color="#006600" leading="0" text="99">
+      <relation target="n43_uh8v" sidePair="middle-middle,right-right"/>
+    </text>
+    <text id="n33_sdva" name="wholeTxt" xy="629,339" size="62,49" group="n56_f6jl" fontSize="40" color="#333333" align="right" vAlign="middle" leading="0" text="100">
+      <relation target="n43_uh8v" sidePair="middle-middle,right-right"/>
+    </text>
+    <text id="n39_uh8v" name="t1" xy="61,345" size="215,38" group="n56_f6jl" fontSize="30" color="#666666" leading="0" text="发布任务总数：">
+      <relation target="n43_uh8v" sidePair="middle-middle,left-left"/>
+    </text>
+    <text id="n40_uh8v" name="t2" xy="61,415" size="185,38" group="n56_f6jl" fontSize="30" color="#666666" leading="0" text="剩余可接受：">
+      <relation target="n43_uh8v" sidePair="middle-middle,left-left"/>
+    </text>
+    <group id="n56_f6jl" name="n60" xy="61,339" size="630,119" group="n50_im4v" advanced="true">
+      <gearDisplay controller="type" pages="2,0,5,6,7,14,11,15,18"/>
+    </group>
+    <text id="n58_f6jl" name="t40" xy="80,379" size="600,38" group="n50_im4v" fontSize="30" color="#666666" align="center" vAlign="middle" leading="10" autoSize="height" text="迁移将消耗200/500个人金币">
+      <gearDisplay controller="type" pages="16,17,12"/>
+      <gearText controller="type" pages="16,17,12" values="探索军令可随时进行|迁移将消耗200/500个人金币|我方遭受进攻时，可参与防守击退敌军。" default="随机奖励：资金、粮草"/>
+      <relation target="n43_uh8v" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n59_iv37" name="_n59" xy="10,530" size="350,160" group="n63_iv37" url="ui://2ipmzghtuh8v8j4" fill="scaleFree"/>
+    <text id="n60_iv37" name="foodOrGoldCntTxt" xy="152,606" size="119,49" group="n63_iv37" fontSize="40" color="#333333" align="center" vAlign="middle" leading="0" singleLine="true" autoClearText="true" text="50/100">
+      <relation target="n59_iv37" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n61_iv37" name="_foodIcon" xy="103,605" size="50,50" group="n63_iv37" url="ui://2ipmzghtvasa8je" fill="scaleFree">
+      <gearIcon controller="type" pages="2,0,5,6,7" values="ui://2ipmzghtvasa8jg|ui://2ipmzghtvasa8jg|ui://2ipmzghtvasa8jg|ui://2ipmzghtvasa8jg|ui://2ipmzghtvasa8jd" default="ui://2ipmzghtvasa8je"/>
+      <relation target="n60_iv37" sidePair="right-left,middle-middle"/>
+    </loader>
+    <text id="n62_iv37" name="_t3" xy="152,544" size="65,38" group="n63_iv37" fontSize="30" color="#666666" leading="0" text="消耗">
+      <relation target="n59_iv37" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n63_iv37" name="food" xy="10,530" size="350,160" group="n50_im4v" advanced="true">
+      <gearDisplay controller="type" pages="7,14,11,15"/>
+      <gearXY controller="type" pages="13,5,7,14,11,15,12" values="200,530|-7,742|10,710|10,710|389,547|381,562|200,530" default="10,530"/>
+    </group>
+    <group id="n50_im4v" name="n50" xy="1,12" size="750,838" advanced="true"/>
+    <component id="n51_im4v" name="n51" src="n8z0e3rm" fileName="component/emptyHint.xml" pkg="864gshxx" xy="10,740">
+      <gearDisplay controller="hasMission" pages="0"/>
+      <gearText controller="type" pages="17,12" values="暂无进攻目标|暂未遭受进攻" default="暂无军令"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Label title="暂无进攻目标"/>
+    </component>
+    <text id="n44_uh8v" name="playerNum" xy="268,175" size="214,38" visible="false" fontSize="30" color="#666666" align="center" vAlign="middle" leading="0" singleLine="true" autoClearText="true" text="正在进攻：99人">
+      <gearDisplay controller="hasMission" pages="1"/>
+      <gearDisplay2 controller="type" pages="11,15,12" condition="0"/>
+      <relation target="n34_uh8v" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n53_skz8" name="n56" xy="244,871" size="275,38" fontSize="30" color="#666666" leading="0" text="接受军令后无法终止">
+      <gearDisplay controller="hasMission" pages="1"/>
+      <gearText controller="type" pages="11,12" values="每日11点-22点才可发布和接受进攻任务|接受任务后可自行退出防御队列" default="接受军令后无法终止"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n64_jamd" name="tranSpecialTxt" xy="83,216" size="585,31" fontSize="24" color="#333333" autoClearText="true" text="因城池金币不足，将运输本城所有金币到目的城市${0)}">
+      <gearDisplay controller="type" pages="7,14"/>
+      <relation target="n50_im4v" sidePair="top-bottom"/>
+    </text>
+  </displayList>
+</component>

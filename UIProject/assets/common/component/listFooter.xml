@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="920,100">
+  <controller name="op" pages="0,无,1,激活回调" selected="1">
+    <action type="play_transition" fromPage="" toPage="1" transition="t0" repeat="-1" stopOnExit="true"/>
+  </controller>
+  <displayList>
+    <text id="n0_kweu" name="title" xy="378,23" size="165,44" fontSize="40" color="#cccccc" leading="0" text="加载更多">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n1_mx6p" name="n1" xy="298,13" pivot="0.5,0.5" size="61,64" url="ui://864gshxxmx6p7e3vb" autoSize="true">
+      <gearDisplay controller="op" pages="1"/>
+      <relation target="n0_kweu" sidePair="middle-middle,right-left"/>
+    </loader>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Rotation" target="n1_mx6p" tween="true" startValue="0" endValue="360" duration="24" ease="Linear"/>
+  </transition>
+</component>

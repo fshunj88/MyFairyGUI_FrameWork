@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="900,600" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_qifi" name="n0" xy="0,0" size="900,600" url="ui://864gshxxcbmu7e3uj" fill="scaleFree"/>
+    <loader id="n17_a53p" name="n17" xy="175,260" size="550,90" touchable="false" url="ui://864gshxxyyke10" fill="scaleFree"/>
+    <component id="n6_f7m8" name="confirmBtn1" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="300,430" size="300,100">
+      <Button title="搜索势力" icon="ui://864gshxxibcj7e3wo"/>
+    </component>
+    <component id="n23_htoj" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="30,620" size="100,100">
+      <Button icon="ui://864gshxxceeg3mp"/>
+    </component>
+    <text id="n8_jsu7" name="input" xy="185,260" size="530,90" input="true" maxLength="10" fontSize="40" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" singleLine="true" autoClearText="true" text="请输入内容">
+      <relation target="n17_a53p" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n12_jsu7" name="warning" xy="339,200" size="221,44" visible="false" fontSize="36" color="#645c4d" align="center" vAlign="middle" leading="0" autoClearText="true" text="未查找到结果">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n26_z4ot" name="soulText" xy="150,80" size="600,49" fontSize="40" color="#333333" align="center" vAlign="middle" leading="0" autoSize="shrink" text="输入要搜索的势力名或国号">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true" frameRate="30">
+    <item time="0" type="Scale" tween="true" startValue="1,0" endValue="1,1" duration="6"/>
+  </transition>
+</component>

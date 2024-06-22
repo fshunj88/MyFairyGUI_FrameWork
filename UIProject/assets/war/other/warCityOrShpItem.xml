@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="140,140" pivot="0.5,0.5" extention="Button">
+  <controller name="type" pages="5,未知,2,征粮,3,征税,4,建设,6,修筑,7,运币,8,运粮,0,进攻,9,探索,10,迁移,1,防守" selected="10"/>
+  <displayList>
+    <loader id="n1" name="icon" xy="20,20" size="100,100" url="ui://2ipmzghtn91y8w" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <text id="n2_lb4e" name="title" xy="40,107" size="57,33" fontSize="26" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#333333" strokeSize="3" text="防守">
+      <gearText controller="type" pages="5,2,3,4,6,7,8,0,9,10,1" values="未知|征粮|征税|建设|修筑|运币|运粮|进攻|探索|迁移|防守"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n3_mx6u" name="timeTxt" xy="17,44" size="93,49" fontSize="40" color="#ff0000" bold="true" text="12:33">
+      <gearDisplay controller="type" pages="0,1"/>
+    </text>
+    <text id="n4_mx6u" name="numTxt" xy="110,-11" size="45,49" fontSize="40" color="#ffff00" bold="true" text="99"/>
+  </displayList>
+  <Button sound="click" downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t0"/>
+</component>

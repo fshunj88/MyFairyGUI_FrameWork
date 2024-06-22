@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="614,55" extention="ProgressBar">
+  <displayList>
+    <loader id="n6_hifl" name="bottom" xy="0,0" size="614,55" url="ui://864gshxx921j7e3uc" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="height-height,width-width"/>
+    </loader>
+    <component id="n7_9aco" name="bar" src="fbcv7e3tv" fileName="component/cityExpBar.xml" xy="16,14">
+      <relation target="" sidePair="height-height"/>
+    </component>
+    <text id="n8_921j" name="title" xy="273,0" pivot="0.5,0.5" size="68,54" fontSize="40" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" strokeSize="3" autoClearText="true" text="1/11">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

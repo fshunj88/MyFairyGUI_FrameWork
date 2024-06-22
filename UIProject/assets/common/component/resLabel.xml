@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="250,60" extention="Label">
+  <displayList>
+    <loader id="n7_l1kk" name="bg" xy="0,0" size="250,60" group="n6_ehm7" url="ui://864gshxxxv0q34" fill="scaleFree">
+      <relation target="n5_c3kw" sidePair="width-width,center-center"/>
+    </loader>
+    <loader id="n4_lmb3" name="icon" xy="0,0" size="60,60" group="n6_ehm7" touchable="false" url="ui://eg2ecnn9msuecc" align="center" vAlign="middle" fill="scale">
+      <relation target="n5_c3kw" sidePair="right-left,middle-middle"/>
+    </loader>
+    <richtext id="n5_c3kw" name="title" xy="68,0" size="168,60" group="n6_ehm7" fontSize="50" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" autoClearText="true" text="100">
+      <relation target="" sidePair="middle-middle,center-center"/>
+    </richtext>
+    <group id="n6_ehm7" name="n6" xy="0,0" size="250,60"/>
+  </displayList>
+</component>

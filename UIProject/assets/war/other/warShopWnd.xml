@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,1600" pivot="0.5,0.5">
+  <controller name="hasGood" pages="0,false,1,true" selected="0"/>
+  <controller name="readyShow" pages="0,false,1,true" selected="0"/>
+  <displayList>
+    <loader id="n37_uf3u" name="bg" xy="0,0" size="960,1600" url="ui://864gshxx921j7e3ub" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n38_uf3u" name="top" xy="1,1" size="960,154" url="ui://864gshxxt9ubju" fill="scaleFree">
+      <relation target="n37_uf3u" sidePair="left-left,right-right,top-top"/>
+    </loader>
+    <loader id="n43_uf3u" name="n43" xy="0,154" size="960,1267" group="n53_uqka" fill="scaleFree">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n38_uf3u" sidePair="topext-bottom"/>
+      <relation target="n39_uf3u" sidePair="bottomext-top"/>
+    </loader>
+    <loader id="n39_uf3u" name="bottom" xy="-3,1412" size="960,189" group="n53_uqka" touchable="false" url="ui://864gshxxceeg3mo" fill="scaleFree">
+      <relation target="n37_uf3u" sidePair="width-width,center-center,bottom-bottom"/>
+    </loader>
+    <component id="n18_j66l" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="27,1471" group="n53_uqka">
+      <relation target="n39_uf3u" sidePair="center-center,middle-middle"/>
+    </component>
+    <list id="n21_j66l" name="shopList" xy="10,174" size="940,1245" group="n53_uqka" layout="flow_hz" overflow="scroll" lineGap="20" colGap="20" defaultItem="ui://2ipmzghtm1x347e414" autoClearItems="true">
+      <gearDisplay controller="hasGood" pages="1"/>
+      <relation target="n43_uf3u" sidePair="topext-top,bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n40_uf3u" name="n40" xy="162,44" size="637,68" group="n53_uqka" url="ui://864gshxxt9ub4c" fill="scaleFree" autoSize="true">
+      <relation target="n38_uf3u" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <text id="n42_uf3u" name="title" xy="405,56" size="149,44" group="n53_uqka" fontSize="36" vAlign="middle" leading="0" text="功绩商店">
+      <relation target="n40_uf3u" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n47_h4f5" name="res" xy="711,100" size="250,50" group="n53_uqka" url="ui://864gshxxxv0q34" fill="scaleFree">
+      <relation target="n38_uf3u" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <loader id="n48_h4f5" name="n48" xy="713,93" pivot="0.5,0.5" size="65,65" group="n53_uqka" touchable="false" url="ui://864gshxxh4f57e3wv" fill="scaleFree">
+      <relation target="n49_h4f5" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n49_h4f5" name="resIcon" xy="716,95" pivot="0.5,0.5" size="60,60" group="n53_uqka" aspect="true" touchable="false" url="ui://2ipmzghtihr68ln" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="n47_h4f5" sidePair="left-left,middle-middle"/>
+    </loader>
+    <text id="n50_h4f5" name="resText" xy="776,95" pivot="0.5,0.5" size="170,60" group="n53_uqka" fontSize="36" color="#ffffff" align="right" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="999999">
+      <relation target="n49_h4f5" sidePair="middle-middle,left-right"/>
+    </text>
+    <text id="n51_10xps" name="timeTxt" xy="15,48" size="96,49" group="n53_uqka" fontSize="40" autoClearText="true" text="99:99">
+      <relation target="n38_uf3u" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n52_10xps" name="n52" xy="259,698" size="445,49" group="n53_uqka" fontSize="40" text="暂无可以兑换的商品哦～">
+      <gearDisplay controller="hasGood" pages="0"/>
+      <relation target="n37_uf3u" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n53_uqka" name="readyShow" xy="-3,44" size="964,1557" advanced="true">
+      <gearDisplay controller="readyShow" pages="1"/>
+    </group>
+  </displayList>
+  <transition name="open">
+    <item time="0" type="Alpha" value="1"/>
+    <item time="0" type="Scale" value="0,0"/>
+    <item time="0" type="Scale" tween="true" startValue="0,0" endValue="1,1" duration="12" ease="Expo.Out"/>
+  </transition>
+  <transition name="close">
+    <item time="0" type="Alpha" tween="true" startValue="1" endValue="0" duration="6" ease="Expo.In"/>
+    <item time="0" type="Scale" value="0,0"/>
+    <item time="0" type="Scale" tween="true" startValue="1,1" endValue="0,0" duration="6" ease="Expo.In"/>
+  </transition>
+</component>

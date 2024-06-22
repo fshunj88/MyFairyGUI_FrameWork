@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,1600" scroll="both">
+  <displayList>
+    <component id="n3_xjab" name="bg" src="qg2m2q" fileName="component/AdjustBg.xml" pkg="864gshxx" xy="0,0" size="960,1600" group="n90_weul">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <loader id="n78_iuzj" name="top" xy="1,7" size="960,154" group="n90_weul" aspect="true" url="ui://2ipmzghtiuzj7e40i" fill="scaleFree">
+      <relation target="n3_xjab" sidePair="center-center,top-top"/>
+    </loader>
+    <loader id="n81_iuzj" name="n81" xy="0,1359" size="960,241" group="n90_weul" aspect="true" touchable="false" url="ui://2ipmzghtiuzj7e40h" fill="scaleFree">
+      <relation target="n3_xjab" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <component id="n2_xjab" name="closeBtn" src="royda" fileName="component/backBtn.xml" pkg="864gshxx" xy="46,1491" group="n90_weul">
+      <relation target="n81_iuzj" sidePair="left-left,bottom-bottom"/>
+      <Button icon="ui://2ipmzghtiuzj7e40j"/>
+    </component>
+    <list id="n5_xjab" name="commonList" xy="198,1385" pivot="0.5,0" size="532,200" group="n90_weul" layout="row" colGap="-15" autoItemSize="false" align="center">
+      <relation target="n3_xjab" sidePair="center-center,bottom-bottom"/>
+      <item url="ui://2ipmzghtxjabr" name="noticeBtn"/>
+      <item url="ui://2ipmzghto5t847e411" name="gaunXingBtn"/>
+      <item url="ui://2ipmzghtxjabu" name="worldBtn"/>
+    </list>
+    <loader id="n77_p1vk" name="iconBg" xy="715,1362" size="225,225" group="n90_weul" url="ui://2ipmzght7mxs8lu" fill="scaleFree">
+      <relation target="n3_xjab" sidePair="right-right,bottom-bottom"/>
+    </loader>
+    <component id="n8_xjab" name="cityBtn" src="mhry77" fileName="component/cityBtn.xml" xy="746,1403" group="n90_weul">
+      <relation target="n3_xjab" sidePair="center-center,bottom-bottom"/>
+      <Button titleFontSize="30" icon="ui://2ipmzght7mxs8lr"/>
+    </component>
+    <component id="n68_l6o5" name="time" src="l6o57e404" fileName="component/warLabel.xml" xy="196,626" size="524,200" group="n90_weul">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Label titleFontSize="30"/>
+    </component>
+    <component id="n66_acm0" name="warBuffCom" src="monogg" fileName="component/warBuffCom.xml" xy="672,22" group="n90_weul"/>
+    <loader id="n59_f0rv" name="spiritLoader" xy="36,27" size="250,50" group="n80_iuzj" url="ui://864gshxxxv0q34" fill="scaleFree"/>
+    <text id="n57_r1cl" name="mySpiritTxt" xy="101,22" size="170,60" group="n80_iuzj" fontSize="36" color="#ffffff" align="right" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" strokeSize="3" autoClearText="true" text="我的体力：100">
+      <relation target="n59_f0rv" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n62_f0rv" name="n1" xy="41,22" size="60,60" group="n80_iuzj" aspect="true" touchable="false" url="ui://2ipmzghtvasa8jg" fill="scaleFree"/>
+    <group id="n80_iuzj" name="n80" xy="36,22" size="250,60" group="n90_weul" advanced="true"/>
+    <loader id="n60_f0rv" name="n44" xy="350,27" size="250,50" group="n79_iuzj" url="ui://864gshxxxv0q34" fill="scaleFree"/>
+    <text id="n56_r1cl" name="myFeatTxt" xy="414,22" size="170,60" group="n79_iuzj" fontSize="36" color="#ffffff" align="right" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="1000&#xA;">
+      <relation target="n60_f0rv" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n61_f0rv" name="n61" xy="354,22" size="60,60" group="n79_iuzj" aspect="true" touchable="false" url="ui://2ipmzghtihr68ln" fill="scaleFree"/>
+    <loader id="n72_10xps" name="myFeatloader" xy="354,28" size="250,50" group="n79_iuzj" align="center" vAlign="middle" fill="scaleFree"/>
+    <group id="n79_iuzj" name="n79" xy="350,22" size="254,60" group="n90_weul" advanced="true"/>
+    <group id="n90_weul" name="realdyShow" xy="0,0" size="961,1600" advanced="true"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n5_xjab" tween="true" startValue="0" endValue="1" duration="6" ease="Back.In"/>
+  </transition>
+</component>

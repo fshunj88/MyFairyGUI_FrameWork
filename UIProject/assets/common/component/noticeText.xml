@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="700,44">
+  <displayList>
+    <richtext id="n14_gtjh" name="mailText" xy="0,0" size="700,44" fontSize="36" color="#3f3327" leading="10" ubb="true" autoSize="height" autoClearText="true" text="ddddd"/>
+  </displayList>
+  <relation target="n14_gtjh" sidePair="height-height"/>
+</component>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="678,50" extention="Slider">
+  <displayList>
+    <loader id="n0_n91y" name="n0" xy="0,0" size="678,50" url="ui://864gshxxjnlj7e3ve" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n1_n91y" name="bar" src="lo1j7e3v8" fileName="component/Slider3_bar.xml" xy="10,10" size="658,30"/>
+    <component id="n3_n91y" name="grip" src="lo1j7e3v6" fileName="component/Slider3_grip.xml" xy="660,-34" size="80,80">
+      <relation target="n1_n91y" sidePair="right-right"/>
+    </component>
+    <text id="n2_n91y" name="title" xy="306,-8" size="64,66" alpha="0" fontSize="50" color="#e8dbac" align="center" vAlign="middle" leading="0" strokeColor="#000000" strokeSize="3" autoClearText="true" text="1/1">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n5_qzfj" name="multipleTitle" xy="264,-8" size="142,66" fontSize="50" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" strokeSize="3" autoClearText="true" text="1/1000">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Slider titleType="valueAndmax" wholeNumbers="true" changeOnClick="false"/>
+</component>

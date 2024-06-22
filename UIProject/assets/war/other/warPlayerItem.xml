@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,140" remark="用于WarCityINfoWnd">
+  <controller name="job1" pages="3,no,0,ym,1,co,2,pr" selected="0"/>
+  <controller name="job2" pages="3,no,0,ym,1,co,2,pr" selected="0"/>
+  <controller name="isMe" pages="0,false,1,true" selected="0"/>
+  <controller name="isDoingMiss" pages="0,false,1,true,2,isAtReset" selected="0"/>
+  <displayList>
+    <loader id="n42_uasi" name="n42" xy="0,0" size="800,140" url="ui://2ipmzghtpk51ik" fill="scaleFree">
+      <gearDisplay controller="isMe" pages="1"/>
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <loader id="n17_xjab" name="bg" xy="0,0" pivot="0.5,0.5" size="800,140" url="ui://2ipmzghtoxut7e3zt" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <text id="n9_lwj0" name="playerNameTxt" xy="130,25" size="412,40" fontSize="30" color="#333333" vAlign="middle" leading="0" autoSize="shrink" singleLine="true" text="玩家啊啊啊啊啊啊啊啊">
+      <relation target="" sidePair="rightext-right"/>
+    </text>
+    <component id="n16_xjab" name="head" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="23,20" size="100,100"/>
+    <text id="n26_mvrq" name="priceTxt" xy="340,76" size="74,38" fontSize="30" color="#663300" vAlign="middle" leading="0" autoSize="shrink" singleLine="true" text="0"/>
+    <text id="n19_kk99" name="timeTxt" xy="434,75" size="108,40" fontSize="30" color="#999999" align="right" vAlign="middle" leading="0" autoSize="shrink" singleLine="true" text="5天前">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <loader id="n21_kk99" name="resIcon" xy="300,75" size="40,40" touchable="false" url="ui://2ipmzghtihr68ln" align="center" vAlign="middle" fill="scaleMatchHeight"/>
+    <component id="n31_9x69" name="job1" src="nqmzhf" fileName="component/warPlayerPosition.xml" xy="130,75">
+      <gearDisplay controller="job1" pages="0,1,2"/>
+      <gearText controller="job1" pages="0,1,2" values="主公|军师|太守" default=""/>
+      <gearIcon controller="job1" pages="0,1,2" values="ui://2ipmzghtu5xl89|ui://2ipmzghtu5xl8a|ui://2ipmzghtu5xl8c" default=""/>
+    </component>
+    <component id="n32_9x69" name="job2" src="nqmzhf" fileName="component/warPlayerPosition.xml" xy="130,75">
+      <gearDisplay controller="job2" pages="0,1,2"/>
+      <gearXY controller="job1" pages="3" values="130,75" default="200,75"/>
+      <gearText controller="job2" pages="0,1" values="主公|军师" default="太守"/>
+      <gearIcon controller="job2" pages="3,1,2" values="||ui://2ipmzghtu5xl8c" default="ui://2ipmzghtu5xl89"/>
+      <Label title="太守"/>
+    </component>
+    <loader id="n35_mn89" name="rankImg" xy="575,20" size="100,100" group="n38_mn89" aspect="true" touchable="false" url="ui://864gshxxgy104m" align="center" vAlign="middle" fill="scale" clearOnPublish="true">
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </loader>
+    <text id="n36_mn89" name="rankTitleText" xy="575,89" size="100,31" group="n38_mn89" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="height" strokeColor="#333333" strokeSize="3" autoClearText="true" text="大师">
+      <relation target="n35_mn89" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n37_mn89" name="scoreText" xy="600,51" size="46,38" group="n38_mn89" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#333333" strokeSize="3" autoClearText="true" text="123">
+      <relation target="n35_mn89" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n38_mn89" name="n38" xy="575,20" size="100,100" advanced="true"/>
+    <loader id="n39_pk51" name="n39" xy="0,42" size="24,56" aspect="true" url="ui://2ipmzghtpk51ij" fill="scaleFree">
+      <gearDisplay controller="isMe" pages="1"/>
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </loader>
+    <component id="n43_lyq3" name="missBtn" src="efos8iz" fileName="component/warMissionBtn.xml" xy="637,-18" size="200,200" scale="0.4,0.4" touchable="false">
+      <gearDisplay controller="isDoingMiss" pages="0,1"/>
+      <relation target="n17_xjab" sidePair="right-right,top-top"/>
+    </component>
+    <loader id="n44_nm98" name="n44" xy="713,28" size="60,60" url="ui://2ipmzghte4n67e40k" fill="scale">
+      <gearDisplay controller="isDoingMiss" pages="2"/>
+      <relation target="n43_lyq3" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n45_fsvc" name="n45" xy="712,94" size="65,26" fontSize="20" text="休整中">
+      <gearDisplay controller="isDoingMiss" pages="2"/>
+      <relation target="n44_nm98" sidePair="left-left,top-bottom"/>
+    </text>
+    <component id="n46_uzr7" name="watchBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="662,35" size="150,80" scale="0.6,0.6">
+      <relation target="n43_lyq3" sidePair="center-center"/>
+      <Button title="观战" icon="ui://864gshxxcbmu7e3uk"/>
+    </component>
+  </displayList>
+</component>

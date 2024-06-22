@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2667,2400">
+  <displayList>
+    <component id="n859_mwgz" name="mapLayer" src="mwgzcg" fileName="component/mapLayer1.xml" xy="0,0" customData="地图层">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n875_qnfi" name="arrowLayer" src="mwgzch" fileName="component/mapLayer2.xml" xy="0,0" customData="箭头图标">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n861_mwgz" name="troopWalkingLayer" src="mwgzci" fileName="component/mapLayer3.xml" xy="0,0" customData="人物走动层">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n888_uzr7" name="myTroopWalkingLayer" src="mwgzci" fileName="component/mapLayer3.xml" xy="0,0" customData="人物走动层">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n860_mwgz" name="imgLayer" src="mwgzch" fileName="component/mapLayer2.xml" xy="0,3" customData="城市cityImg,据点的img和terrain">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n885_v3qz" name="troopWalkingLayer2" src="mwgzci" fileName="component/mapLayer3.xml" xy="0,0" customData="人物走动层">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n889_ixny" name="mytroopWalkingLayer2" src="mwgzci" fileName="component/mapLayer3.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n890_u41b" name="playerNumLayer" src="mwgzci" fileName="component/mapLayer3.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n881_qnfi" name="textPicLayer" src="mwgzch" fileName="component/mapLayer2.xml" xy="0,0" customData="城市和据点层的图片文字层">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n882_qnfi" name="flagLayer" src="mwgzch" fileName="component/mapLayer2.xml" xy="0,0" customData="城市和据点层的旗帜组件">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n883_qnfi" name="textNativeLayer" src="mwgzch" fileName="component/mapLayer2.xml" xy="0,2" customData="城市旗帜文字层">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n886_lynl" name="cityOtherComLayer" src="mwgzch" fileName="component/mapLayer2.xml" xy="0,0" customData="城市旗帜文字层">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n876_qnfi" name="expProgressBarLayer" src="mwgzch" fileName="component/mapLayer2.xml" xy="0,0" customData="城市进度条层">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n866_ul27" name="shootAniLayer" src="91kp8io" fileName="component/mapLayer6.xml" xy="0,0"/>
+    <component id="n884_ez90" name="chooseCityLayer" src="91kp8io" fileName="component/mapLayer6.xml" xy="0,0"/>
+  </displayList>
+</component>

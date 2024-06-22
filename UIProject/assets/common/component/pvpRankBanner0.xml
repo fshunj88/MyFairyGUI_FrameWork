@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,500">
+  <displayList>
+    <loader id="n4_o71x" name="bg" xy="0,0" size="500,500" touchable="false" url="ui://864gshxxo71xe3r6" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <loader id="n1_d4nl" name="rankIcon" xy="50,50" size="400,400" touchable="false" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n3_vr31" name="n3" xy="124,440" size="252,60" aspect="true" url="ui://864gshxxs4e0jp" fill="scaleFree">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <text id="n2_oi1t" name="pvpTitleText" xy="199,447" size="101,44" aspect="true" fontSize="36" align="center" vAlign="middle" leading="0" autoClearText="true" text="宗师III">
+      <relation target="n3_vr31" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

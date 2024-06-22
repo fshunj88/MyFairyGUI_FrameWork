@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="900,1200" pivot="0.5,0.5">
+  <controller name="status" pages="0,免费,1,付费" selected="0"/>
+  <controller name="c1" pages="0,制作,1,据点修改旗帜和势力名,3,城市修改旗帜" selected="2"/>
+  <displayList>
+    <loader id="n24_t9p0" name="bottom" xy="0,0" pivot="0.5,0.5" size="900,1100" url="ui://2ipmzghtoxut7e3zx" fill="scaleFree"/>
+    <component id="n6_f7m8" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="300,975" size="300,100">
+      <gearDisplay controller="status" pages="0"/>
+      <Button title="确定" icon="ui://864gshxxibcj7e3wo"/>
+    </component>
+    <component id="n23_htoj" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="30,1100"/>
+    <component id="n21_flh7" name="randomNameBtn" src="vco42q" fileName="component/randomBtn.xml" pkg="8d3e8y55" xy="1143,673" size="80,80" visible="false" touchable="false"/>
+    <list id="n25_t9p0" name="flagList" xy="100,120" size="700,474" layout="flow_hz" overflow="scroll" defaultItem="ui://2ipmzghtiu0chl" align="center" autoClearItems="true">
+      <relation target="n24_t9p0" sidePair=""/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n27_t9p0" name="curSelectedCampFlag" xy="550,655" size="150,168" url="ui://2ipmzghtmyl16s" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <gearXY controller="c1" pages="0,1,3" values="158,690|550,655|550,655"/>
+    </loader>
+    <loader id="n34_ri8u" name="inputClickLoader" xy="575,675" size="100,100" touchable="false" url="ui://864gshxxyyke10" fill="scaleFree">
+      <gearXY controller="c1" pages="0,1,3" values="501,714|575,675|575,675"/>
+      <gearSize controller="c1" pages="1,3" values="100,100,1,1|100,100,1,1" default="200,100,1,1"/>
+    </loader>
+    <text id="n28_t9p0" name="campName" xy="585,685" size="80,80" input="true" maxLength="1" fontSize="60" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" singleLine="true" autoClearText="true" text="">
+      <relation target="n34_ri8u" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n31_ri8u" name="title" xy="367,5" size="165,49" fontSize="40" color="#660000" align="center" vAlign="middle" leading="0" text="修改旗帜">
+      <gearText controller="c1" pages="0,1,3" values="设置旗帜|修改旗帜与势力名|修改旗帜"/>
+      <relation target="n24_t9p0" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n32_ri8u" name="text1" xy="222,73" size="455,38" fontSize="30" color="#645c4d" align="center" vAlign="middle" leading="0" text="选择你的旗帜，定下你未来的国号">
+      <relation target="n24_t9p0" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n33_ri8u" name="text2" xy="162,1246" size="575,38" fontSize="30" color="#666666" align="center" vAlign="middle" leading="0" autoClearText="true" text="国战测试阶段暂只开放势力创建及聊天功能">
+      <relation target="n24_t9p0" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n45_emku" name="campName2" xy="1394,492" size="80,80" visible="false" fontSize="60" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="">
+      <relation target="n27_t9p0" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n39_91kp" name="originCurSelectedCampFlag" xy="168,654" size="150,168" group="n46_emku" url="ui://2ipmzghtmyl16s" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <text id="n40_91kp" name="originCampName" xy="203,684" size="80,80" group="n46_emku" fontSize="60" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text=""/>
+    <text id="n42_91kp" name="n42" xy="216,614" size="53,31" group="n46_emku" fontSize="24" color="#660000" leading="0" text="当前">
+      <relation target="n39_91kp" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n46_emku" name="n46" xy="168,614" size="150,208" advanced="true">
+      <gearDisplay controller="c1" pages="1,3"/>
+    </group>
+    <text id="n47_emku" name="n47" xy="597,613" size="53,31" fontSize="24" color="#660000" leading="0" text="修改">
+      <gearDisplay controller="c1" pages="1,3"/>
+      <relation target="n27_t9p0" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n51_mh0p" name="powerNameLoader" xy="496,866" size="265,85" group="n52_mh0p" touchable="false" url="ui://864gshxxyyke10" fill="scaleFree">
+      <relation target="n27_t9p0" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n53_w53j" name="modify" xy="97,881" size="300,66" group="n52_mh0p" touchable="false" url="ui://2ipmzghtpmd7i3" fill="scaleFree"/>
+    <text id="n48_mh0p" name="originPowerNameTxt" xy="158,890" size="178,49" group="n52_mh0p" fontSize="40" align="center" vAlign="middle" autoSize="shrink" autoClearText="true" text="打打打啊打打打打">
+      <relation target="n53_w53j" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n50_mh0p" name="curSelectPowerNameTxt" xy="503,872" size="251,73" group="n52_mh0p" input="true" prompt="清输入修改势力名" maxLength="20" fontSize="50" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" singleLine="true" autoClearText="true" text="">
+      <relation target="n51_mh0p" sidePair="width-width,center-center,middle-middle"/>
+    </text>
+    <group id="n52_mh0p" name="n52" xy="97,866" size="664,85" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <text id="n54_bh4g" name="n54" xy="283,873" size="333,75" fontSize="30" color="#666666" align="center" vAlign="middle" text="修改国号需消耗1000宝玉&#xA;仅修改旗帜颜色免费&#xA;">
+      <gearDisplay controller="c1" pages="3"/>
+    </text>
+  </displayList>
+</component>

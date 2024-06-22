@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="650,95" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n2_vuhr" name="n2" xy="0,0" pivot="0.5,0.5" size="650,95" url="ui://864gshxxcskr3ml" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <richtext id="n1_t0lw" name="txt" xy="25,25" size="600,44" fontSize="36" color="#5b2b0e" vAlign="middle" leading="0" ubb="true" autoSize="height" autoClearText="true" text="哇哇哇哇哇哇"/>
+  </displayList>
+  <relation target="n1_t0lw" sidePair="width-width,height-height"/>
+  <transition name="t0" autoPlay="true" frameRate="30">
+    <item time="0" type="Scale" tween="true" startValue="0.5,0.5" endValue="1,1" duration="6"/>
+  </transition>
+</component>

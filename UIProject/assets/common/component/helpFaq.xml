@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,1100" pivot="0.5,0.5">
+  <displayList>
+    <component id="n22_ehm7" name="closeBg" src="jjw6e3rj" fileName="component/closeBg.xml" xy="0,-250" customData="true"/>
+    <loader id="n0_tuc5" name="n0" xy="0,0" size="960,1100" url="ui://864gshxxtzcwe3rr" fill="scaleFree"/>
+    <text id="n18_gtjh" name="title" xy="375,15" size="201,44" fontSize="36" align="center" vAlign="middle" leading="0" text="#TEXT_70102">
+      <relation target="n0_tuc5" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n21_srbf" name="textList" xy="80,85" size="800,935" selectionMode="none" overflow="scroll" scrollBarFlags="132" scrollBarRes="ui://864gshxxjzjo62," defaultItem="ui://864gshxxspox20" autoItemSize="false" align="center" autoClearItems="true" scrollItemToViewOnClick="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+    </list>
+    <component id="n23_tzcw" name="closeBtn" src="royda" fileName="component/backBtn.xml" xy="30,1120" touchable="false">
+      <relation target="n0_tuc5" sidePair="left-left,top-bottom"/>
+    </component>
+  </displayList>
+  <transition name="open" autoPlay="true" frameRate="30">
+    <item time="0" type="Scale" tween="true" startValue="0,0" endValue="1,1" duration="6"/>
+  </transition>
+</component>

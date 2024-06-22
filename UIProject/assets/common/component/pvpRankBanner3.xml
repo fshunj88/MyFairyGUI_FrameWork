@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,500">
+  <displayList>
+    <loader id="n23_o71x" name="bg" xy="0,0" size="500,500" touchable="false" url="ui://864gshxxo71xe3r6" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <loader id="n1_d4nl" name="rankIcon" xy="50,50" size="400,400" touchable="false" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n14_dj43" name="n14" xy="338,37" pivot="0.5,0.5" size="50,50" aspect="true" url="ui://864gshxxs4e0jq" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n16_dj43" name="n16" xy="225,7" pivot="0.5,0.5" size="50,50" aspect="true" url="ui://864gshxxs4e0jq" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n15_dj43" name="n15" xy="112,37" pivot="0.5,0.5" size="50,50" aspect="true" url="ui://864gshxxs4e0jq" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n8_j4zv" name="star1" src="j4zv3p" fileName="component/starAni.xml" xy="112,37" pivot="0.5,0.5" size="50,50">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n6_j4zv" name="star2" src="j4zv3p" fileName="component/starAni.xml" xy="225,7" pivot="0.5,0.5" size="50,50">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n7_j4zv" name="star3" src="j4zv3p" fileName="component/starAni.xml" xy="338,37" pivot="0.5,0.5" size="50,50">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <loader id="n21_o71x" name="n21" xy="124,440" size="252,60" url="ui://864gshxxs4e0jp" fill="scaleFree">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <text id="n22_o71x" name="pvpTitleText" xy="156,448" size="185,44" fontSize="36" align="center" vAlign="middle" leading="0" autoClearText="true" text="pvpTitleText">
+      <relation target="n21_o71x" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

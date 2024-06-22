@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2667,2400">
+  <displayList>
+    <loader id="n0_mwgz" name="map1" xy="0,0" size="480,800" group="n18_mwgz" blend="none" fill="scaleFree"/>
+    <loader id="n1_mwgz" name="map2" xy="480,0" size="480,800" group="n18_mwgz" fill="scaleFree"/>
+    <loader id="n2_mwgz" name="map4" xy="1440,0" size="480,800" group="n18_mwgz" fill="scaleFree"/>
+    <loader id="n3_mwgz" name="map3" xy="960,0" size="480,800" group="n18_mwgz" fill="scaleFree"/>
+    <loader id="n4_mwgz" name="map5" xy="1920,0" size="480,800" group="n18_mwgz" fill="scaleFree"/>
+    <loader id="n5_mwgz" name="map6" xy="2400,0" size="266,800" group="n18_mwgz" fill="scaleFree"/>
+    <loader id="n6_mwgz" name="map7" xy="0,800" size="480,800" group="n18_mwgz" fill="scaleFree"/>
+    <loader id="n7_mwgz" name="map8" xy="480,800" size="480,800" group="n18_mwgz" fill="scaleFree"/>
+    <loader id="n8_mwgz" name="map9" xy="960,800" size="480,800" group="n18_mwgz" fill="scaleFree"/>
+    <loader id="n9_mwgz" name="map10" xy="1440,800" size="480,800" group="n18_mwgz" fill="scaleFree"/>
+    <loader id="n10_mwgz" name="map11" xy="1920,800" size="480,800" group="n18_mwgz" fill="scaleFree"/>
+    <loader id="n11_mwgz" name="map12" xy="2400,800" size="266,800" group="n18_mwgz" fill="scaleFree"/>
+    <loader id="n12_mwgz" name="map13" xy="0,1600" size="480,800" group="n18_mwgz" fill="scaleFree"/>
+    <loader id="n13_mwgz" name="map14" xy="480,1600" size="480,800" group="n18_mwgz" fill="scaleFree"/>
+    <loader id="n14_mwgz" name="map15" xy="960,1600" size="480,800" group="n18_mwgz" fill="scaleFree"/>
+    <loader id="n15_mwgz" name="map16" xy="1440,1600" size="480,800" group="n18_mwgz" fill="scaleFree"/>
+    <loader id="n16_mwgz" name="map17" xy="1920,1600" size="480,800" group="n18_mwgz" fill="scaleFree"/>
+    <loader id="n17_mwgz" name="map18" xy="2400,1600" size="266,800" group="n18_mwgz" fill="scaleFree"/>
+    <group id="n18_mwgz" name="map" xy="0,0" size="2666,2400" advanced="true">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

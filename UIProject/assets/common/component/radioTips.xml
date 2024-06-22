@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,100">
+  <displayList>
+    <loader id="n0_u6us" name="n0" xy="0,0" pivot="0.5,0.5" size="960,100" alpha="0.5" touchable="false" url="ui://eg2ecnn9z1j0e3s5" align="center" vAlign="middle" fill="scaleFree"/>
+    <component id="n3_pr56" name="text" src="pr56in" fileName="component/radioText.xml" xy="30,26" size="900,43" touchable="false"/>
+  </displayList>
+</component>

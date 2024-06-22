@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,662" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n84_lfsj" name="_bg" xy="0,0" size="960,662"/>
+    <loader id="n0_xjab" name="n0" xy="30,140" size="280,420" aspect="true" url="ui://864gshxxtzcwe3rr" fill="scaleFree">
+      <relation target="" sidePair="height-height,middle-middle"/>
+    </loader>
+    <component id="n2_xjab" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="390,590" size="180,60">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="确定" icon="ui://864gshxxbva5it"/>
+    </component>
+    <component id="n4_xjab" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="0,674" size="100,100"/>
+    <loader id="n33_j3ih" name="n2" xy="340,140" size="280,420" aspect="true" url="ui://864gshxxtzcwe3rr" fill="scaleFree">
+      <relation target="" sidePair="height-height,middle-middle"/>
+    </loader>
+    <loader id="n34_j3ih" name="n3" xy="650,140" size="280,420" aspect="true" url="ui://864gshxxtzcwe3rr" fill="scaleFree">
+      <relation target="" sidePair="height-height,middle-middle"/>
+    </loader>
+    <loader id="n35_j3ih" name="n35" xy="330,0" size="300,120" group="n42_j3ih" url="ui://864gshxxssz57e3s9" fill="scaleFree"/>
+    <loader id="n36_j3ih" name="n36" xy="345,1" size="50,50" group="n42_j3ih" aspect="true" url="ui://eg2ecnn9nf1s9a" fill="scaleFree"/>
+    <loader id="n37_j3ih" name="n37" xy="345,63" size="50,50" group="n42_j3ih" aspect="true" url="ui://eg2ecnn9hhu5e3sg" fill="scaleFree"/>
+    <text id="n38_j3ih" name="goldNum" xy="405,1" size="135,50" group="n42_j3ih" fontSize="30" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" text="10000"/>
+    <text id="n39_j3ih" name="foodNum" xy="405,63" size="135,50" group="n42_j3ih" fontSize="30" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" text="100/100"/>
+    <text id="n40_j3ih" name="goldNumAdded" xy="560,1" size="65,50" group="n42_j3ih" fontSize="30" color="#ff0000" align="right" vAlign="middle" autoSize="shrink" strokeColor="#ffffff" text="-100"/>
+    <text id="n41_j3ih" name="foodNumAdded" xy="560,63" size="65,50" group="n42_j3ih" fontSize="30" color="#ff0000" align="right" vAlign="middle" autoSize="shrink" strokeColor="#ffffff" text="-10"/>
+    <group id="n42_j3ih" name="n42" xy="330,0" size="300,120" advanced="true"/>
+    <text id="n43_j3ih" name="n43" xy="127,155" size="85,26" fontSize="20" text="捐献军粮"/>
+    <text id="n44_j3ih" name="n44" xy="437,155" size="85,26" fontSize="20" text="捐献资金"/>
+    <text id="n45_j3ih" name="n45" xy="747,155" size="85,26" fontSize="20" text="捐献宝玉"/>
+    <loader id="n47_j3ih" name="jade" xy="665,258" size="250,50" group="n50_j3ih" url="ui://864gshxxxv0q34" fill="scaleFree">
+      <relation target="" sidePair="left-left"/>
+    </loader>
+    <loader id="n48_j3ih" name="jadeIcon" xy="670,253" pivot="0.5,0.5" size="60,60" group="n50_j3ih" aspect="true" touchable="false" url="ui://eg2ecnn9nf1s9b" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="n47_j3ih" sidePair="left-left,middle-middle"/>
+    </loader>
+    <text id="n49_j3ih" name="jadeTxt" xy="730,253" pivot="0.5,0.5" size="170,60" group="n50_j3ih" fontSize="36" color="#ffffff" align="right" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="999999">
+      <relation target="n48_j3ih" sidePair="middle-middle,left-right"/>
+    </text>
+    <group id="n50_j3ih" name="n50" xy="665,253" size="250,60"/>
+    <loader id="n51_j3ih" name="gold" xy="355,257" size="250,50" group="n55_j3ih" url="ui://864gshxxxv0q34" fill="scaleFree">
+      <relation target="" sidePair="left-left"/>
+    </loader>
+    <loader id="n52_j3ih" name="n52" xy="357,250" pivot="0.5,0.5" size="65,65" group="n55_j3ih" touchable="false" url="ui://864gshxxh4f57e3wv" fill="scaleFree">
+      <relation target="n53_j3ih" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n53_j3ih" name="goldIcon" xy="360,252" pivot="0.5,0.5" size="60,60" group="n55_j3ih" aspect="true" touchable="false" url="ui://eg2ecnn9nf1s9a" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="n51_j3ih" sidePair="left-left,middle-middle"/>
+    </loader>
+    <text id="n54_j3ih" name="goldTxt" xy="420,252" pivot="0.5,0.5" size="170,60" group="n55_j3ih" fontSize="36" color="#ffffff" align="right" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="999999">
+      <relation target="n53_j3ih" sidePair="middle-middle,left-right"/>
+    </text>
+    <group id="n55_j3ih" name="n55" xy="355,250" size="250,65"/>
+    <loader id="n56_j3ih" name="food" xy="45,257" size="250,50" group="n60_j3ih" url="ui://864gshxxxv0q34" fill="scaleFree">
+      <relation target="" sidePair="left-left"/>
+    </loader>
+    <loader id="n57_j3ih" name="n57" xy="47,250" pivot="0.5,0.5" size="65,65" group="n60_j3ih" touchable="false" url="ui://864gshxxh4f57e3wv" fill="scaleFree">
+      <relation target="n58_j3ih" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n58_j3ih" name="foodIcon" xy="50,252" pivot="0.5,0.5" size="60,60" group="n60_j3ih" aspect="true" touchable="false" url="ui://eg2ecnn9v05qe3se" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="n56_j3ih" sidePair="left-left,middle-middle"/>
+    </loader>
+    <text id="n59_j3ih" name="foodTxt" xy="110,252" pivot="0.5,0.5" size="170,60" group="n60_j3ih" fontSize="36" color="#ffffff" align="right" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="999999">
+      <relation target="n58_j3ih" sidePair="middle-middle,left-right"/>
+    </text>
+    <group id="n60_j3ih" name="n60" xy="45,250" size="250,65"/>
+    <loader id="n62_j3ih" name="n62" xy="60,350" size="220,59" group="n68_j3ih" touchable="false" url="ui://864gshxxyyke10" fill="scaleFree"/>
+    <text id="n63_j3ih" name="foodInput" xy="70,350" size="200,60" group="n68_j3ih" input="true" maxLength="10" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" singleLine="true" autoClearText="true" text="请输入捐献数量">
+      <relation target="n62_j3ih" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n64_j3ih" name="n64" xy="370,350" size="220,59" group="n68_j3ih" touchable="false" url="ui://864gshxxyyke10" fill="scaleFree"/>
+    <text id="n65_j3ih" name="goldInput" xy="380,350" size="200,60" group="n68_j3ih" input="true" maxLength="10" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" singleLine="true" autoClearText="true" text="请输入捐献数量">
+      <relation target="n64_j3ih" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n66_j3ih" name="n66" xy="680,350" size="220,59" group="n68_j3ih" touchable="false" url="ui://864gshxxyyke10" fill="scaleFree"/>
+    <text id="n67_j3ih" name="jadeInput" xy="690,350" size="200,60" group="n68_j3ih" input="true" maxLength="10" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" singleLine="true" autoClearText="true" text="请输入捐献数量">
+      <relation target="n66_j3ih" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n68_j3ih" name="n68" xy="60,350" size="840,60"/>
+    <component id="n69_j3ih" name="foodMerit" src="j3ihbx" fileName="component/warMerit.xml" xy="66,450"/>
+    <component id="n81_j3ih" name="goldMerit" src="j3ihbx" fileName="component/warMerit.xml" xy="376,450"/>
+    <component id="n82_j3ih" name="jadeMerit" src="j3ihbx" fileName="component/warMerit.xml" xy="686,450"/>
+    <component id="n83_rd9i" name="donateRecordBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="796,-1" size="164,60">
+      <Button title="捐献记录" icon="ui://864gshxxbva5it"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Size" tween="true" startValue="-,120" endValue="-,662" duration="9"/>
+  </transition>
+</component>

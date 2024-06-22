@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="180,70" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="isLike" pages="0,,1," selected="0"/>
+  <displayList>
+    <text id="n4_jed2" name="title" xy="65,14" size="77,44" fontSize="36" color="#333333" align="center" vAlign="middle" leading="0" autoClearText="true" text="11111">
+      <relation target="" sidePair="middle-middle"/>
+    </text>
+    <loader id="n5_u843" name="n5" xy="10,10" pivot="0.5,0.5" size="50,50" url="ui://eg2ecnn9k0mb3mi" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="isLike" pages="1" values="ui://eg2ecnn9k0mb3mh" default="ui://eg2ecnn9k0mb3mi"/>
+      <relation target="n4_jed2" sidePair="middle-middle"/>
+    </loader>
+    <loader id="n9_8t4t" name="n9" xy="10,10" pivot="0.5,0.5" size="50,50" alpha="0" touchable="false" url="ui://eg2ecnn9k0mb3mh" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="isLike" pages="1"/>
+      <relation target="n5_u843" sidePair="middle-middle"/>
+    </loader>
+  </displayList>
+  <Button mode="Radio" sound="clickSmall"/>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n9_8t4t" tween="true" startValue="0.5" endValue="0" duration="12"/>
+    <item time="0" type="Scale" target="n9_8t4t" tween="true" startValue="1,1" endValue="4,4" duration="12"/>
+  </transition>
+</component>

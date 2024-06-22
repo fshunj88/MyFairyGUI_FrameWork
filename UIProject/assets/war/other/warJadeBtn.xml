@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,120" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <loader id="n10_hfmh" name="btn" xy="0,0" size="300,120" url="ui://864gshxxibcj7e3wo" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n11_hfmh" name="icon" xy="75,29" pivot="1,0.5" size="60,60" aspect="true" url="ui://eg2ecnn9nf1s9b" align="right" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="n12_hfmh" sidePair="middle-middle,right-left"/>
+      <relation target="" sidePair="height-height%"/>
+    </loader>
+    <text id="n12_hfmh" name="title" xy="135,35" size="83,49" fontSize="40" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" strokeSize="3" autoClearText="true" text="1000">
+      <relation target="" sidePair="center-center%,middle-middle"/>
+    </text>
+  </displayList>
+  <Button sound="click" downEffect="scale" downEffectValue="0.90"/>
+  <transition name="t0"/>
+</component>

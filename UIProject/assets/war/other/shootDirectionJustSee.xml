@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,60">
+  <controller name="c1" pages="0,left,1,right,2,up,3,down,4,leftUp,5,rightUp,6,leftDown,7,rightDown" selected="7"/>
+  <displayList>
+    <image id="n36_qnfi" name="n36" src="sno566" fileName="map.jpg" xy="-1101,-858"/>
+    <component id="n5_qnfi" name="n5" src="hh1f5b" fileName="component/warCityItem.xml" xy="7,49"/>
+    <movieclip id="n20_qnfi" name="n20" src="pahsgo" fileName="warEffect/troop1.jta" xy="80,75" scale="0.6,0"/>
+    <movieclip id="n23_qnfi" name="n23" src="pahsgr" fileName="warEffect/troop3.jta" xy="109,13" group="n27_qnfi" scale="-0.6,0.6"/>
+    <component id="n26_qnfi" name="n26" src="qnfi47e40w" fileName="component/shootArrow.xml" xy="78,19" size="81,48" group="n27_qnfi" scale="1,-1" rotation="-204.5"/>
+    <group id="n27_qnfi" name="n27" xy="78,13" size="81,54" advanced="true">
+      <gearDisplay controller="c1" pages="5"/>
+    </group>
+    <movieclip id="n16_qnfi" name="n16" src="nd7r7e3zz" fileName="warEffect/troop4.jta" xy="9,-12" group="n28_qnfi" scale="0.6,0.6"/>
+    <component id="n17_qnfi" name="n17" src="qnfi47e40w" fileName="component/shootArrow.xml" xy="39,5" group="n28_qnfi" rotation="-299"/>
+    <group id="n28_qnfi" name="n28" xy="9,-12" size="90,77" advanced="true">
+      <gearDisplay controller="c1" pages="2"/>
+    </group>
+    <movieclip id="n21_qnfi" name="n21" src="pahsgr" fileName="warEffect/troop3.jta" xy="-39,22" group="n29_qnfi" scale="0.6,0.6"/>
+    <component id="n22_qnfi" name="n22" src="qnfi47e40w" fileName="component/shootArrow.xml" xy="-20,21" group="n29_qnfi" rotation="9.5"/>
+    <group id="n29_qnfi" name="n29" xy="-39,21" size="79,60" advanced="true">
+      <gearDisplay controller="c1" pages="4"/>
+    </group>
+    <movieclip id="n14_qnfi" name="n14" src="pahsgp" fileName="warEffect/troop2.jta" xy="106,80" group="n30_qnfi" scale="-0.6,0.6"/>
+    <component id="n15_qnfi" name="n15" src="qnfi47e40w" fileName="component/shootArrow.xml" xy="99,52" group="n30_qnfi" scale="1,-1" rotation="-179.7"/>
+    <group id="n30_qnfi" name="n30" xy="99,52" size="60,74" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <movieclip id="n3_qnfi" name="n3" src="pahsgp" fileName="warEffect/troop2.jta" xy="-28,73" group="n31_qnfi" scale="0.6,0.6"/>
+    <component id="n13_qnfi" name="n13" src="qnfi47e40w" fileName="component/shootArrow.xml" xy="-21,44" group="n31_qnfi"/>
+    <group id="n31_qnfi" name="n31" xy="-28,44" size="67,75" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <movieclip id="n18_qnfi" name="n18" src="pahsgo" fileName="warEffect/troop1.jta" xy="-35,101" size="52,51" group="n32_qnfi" scale="0.6,0.6"/>
+    <component id="n19_qnfi" name="n19" src="qnfi47e40w" fileName="component/shootArrow.xml" xy="-32,94" size="58,48" group="n32_qnfi" rotation="-34.6"/>
+    <group id="n32_qnfi" name="n32" xy="-35,94" size="61,58" advanced="true">
+      <gearDisplay controller="c1" pages="6"/>
+    </group>
+    <movieclip id="n12_qnfi" name="n12" src="pahsgq" fileName="warEffect/troop0.jta" xy="23,132" group="n34_qnfi" scale="0.6,0.6"/>
+    <component id="n24_qnfi" name="n24" src="qnfi47e40w" fileName="component/shootArrow.xml" xy="62,138" group="n34_qnfi" scale="1,-1" rotation="-87.2"/>
+    <group id="n34_qnfi" name="n34" xy="23,132" size="99,66" advanced="true">
+      <gearDisplay controller="c1" pages="3"/>
+    </group>
+    <component id="n11_qnfi" name="n11" src="qnfi47e40w" fileName="component/shootArrow.xml" xy="105,119" size="67,57" group="n35_qnfi" scale="1,-1" rotation="-118.8"/>
+    <movieclip id="n25_qnfi" name="n25" src="pahsgo" fileName="warEffect/troop1.jta" xy="108,109" group="n35_qnfi" scale="-0.6,0.6"/>
+    <group id="n35_qnfi" name="n35" xy="105,109" size="67,67" advanced="true">
+      <gearDisplay controller="c1" pages="7"/>
+    </group>
+  </displayList>
+</component>

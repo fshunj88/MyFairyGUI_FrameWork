@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,200" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="status" exported="true" pages="0,未进行,1,进行中,2,锁定中" selected="1"/>
+  <controller name="type" pages="9,,2,征粮,3,征税,4,建设,5,修筑,6,运币,7,运粮,0,进攻据点,1,进攻城市,10,探索,11,迁移,12,防守,20,征兵" selected="11"/>
+  <controller name="onChangeTitle" pages="0,false,1,true" selected="0"/>
+  <displayList>
+    <component id="n4_efos" name="hint" src="efos7e3zj" fileName="component/redHint_num.xml" xy="140,0" aspect="true" visible="false" customData="13">
+      <gearDisplay controller="status" pages=""/>
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n5_efos" name="pro" src="r724e3qz" fileName="component/radialProgress.xml" pkg="864gshxx" xy="20,0" size="160,160" visible="false">
+      <gearDisplay controller="status" pages="1"/>
+      <relation target="n1" sidePair="center-center,middle-middle"/>
+    </component>
+    <loader id="n1" name="icon" xy="20,0" size="160,160" url="ui://2ipmzghtvasa8jn" fill="scaleFree">
+      <gearLook controller="status" pages="1,2" values="1,0,0,1|1,0,1,1" default="1,0,0,1"/>
+      <gearIcon controller="type" pages="2,3,4,5,6,7,0,1,10,11,12,20" values="ui://2ipmzghtvasa8jl|ui://2ipmzghtvasa8jm|ui://2ipmzght7mxs8lq|ui://2ipmzght7mxs8lp|ui://2ipmzghtvasa8jk|ui://2ipmzghtvasa8jj|ui://2ipmzghtvasa8jo|ui://2ipmzghtvasa8jo|ui://2ipmzghtvasa8ji|ui://2ipmzghtvasa8jh|ui://2ipmzghtvasa8jn|ui://2ipmzghtw4t847e41f" default="ui://2ipmzghtk59yib"/>
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <text id="n3_efos" name="title" xy="60,158" size="78,44" fontSize="36" color="#5b2b0e" align="center" vAlign="middle" leading="0" text="防守">
+      <gearDisplay controller="onChangeTitle" pages="0"/>
+      <gearLook controller="status" pages="2" values="1,0,1,0" default="1,0,0,0"/>
+      <gearText controller="type" pages="9,2,3,4,5,6,7,0,1,10,11,12,20" values="未知|征粮|征税|建设|修筑|运币|运粮|进攻据点|进攻城市|探索|迁移|防守|征兵"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n6_efos" name="timeTxt" xy="30,55" size="140,49" fontSize="40" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" strokeSize="3" autoClearText="true" text="99:99">
+      <gearDisplay controller="status" pages="1"/>
+      <relation target="n1" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n7_acm0" name="redHint" src="id0m9d" fileName="component/redHint1.xml" pkg="864gshxx" xy="151,-5" visible="false">
+      <relation target="n1" sidePair="right-right,top-top"/>
+    </component>
+    <text id="n9_jksu" name="numTxt" xy="62,202" size="73,33" fontSize="26" color="#5b2b0e" autoClearText="true" text="(0/10)">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n10_nm98" name="changeTitle" xy="25,158" size="149,44" fontSize="36" color="#5b2b0e" align="center" vAlign="middle" leading="0" autoClearText="true" text="进攻剑灵">
+      <gearDisplay controller="onChangeTitle" pages="1"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n12_hcxp" name="timeTxtForDefence" xy="30,55" size="140,49" fontSize="40" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" strokeSize="3" autoClearText="true" text="99:99">
+      <gearDisplay controller="status" pages="0"/>
+      <gearDisplay2 controller="type" pages="12" condition="0"/>
+      <relation target="n1" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button sound="click" downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t0"/>
+</component>

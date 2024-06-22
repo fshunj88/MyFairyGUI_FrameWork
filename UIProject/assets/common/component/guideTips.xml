@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,100">
+  <displayList>
+    <loader id="n1_b59w" name="n1" xy="181,0" pivot="0.5,0.5" size="240,70" scale="-1,-1" url="ui://864gshxxhyug2" fill="scaleFree">
+      <relation target="n2_b59w" sidePair="height-height,width-width,middle-middle,center-center"/>
+    </loader>
+    <text id="n2_b59w" name="n2" xy="199,13" size="202,44" restrictSize="0,800,0,0" fontSize="36" align="center" vAlign="middle" leading="0" ubb="true" autoClearText="true" text="#TEXT_60397">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n3_hhu5" name="n3" xy="281,65" pivot="0.5,0.5" size="38,38" url="ui://864gshxxhyug1">
+      <relation target="n1_b59w" sidePair="center-center,top-bottom"/>
+    </loader>
+  </displayList>
+</component>

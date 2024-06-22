@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="900,1000">
+  <displayList>
+    <loader id="n80_ir7y" name="bg" xy="0,0" size="900,1000" url="ui://2ipmzghtoxut7e3zx" fill="scaleFree"/>
+    <list id="n79_ipob" name="buildList" xy="75,65" size="750,900" overflow="scroll" lineGap="5" align="center" autoClearItems="true"/>
+    <text id="n81_e3ip" name="text" xy="313,5" size="274,49" fontSize="40" color="#660000" align="center" vAlign="middle" leading="0" autoSize="shrink" text="发布军令">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

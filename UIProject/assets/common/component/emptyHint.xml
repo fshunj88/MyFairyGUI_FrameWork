@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="730,134" pivot="0.5,0.5" extention="Label">
+  <displayList>
+    <loader id="n2_vuhr" name="n2" xy="-100,0" pivot="0.5,0.5" size="930,134" url="ui://eg2ecnn9z1j0e3s5" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n1_t0lw" name="title" xy="125,10" size="480,103" fontSize="36" color="#cccccc" align="center" vAlign="middle" leading="10" autoSize="shrink" strokeColor="#000000" strokeSize="3" autoClearText="true" text="暂无装备"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Scale" tween="true" startValue="0.5,0.5" endValue="1,1" duration="6" ease="Back.Out"/>
+  </transition>
+</component>

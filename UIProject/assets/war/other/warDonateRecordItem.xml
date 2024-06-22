@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="820,140">
+  <displayList>
+    <loader id="n17_xjab" name="bg" xy="0,0" pivot="0.5,0.5" size="820,140" url="ui://eg2ecnn9hiflhl" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n9_lwj0" name="nameTxt" xy="140,25" size="365,52" fontSize="40" color="#333333" vAlign="middle" leading="0" autoSize="shrink" singleLine="true" text="玩家啊啊啊啊啊啊啊啊">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <component id="n16_xjab" name="head" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="20,15" size="110,110"/>
+    <loader id="n24_u5xl" name="Icon" xy="663,70" size="40,40" url="ui://2ipmzghtihr68ln" fill="scaleFree">
+      <relation target="n25_u5xl" sidePair="right-left,middle-middle"/>
+    </loader>
+    <text id="n25_u5xl" name="goldCnt" xy="705,65" size="83,49" fontSize="40" align="right" vAlign="middle" leading="0" singleLine="true" text="1000">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <text id="n26_u5xl" name="timeTxt" xy="680,20" size="108,38" visible="false" fontSize="30" color="#999999" align="right" vAlign="middle" leading="0" autoSize="height" singleLine="true" text="5天前">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <text id="n27_vgqc" name="jobTxt" xy="140,80" size="65,38" visible="false" fontSize="30" color="#666666" leading="0" text="太守"/>
+  </displayList>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,200">
+  <controller name="status" pages="0,cityReward,1,cityFood" selected="0"/>
+  <displayList>
+    <text id="n69_j3ih" name="n69" xy="0,2" size="155,38" fontSize="30" text="个人获得："/>
+    <loader id="n70_j3ih" name="icon1" xy="4,49" size="50,50" touchable="false" url="ui://2ipmzghtihr68ln" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="n71_j3ih" sidePair="middle-middle,right-left"/>
+    </loader>
+    <text id="n71_j3ih" name="featNum" xy="58,49" size="107,49" fontSize="40" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" strokeSize="3" autoClearText="true" text="20000"/>
+    <loader id="n73_mngy" name="icon2" xy="4,146" size="50,50" touchable="false" url="ui://2ipmzghtvasa8jd" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <gearIcon controller="status" pages="0,1" values="ui://2ipmzghtvasa8jd|ui://2ipmzghtvasa8je"/>
+      <relation target="n74_mngy" sidePair="middle-middle,right-left"/>
+    </loader>
+    <text id="n74_mngy" name="goldOrFoodNum" xy="58,146" size="107,49" fontSize="40" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" strokeSize="3" autoClearText="true" text="20000"/>
+    <text id="n75_w53j" name="n75" xy="0,102" size="155,38" fontSize="30" text="属地获得："/>
+  </displayList>
+</component>

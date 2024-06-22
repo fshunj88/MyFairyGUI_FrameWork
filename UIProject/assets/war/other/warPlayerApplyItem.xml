@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="820,130" pivot="0.5,0.5">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="online" pages="0,未在线,1,在线" selected="0"/>
+  <displayList>
+    <loader id="n4_lwj0" name="bg" xy="0,0" pivot="0.5,0.5" size="820,130" url="ui://2ipmzghtoxut7e3zu" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n10_lwj0" name="rankImg" xy="490,16" size="100,100" touchable="false" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="" sidePair="middle-middle,right-right"/>
+    </loader>
+    <component id="n16_qof0" name="agreeBtn" src="yyke6i" fileName="component/yesBtn.xml" pkg="864gshxx" xy="705,20">
+      <relation target="" sidePair="middle-middle,right-right"/>
+      <Button title="√"/>
+    </component>
+    <component id="n17_qof0" name="refuseBtn" src="yyke6j" fileName="component/noBtn.xml" pkg="864gshxx" xy="600,20">
+      <relation target="" sidePair="middle-middle,right-right"/>
+      <Button title="×"/>
+    </component>
+    <component id="n21_j7k2" name="head" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="15,15" size="100,100"/>
+    <loader id="n22_eikm" name="countryFlagImg" xy="45,69" size="60,36" aspect="true" visible="false" url="ui://739g5ytivfpog" fill="scaleFree">
+      <relation target="n21_j7k2" sidePair="right-right,bottom-bottom"/>
+    </loader>
+    <text id="n11_lwj0" name="rankTitleText" xy="490,78" size="100,38" fontSize="26" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" strokeSize="3" autoClearText="true" text="专家">
+      <relation target="n10_lwj0" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n9_lwj0" name="nameText" xy="120,34" size="360,60" fontSize="30" color="#333333" vAlign="middle" leading="0" autoSize="none" singleLine="true" autoClearText="true" text="玩家名字啊啊啊啊啊啊">
+      <relation target="" sidePair="left-left,rightext-right"/>
+    </text>
+  </displayList>
+</component>

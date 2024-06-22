@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="330,80" extention="Button" designImage="ui://8pche6l7royd0" designImageOffsetX="-36" designImageOffsetY="-128">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <text id="n7_uomq" name="title" xy="75,16" size="246,48" fontSize="40" vAlign="middle" leading="0" autoSize="shrink" autoClearText="true" text="观看视频翻倍">
+      <gearColor controller="button" pages="1,3" values="#000000,#000000|#000000,#ffffff" default="#000000,#ffffff"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n10_eygd" name="n10" xy="7,10" size="60,60" url="ui://864gshxxp4mpl1" fill="scaleFree">
+      <relation target="n7_uomq" sidePair="right-left,middle-middle"/>
+    </loader>
+    <loader id="n11_eygd" name="down" xy="7,10" size="60,60" url="ui://864gshxxp4mpl2" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="n10_eygd" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <Button mode="Check" sound="clickSmall"/>
+  <relation target="n7_uomq" sidePair="width-width"/>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1"/>
+</component>

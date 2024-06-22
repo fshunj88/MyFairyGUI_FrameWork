@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,50">
+  <displayList>
+    <loader id="n3_rqc2" name="n3" xy="0,0" size="50,50" aspect="true" url="ui://864gshxxu843av" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n6_btxr" name="n6" xy="0,0" size="50,50" url="ui://864gshxxbtxre3ry" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="" sidePair="width-width%,height-height%,center-center,middle-middle"/>
+    </loader>
+  </displayList>
+</component>

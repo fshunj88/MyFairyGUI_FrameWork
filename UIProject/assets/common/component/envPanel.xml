@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="900,1400" pivot="0.5,0.5" opaque="false">
+  <controller name="page" pages="0,退环境,1,新环境" selected="0">
+    <action type="play_transition" fromPage="" toPage="" transition="t0"/>
+  </controller>
+  <displayList>
+    <loader id="n2_ijr4" name="n2" xy="0,0" size="900,1400" url="ui://864gshxxtzcwe3rr" align="center" vAlign="middle" fill="scaleFree"/>
+    <list id="n20_drj6" name="list1" xy="100,150" pivot="0.5,0" size="700,200" overflow="scroll" lineGap="50" defaultItem="ui://864gshxxdrj67e3tj" autoClearItems="true">
+      <gearDisplay controller="page" pages="1"/>
+      <gearSize controller="page" pages="0,1" values="700,200,1,1|700,1200,1,1" tween="true"/>
+      <relation target="n2_ijr4" sidePair="height-height"/>
+      <item url="ui://864gshxxemvzx" title="以下这些卡牌退出当前环境！"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n22_drj6" name="list2" xy="100,150" pivot="0.5,0" size="700,1000" overflow="scroll" lineGap="50" defaultItem="ui://864gshxxdrj67e3tj" autoClearItems="true">
+      <gearDisplay controller="page" pages="0"/>
+      <gearSize controller="page" pages="0,1" values="700,1000,1,1|700,200,1,1" tween="true"/>
+      <relation target="n2_ijr4" sidePair="height-height"/>
+      <item url="ui://864gshxxemvzx" title="以下这些卡牌退出当前环境！"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n21_drj6" name="nextBtn" src="jed213" fileName="component/functionBtn.xml" xy="300,1200" size="300,100">
+      <gearDisplay controller="page" pages="0"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="继续" icon="ui://864gshxxibcj7e3wn"/>
+    </component>
+    <component id="n23_drj6" name="closeBtn" src="jed213" fileName="component/functionBtn.xml" xy="300,1200" size="300,100">
+      <gearDisplay controller="page" pages="1"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="关闭" icon="ui://864gshxxibcj7e3wn"/>
+    </component>
+    <text id="n17_emvz" name="n17" xy="310,25" size="280,70" fontSize="50" color="#3f3327" align="center" vAlign="middle" leading="0" autoSize="none" text="新环境加入">
+      <gearText controller="page" pages="0,1" values="新环境加入|旧环境退出"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <transition name="t0" frameRate="30">
+    <item time="0" type="Scale" tween="true" startValue="0,0" endValue="1,1" duration="12"/>
+  </transition>
+</component>

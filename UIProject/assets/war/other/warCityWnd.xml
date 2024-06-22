@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,600" pivot="0.5,0.5">
+  <controller name="status" pages="0,see,1,qianRu,3,ShenQing" selected="2"/>
+  <controller name="hasYm" pages="1,false,0,true" selected="1"/>
+  <controller name="isMiddle" pages="0,false,1,true" selected="1"/>
+  <controller name="readyShow" pages="0,false,1,true" selected="1"/>
+  <controller name="isProtected" pages="0,false,1,true" selected="1"/>
+  <displayList>
+    <loader id="n11_pdhx" name="bg1" xy="0,0" size="800,600" url="ui://2ipmzghtlb4eht" align="center" vAlign="middle" fill="scaleFree">
+      <gearSize controller="hasYm" pages="1,0" values="800,438,1,1|800,600,1,1"/>
+    </loader>
+    <loader id="n70_lb4e" name="n70" xy="150,60" size="600,240" url="ui://2ipmzghtlb4ehx" fill="scaleFree"/>
+    <loader id="n68_lb4e" name="n68" xy="40,40" size="280,280" aspect="true" url="ui://864gshxxo71xe3r6" fill="scaleFree">
+      <relation target="n11_pdhx" sidePair="left-left"/>
+    </loader>
+    <loader id="n57_ri8u" name="player" xy="51,331" size="700,130" group="n61_ri8u" url="ui://2ipmzghtoxut7e3zu" fill="scaleFree"/>
+    <component id="n58_ri8u" name="head" src="md4a33k" fileName="component/head.xml" pkg="739g5yti" xy="71,346" size="100,100" group="n61_ri8u">
+      <relation target="n57_ri8u" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n59_ri8u" name="ymPlayerName" xy="181,356" size="305,38" group="n61_ri8u" fontSize="30" color="#333333" vAlign="middle" leading="0" singleLine="true" text="玩家啊啊啊啊啊啊啊啊">
+      <relation target="n57_ri8u" sidePair="middle-middle,left-left"/>
+    </text>
+    <component id="n72_oxut" name="n72" src="nqmzhf" fileName="component/warPlayerPosition.xml" xy="181,401" size="60,40" group="n61_ri8u">
+      <relation target="n57_ri8u" sidePair="middle-middle,left-left"/>
+    </component>
+    <group id="n61_ri8u" name="n61" xy="51,331" size="700,130" group="n86_uqka" advanced="true">
+      <gearDisplay controller="hasYm" pages="0"/>
+    </group>
+    <component id="n33_ej80" name="cityHp" src="6od87e3xr" fileName="component/progress_300.xml" pkg="864gshxx" xy="395,248" size="300,25" group="n63_ri8u">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <loader id="n54_kk99" name="n54" xy="351,236" size="50,50" group="n63_ri8u" touchable="false" url="ui://2ipmzghtvasa8jf" fill="scaleFree"/>
+    <group id="n63_ri8u" name="n63" xy="351,236" size="344,50" group="n86_uqka" advanced="true">
+      <gearDisplay controller="readyShow" pages="1"/>
+      <relation target="n70_lb4e" sidePair="middle-middle,left-left"/>
+    </group>
+    <component id="n64_cw7d" name="moveBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="461,491" size="200,80" group="n86_uqka" aspect="true">
+      <gearDisplay controller="status" pages="1"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="迁入" icon="ui://864gshxxcbmu7e3uk"/>
+    </component>
+    <component id="n65_jawk" name="joinBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="461,491" size="200,80" group="n86_uqka">
+      <gearDisplay controller="status" pages="3"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="申请加入" icon="ui://864gshxxcbmu7e3uk"/>
+    </component>
+    <component id="n52_kk99" name="watchBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="101,487" size="200,80" group="n86_uqka" aspect="true">
+      <gearDisplay controller="isMiddle" pages="0"/>
+      <gearXY controller="status" pages="0,1,3" values="297,495|111,485|101,487"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="查看" icon="ui://864gshxxcbmu7e3uk"/>
+    </component>
+    <loader id="n69_lb4e" name="icon" xy="91,91" size="180,180" group="n86_uqka" aspect="true" url="ui://2ipmzghtqagc7e408" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="n68_lb4e" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n79_oxut" name="citySkill" src="z1j03q9" fileName="component/citySkillItem.xml" pkg="dvmsogfr" xy="41,261" size="60,60" group="n86_uqka">
+      <relation target="n70_lb4e" sidePair="right-right,top-top"/>
+    </component>
+    <loader id="n80_oxut" name="minxin" xy="351,80" size="344,44" group="n86_uqka">
+      <relation target="n70_lb4e" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n81_oxut" name="feiwo" xy="351,131" size="344,44" group="n86_uqka">
+      <relation target="n70_lb4e" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n82_oxut" name="fanrong" xy="351,181" size="344,44" group="n86_uqka">
+      <relation target="n70_lb4e" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n67_jal0" name="cityHint" xy="138,70" size="85,49" group="n86_uqka" fontSize="40" color="#cccccc" leading="0" strokeColor="#333333" strokeSize="3" text="中立">
+      <gearDisplay controller="isMiddle" pages="1"/>
+      <relation target="n69_lb4e" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n50_kk99" name="cityName" xy="128,231" size="105,60" group="n86_uqka" fontSize="50" color="#ffffff" vAlign="middle" leading="0" strokeColor="#333333" strokeSize="3" singleLine="true" autoClearText="true" text="建业">
+      <relation target="n69_lb4e" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n71_oxut" name="npcTxt" xy="538,16" size="214,38" group="n86_uqka" fontSize="30" color="#333333" align="right" vAlign="middle" leading="0" autoClearText="true" text="卫戍部队：99人">
+      <gearDisplay controller="isProtected" pages="0"/>
+      <gearDisplay2 controller="readyShow" pages="1" condition="0"/>
+      <relation target="n70_lb4e" sidePair="middle-middle,right-right"/>
+    </text>
+    <loader id="n48_kk99" name="flag" xy="41,1" size="105,118" group="n62_ri8u" aspect="true" url="ui://2ipmzghtmyl16v" fill="scaleMatchWidth">
+      <gearDisplay controller="hasYm" pages="0"/>
+    </loader>
+    <text id="n49_kk99" name="powerFlagName" xy="60,15" size="65,71" group="n62_ri8u" fontSize="60" color="#ffffff" align="center" leading="0" strokeColor="#333333" strokeSize="3" text="清">
+      <gearDisplay controller="hasYm" pages="0"/>
+      <relation target="n48_kk99" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n62_ri8u" name="n62" xy="41,1" size="105,118" group="n86_uqka" advanced="true">
+      <relation target="n70_lb4e" sidePair="right-right,top-top"/>
+    </group>
+    <text id="n83_jcu5" name="protectTxt" xy="611,11" size="179,49" group="n86_uqka" fontSize="26" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" strokeColor="#333333" strokeSize="3" text="无">
+      <gearDisplay controller="isProtected" pages="1"/>
+      <relation target="n11_pdhx" sidePair="right-right,top-top"/>
+    </text>
+    <text id="n84_pm8t" name="n84" xy="511,11" size="98,49" group="n86_uqka" fontSize="40" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" strokeColor="#000000" strokeSize="3" text="保护期:">
+      <gearDisplay controller="isProtected" pages="1"/>
+      <relation target="n83_jcu5" sidePair="middle-middle,right-left"/>
+    </text>
+    <text id="n73_oxut" name="t1" xy="351,80" size="113,44" group="n85_unbe" fontSize="30" color="#666666" vAlign="middle" leading="0" autoSize="none" singleLine="true" text="民心度">
+      <relation target="n70_lb4e" sidePair="middle-middle,left-left"/>
+    </text>
+    <text id="n74_oxut" name="t2" xy="351,131" size="185,44" group="n85_unbe" fontSize="30" color="#666666" vAlign="middle" leading="0" autoSize="none" singleLine="true" text="土地肥沃度">
+      <relation target="n70_lb4e" sidePair="middle-middle,left-left"/>
+    </text>
+    <text id="n75_oxut" name="t3" xy="351,181" size="185,44" group="n85_unbe" fontSize="30" color="#666666" vAlign="middle" leading="0" autoSize="none" singleLine="true" text="市场繁荣度">
+      <relation target="n70_lb4e" sidePair="middle-middle,left-left"/>
+    </text>
+    <text id="n76_oxut" name="minxinValue" xy="640,83" size="55,38" group="n85_unbe" fontSize="30" color="#666666" align="right" vAlign="middle" leading="0" singleLine="true" text="99%">
+      <relation target="n70_lb4e" sidePair="middle-middle,right-right"/>
+    </text>
+    <text id="n77_oxut" name="feiwoValue" xy="640,134" size="55,38" group="n85_unbe" fontSize="30" color="#666666" align="right" vAlign="middle" leading="0" singleLine="true" text="99%">
+      <relation target="n70_lb4e" sidePair="middle-middle,right-right"/>
+    </text>
+    <text id="n78_oxut" name="fanrongValue" xy="640,184" size="55,38" group="n85_unbe" fontSize="30" color="#666666" align="right" vAlign="middle" leading="0" singleLine="true" text="99%">
+      <relation target="n70_lb4e" sidePair="middle-middle,right-right"/>
+    </text>
+    <group id="n85_unbe" name="n85" xy="351,80" size="344,145" group="n86_uqka" advanced="true">
+      <gearDisplay controller="readyShow" pages="1"/>
+    </group>
+    <group id="n86_uqka" name="readyShow" xy="41,1" size="749,570" advanced="true">
+      <gearDisplay controller="readyShow" pages="1"/>
+    </group>
+  </displayList>
+  <relation target="n11_pdhx" sidePair="width-width,height-height"/>
+</component>

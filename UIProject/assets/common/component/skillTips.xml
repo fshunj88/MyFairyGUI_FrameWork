@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,120">
+  <displayList>
+    <loader id="n1_b59w" name="n1" xy="190,0" size="221,121" url="ui://864gshxxikr63m9" fill="scaleFree">
+      <relation target="n2_b59w" sidePair="height-height,width-width,middle-middle,center-center"/>
+    </loader>
+    <richtext id="n2_b59w" name="txt" xy="208,19" size="185,83" restrictSize="0,800,0,0" fontSize="36" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" autoClearText="true" text="技能成功率&#xA;88%">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+</component>

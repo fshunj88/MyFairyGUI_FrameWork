@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,60" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <text id="n0_d75n" name="guohao" xy="18,17" size="23,26" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#333333" strokeSize="2" autoClearText="true" text="帝">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

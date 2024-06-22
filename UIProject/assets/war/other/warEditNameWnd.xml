@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="900,600" pivot="0.5,0.5">
+  <displayList>
+    <loader id="n0_qifi" name="n0" xy="0,0" size="900,600" url="ui://864gshxxcbmu7e3uj" fill="scaleFree"/>
+    <loader id="n17_a53p" name="n17" xy="175,259" size="550,90" touchable="false" url="ui://864gshxxyyke10" fill="scaleFree">
+      <relation target="n0_qifi" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n8_jsu7" name="searchInput1" xy="185,259" size="530,90" input="true" prompt="请输入势力名称" maxLength="20" fontSize="40" color="#ffffff" align="center" vAlign="middle" leading="0" letterSpacing="4" autoSize="none" singleLine="true" autoClearText="true" text="">
+      <relation target="n17_a53p" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </text>
+    <text id="n26_z4ot" name="text" xy="186,116" size="525,49" fontSize="40" align="center" vAlign="middle" leading="0" singleLine="true" text="给你的势力起个响亮的名号吧&#xA;">
+      <relation target="n0_qifi" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n27_ri8u" name="text1" xy="162,640" size="575,38" fontSize="30" color="#333333" align="center" vAlign="middle" leading="0" text="国战测试阶段暂只开放势力创建及聊天功能">
+      <relation target="n0_qifi" sidePair="center-center,top-bottom"/>
+    </text>
+    <component id="n6_f7m8" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="300,410" size="300,100">
+      <relation target="n0_qifi" sidePair="center-center,middle-middle"/>
+      <Button title="确定" icon="ui://864gshxxibcj7e3wo"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true" frameRate="30">
+    <item time="0" type="Scale" tween="true" startValue="1,0" endValue="1,1" duration="6"/>
+  </transition>
+</component>

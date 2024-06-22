@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="900,1200" pivot="0.5,0.5">
+  <controller name="status" pages="0,pure_see,1,see_edit,2,editing" selected="2"/>
+  <displayList>
+    <loader id="n0_qifi" name="bg" xy="1,0" size="900,1200" url="ui://864gshxxtzcw3oz" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n17_a53p" name="n17" xy="120,156" size="668,897" touchable="false" url="ui://864gshxxyyke10" fill="scaleFree">
+      <gearDisplay controller="status" pages="2"/>
+      <relation target="n0_qifi" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n30_m1x3" name="pureSeeTxt" xy="129,156" size="648,897" fontSize="40" autoSize="none" autoClearText="true" text="啊啊啊啊啊啊">
+      <gearDisplay controller="status" pages="0,1"/>
+      <relation target="n0_qifi" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </text>
+    <text id="n8_jsu7" name="searchInput" xy="130,156" size="648,897" input="true" prompt="请输入公告内容" maxLength="100" fontSize="40" color="#ffffff" leading="0" letterSpacing="4" autoSize="none" autoClearText="true" text="">
+      <gearDisplay controller="status" pages="2"/>
+      <relation target="n17_a53p" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </text>
+    <component id="n6_f7m8" name="editBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="601,1215" size="300,100">
+      <gearDisplay controller="status" pages="1"/>
+      <relation target="n0_qifi" sidePair="center-center,middle-middle"/>
+      <Button title="编辑" icon="ui://864gshxxibcj7e3wo" controller="status" page="2"/>
+    </component>
+    <component id="n28_o5t8" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="0,1215" size="100,100"/>
+    <component id="n31_m1x3" name="confirmTxtBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="600,1210" size="300,100">
+      <gearDisplay controller="status" pages="2"/>
+      <relation target="n0_qifi" sidePair="center-center,middle-middle"/>
+      <Button title="确定" icon="ui://864gshxxibcj7e3wo"/>
+    </component>
+    <component id="n32_m1x3" name="changeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="4,9" size="100,100" visible="false" alpha="0">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button controller="status" page="0"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true" frameRate="30">
+    <item time="0" type="Scale" tween="true" startValue="1,0" endValue="1,1" duration="6"/>
+  </transition>
+</component>

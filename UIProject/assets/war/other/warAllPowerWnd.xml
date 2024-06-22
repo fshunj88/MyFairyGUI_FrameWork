@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,1300" pivot="0.5,0.5">
+  <controller name="hasPower" pages="0,false,1,true" selected="1"/>
+  <controller name="readyShow" pages="0,false,1,true" selected="1"/>
+  <displayList>
+    <loader id="n17_j66l" name="bg" xy="0,0" size="960,1300" url="ui://2ipmzghtoxut7e3zx" fill="scaleFree"/>
+    <text id="n29_kk99" name="n29" xy="397,5" size="165,49" fontSize="40" color="#660000" vAlign="middle" leading="0" text="势力总览">
+      <relation target="n17_j66l" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n18_j66l" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="30,1330" group="n39_weul">
+      <relation target="n17_j66l" sidePair="left-left,top-bottom"/>
+    </component>
+    <component id="n35_rd9i" name="searchBtn" src="yykey" fileName="component/searchBtn.xml" pkg="864gshxx" xy="830,1330" group="n39_weul" visible="false">
+      <relation target="n17_j66l" sidePair="right-right,top-bottom"/>
+    </component>
+    <list id="n37_rd9i" name="list" xy="50,60" size="860,1220" group="n39_weul" overflow="scroll" defaultItem="ui://2ipmzght91kp8is" autoClearItems="true">
+      <gearDisplay controller="hasPower" pages="1"/>
+      <relation target="n17_j66l" sidePair="center-center,top-top,bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n38_weul" name="n38" xy="327,622" size="303,59" group="n39_weul" fontSize="49" bold="true" text="暂无势力哦～">
+      <gearDisplay controller="hasPower" pages="0"/>
+      <relation target="n17_j66l" sidePair="center-center"/>
+    </text>
+    <group id="n39_weul" name="readyShow" xy="30,60" size="900,1370" advanced="true">
+      <gearDisplay controller="readyShow" pages="1"/>
+    </group>
+  </displayList>
+  <transition name="open" autoPlay="true" frameRate="30">
+    <item time="0" type="Scale" tween="true" startValue="0.8,0.9" endValue="1,1" duration="6" ease="Quart.Out"/>
+  </transition>
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,500">
+  <displayList>
+    <loader id="n26_o71x" name="bg" xy="0,0" size="500,500" touchable="false" url="ui://864gshxxo71xe3r6" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <loader id="n1_d4nl" name="rankIcon" xy="50,50" size="400,400" touchable="false" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n20_dj43" name="n20" xy="218,-40" size="64,64" url="ui://864gshxxs4e0jq" fill="scaleFree"/>
+    <component id="n12_j4zv" name="star1" src="j4zv3p" fileName="component/starAni.xml" xy="218,-40"/>
+    <loader id="n24_o71x" name="n24" xy="124,440" size="252,60" url="ui://864gshxxs4e0jp" fill="scaleFree">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <text id="n17_dj43" name="starText" xy="188,0" size="122,71" fontSize="60" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" strokeSize="3" autoClearText="true" text="1000">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n25_o71x" name="pvpTitleText" xy="156,448" size="185,44" fontSize="36" align="center" vAlign="middle" leading="0" autoClearText="true" text="pvpTitleText">
+      <relation target="n24_o71x" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

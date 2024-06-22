@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,360">
+  <displayList>
+    <loader id="n0_dq56" name="n0" xy="0,0" size="300,360" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <list id="n1_dq56" name="list" xy="0,30" size="300,360" overflow="scroll" lineGap="10" defaultItem="ui://864gshxxo3qu7e3t6">
+      <relation target="" sidePair="width-width"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

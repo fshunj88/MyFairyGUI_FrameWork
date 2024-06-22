@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="250,200">
+  <controller name="status" pages="0,主公,1,太守,2,军师" selected="1"/>
+  <controller name="war" pages="0,no,1,yes" selected="0"/>
+  <displayList>
+    <loader id="n113_gegy" name="n113" xy="0,0" size="250,200" url="ui://739g5ytikm82346" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n104_ir7y" name="orderBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="368,224" size="320,100" group="n114_lb4e" grayed="true">
+      <gearLook controller="war" pages="0" values="1,0,1,1" default="1,0,0,1"/>
+      <Button title=" " icon="ui://864gshxxibcj7e3wn"/>
+    </component>
+    <text id="n105_ir7y" name="title3" xy="493,244" size="69,40" group="n114_lb4e" fontSize="32" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="军令">
+      <gearLook controller="war" pages="0" values="1,0,0,0" default="1,0,0,0"/>
+      <relation target="n104_ir7y" sidePair="center-center"/>
+    </text>
+    <text id="n106_ir7y" name="txt3" xy="395,289" size="265,26" group="n114_lb4e" fontSize="20" color="#666666" align="center" vAlign="middle" leading="0" text="通过发布军令来选择进攻目标">
+      <relation target="n104_ir7y" sidePair="center-center"/>
+    </text>
+    <group id="n114_lb4e" name="n114" xy="368,224" size="320,100" visible="false" advanced="true"/>
+    <component id="n101_ir7y" name="publishBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="361,93" size="320,100" group="n115_lb4e">
+      <Button title=" " icon="ui://864gshxxibcj7e3wn"/>
+    </component>
+    <text id="n102_ir7y" name="title2" xy="486,113" size="69,40" group="n115_lb4e" fontSize="32" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="发布">
+      <relation target="n101_ir7y" sidePair="center-center"/>
+    </text>
+    <text id="n103_ir7y" name="txt2" xy="408,158" size="225,26" group="n115_lb4e" fontSize="20" color="#666666" align="center" vAlign="middle" leading="0" text="通过发布任务来发展势力">
+      <relation target="n101_ir7y" sidePair="center-center"/>
+    </text>
+    <group id="n115_lb4e" name="n115" xy="361,93" size="320,100" visible="false" advanced="true"/>
+    <component id="n107_gegy" name="checkBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="35,107">
+      <gearLook controller="status" pages="2" values="1,0,1,1" default="1,0,0,1"/>
+      <Button title="审核" icon="ui://864gshxxibcj7e3wn"/>
+    </component>
+    <component id="n98_ir7y" name="appointBtn" src="jed213" fileName="component/functionBtn.xml" pkg="864gshxx" xy="35,10">
+      <Button title="任免" icon="ui://864gshxxibcj7e3wn"/>
+    </component>
+  </displayList>
+</component>

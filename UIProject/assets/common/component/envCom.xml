@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="700,400">
+  <controller name="type" pages="0,card,1,rune" selected="1"/>
+  <displayList>
+    <loader id="n0_drj6" name="n0" xy="0,60" size="700,340"/>
+    <loader id="n1_drj6" name="n1" xy="0,2" size="700,50" url="ui://864gshxxs3oee3ra" fill="scaleFree"/>
+    <loader id="n3_drj6" name="campIcon" xy="258,2" size="50,50" url="ui://864gshxxydmf3n9" fill="scaleFree" clearOnPublish="true">
+      <gearDisplay controller="type" pages="0"/>
+      <gearSize controller="type" default="50,50,1,1"/>
+      <relation target="n2_drj6" sidePair="middle-middle,right-left"/>
+    </loader>
+    <text id="n2_drj6" name="campName" xy="308,0" pivot="0.5,0.5" size="84,54" fontSize="40" color="#e8dbac" align="center" vAlign="middle" leading="0" singleLine="true" autoClearText="true" text="符文">
+      <gearXY controller="type" pages="1" values="308,0" default="325,0"/>
+    </text>
+  </displayList>
+</component>

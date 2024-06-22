@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="860,240">
+  <controller name="switch" pages="0,city,1,sh" selected="1"/>
+  <displayList>
+    <component id="n58_lrz7" name="shItem" src="ri8ubv" fileName="component/warStrongholdListItem.xml" xy="0,0">
+      <gearDisplay controller="switch" pages="1"/>
+    </component>
+    <component id="n59_lrz7" name="cityItem" src="gv9812" fileName="component/warCityListItem.xml" xy="0,0">
+      <gearDisplay controller="switch" pages="0"/>
+    </component>
+  </displayList>
+</component>

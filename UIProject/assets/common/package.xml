@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="864gshxx">
+  <resources>
+    <component id="royda" name="backBtn.xml" path="/component/" exported="true"/>
+    <component id="bzh4m" name="closeBtn.xml" path="/component/" exported="true"/>
+    <component id="jed2t" name="baseLabel.xml" path="/component/" exported="true"/>
+    <component id="jed2u" name="handCardGrid.xml" path="/component/" exported="true"/>
+    <image id="jed2w" name="hand_grid.png" path="/" exported="true"/>
+    <component id="jed2x" name="handGrid.xml" path="/component/" exported="true"/>
+    <component id="jed213" name="functionBtn.xml" path="/component/" exported="true"/>
+    <component id="dlva1l" name="confirmPanel.xml" path="/component/" exported="true"/>
+    <component id="tkst25" name="alertPanel.xml" path="/component/" exported="true"/>
+    <component id="qg2m2q" name="AdjustBg.xml" path="/component/" exported="true"/>
+    <component id="j4zv3j" name="pvpRankBanner0.xml" path="/component/" exported="true"/>
+    <component id="j4zv3k" name="pvpRankBanner1.xml" path="/component/" exported="true"/>
+    <component id="j4zv3l" name="pvpRankBanner2.xml" path="/component/" exported="true"/>
+    <component id="j4zv3m" name="pvpRankBanner3.xml" path="/component/" exported="true"/>
+    <component id="j4zv3n" name="pvpRankBanner4.xml" path="/component/" exported="true"/>
+    <component id="j4zv3o" name="pvpRankBanner5.xml" path="/component/" exported="true"/>
+    <component id="j4zv3p" name="starAni.xml" path="/component/" exported="true"/>
+    <component id="qw7t3q" name="pvpRankBanner.xml" path="/component/" exported="true"/>
+    <component id="n1w93w" name="pvpRankBannerMax.xml" path="/component/" exported="true"/>
+    <component id="fs4l4g" name="redHint2.xml" path="/component/" exported="true"/>
+    <image id="gy104m" name="rank1.png" path="/" exported="true"/>
+    <image id="gy104n" name="rank2.png" path="/" exported="true"/>
+    <image id="gy104o" name="rank3.png" path="/" exported="true"/>
+    <image id="gy104p" name="rank4.png" path="/" exported="true"/>
+    <image id="gy104q" name="rank5.png" path="/" exported="true"/>
+    <image id="gy104r" name="rank6.png" path="/" exported="true"/>
+    <image id="gy104s" name="rank7.png" path="/" exported="true"/>
+    <image id="gy104t" name="rank8.png" path="/" exported="true"/>
+    <component id="u6us4z" name="tips.xml" path="/component/" exported="true"/>
+    <image id="jzjo5x" name="slider.png" path="/" exported="true" scale="9grid" scale9grid="4,4,2,5"/>
+    <image id="jzjo5y" name="sliderBg.png" path="/" exported="true" scale="9grid" scale9grid="0,20,4,63"/>
+    <component id="jzjo61" name="ScrollBar_grip.xml" path="/component/" exported="true"/>
+    <component id="jzjo62" name="ScrollBar.xml" path="/component/" exported="true"/>
+    <component id="yyke6i" name="yesBtn.xml" path="/component/" exported="true"/>
+    <component id="yyke6j" name="noBtn.xml" path="/component/" exported="true"/>
+    <component id="q5ca71" name="functionChk.xml" path="/component/" exported="true"/>
+    <component id="nf1s9c" name="jadeBtn.xml" path="/component/" exported="true"/>
+    <component id="id0m9d" name="redHint1.xml" path="/component/" exported="true"/>
+    <component id="rbz09e" name="advertBtn.xml" path="/component/" exported="true"/>
+    <image id="al2v9n" name="btnRed.png" path="/" exported="true" scale9grid="15,15,242,34"/>
+    <component id="pdhx9o" name="refreshBtn.xml" path="/component/" exported="true"/>
+    <component id="pp6ob1" name="getReward.xml" path="/component/" exported="true"/>
+    <image id="egmwbb" name="modifyIcon.png" path="/" exported="true"/>
+    <component id="egmwbd" name="modifyBtn.xml" path="/component/" exported="true"/>
+    <component id="gvaqbj" name="ScrollBar2.xml" path="/component/" exported="true"/>
+    <image id="gvaqbk" name="slider2.png" path="/" exported="true" scale="9grid" scale9grid="4,4,5,2"/>
+    <image id="gvaqbl" name="sliderBg2.png" path="/" exported="true"/>
+    <component id="gvaqbm" name="ScrollBar_grip2.xml" path="/component/" exported="true"/>
+    <image id="61kpbq" name="rank9.png" path="/" exported="true"/>
+    <image id="ew1vbt" name="pyqIcon.png" path="/" exported="true"/>
+    <component id="ew1vbu" name="sharePyqBtn.xml" path="/component/" exported="true"/>
+    <component id="l1gibz" name="helpBtn.xml" path="/component/" exported="true"/>
+    <component id="gdngc9" name="shareFacebookBtn.xml" path="/component/" exported="true"/>
+    <component id="b59wcg" name="guideTips.xml" path="/component/" exported="true"/>
+    <component id="j66lci" name="emojiChk.xml" path="/component/" exported="true"/>
+    <image id="q13dcj" name="cardIcon.png" path="/" exported="true"/>
+    <image id="q13dcl" name="headFrameIcon.png" path="/" exported="true"/>
+    <image id="phrrcy" name="wechatIcon.png" path="/" exported="true"/>
+    <component id="pz4od0" name="techAni.xml" path="/component/" exported="true"/>
+    <component id="cb8pd1" name="techShowPanel.xml" path="/component/" exported="true"/>
+    <component id="u5xld9" name="descTip.xml" path="/component/" exported="true"/>
+    <component id="n91ydg" name="Slider1_grip.xml" path="/component/" exported="true"/>
+    <component id="n91ydh" name="Slider1.xml" path="/component/" exported="true"/>
+    <image id="yyke10" name="input.png" path="/" exported="true" scale="9grid" scale9grid="20,20,476,24" atlas="1"/>
+    <component id="gwr75" name="netWaiting.xml" path="/component/" exported="true"/>
+    <image id="gwr76" name="loadingCircle.png" path="/" exported="true"/>
+    <component id="k0giv" name="noticePanel.xml" path="/component/" exported="true"/>
+    <component id="emvzx" name="noticeText.xml" path="/component/" exported="true"/>
+    <component id="pr56im" name="radioTips.xml" path="/component/" exported="true"/>
+    <component id="pr56in" name="radioText.xml" path="/component/" exported="true"/>
+    <image id="bva5it" name="btnBlue.png" path="/" exported="true" scale9grid="15,15,242,34"/>
+    <component id="je1uiv" name="pvpRankBannerElo.xml" path="/component/" exported="true"/>
+    <image id="qq7uj6" name="league3.png" path="/" exported="true"/>
+    <image id="qq7uj7" name="league2.png" path="/" exported="true"/>
+    <image id="qq7uj8" name="league1.png" path="/" exported="true"/>
+    <image id="qq7uj9" name="league4.png" path="/" exported="true"/>
+    <image id="k6wzjg" name="slider_bar.png" path="/" exported="true"/>
+    <image id="k6wzjh" name="slider_grip.png" path="/" exported="true"/>
+    <image id="eneijj" name="timeIcon.png" path="/" exported="true"/>
+    <image id="ov1ujk" name="loseFlag.png" path="/" exported="true"/>
+    <image id="ov1ujl" name="loseFlagGrayed.png" path="/" exported="true"/>
+    <image id="s4e0jp" name="rankNameBg.png" path="/" exported="true"/>
+    <image id="t9ubju" name="panelTop.png" path="/" exported="true" atlas="1"/>
+    <image id="b3cojx" name="addIcon.png" path="/" exported="true"/>
+    <image id="b3cojz" name="refreshIcon.png" path="/" exported="true"/>
+    <image id="w7q4k1" name="yes.png" path="/" exported="true"/>
+    <image id="iljzk5" name="progressBg.png" path="/" exported="true" scale="9grid" scale9grid="10,0,521,20"/>
+    <image id="u843av" name="redHint.png" path="/" exported="true"/>
+    <component id="par024" name="enterBtn.xml" path="/component/" exported="true"/>
+    <image id="e4shki" name="lock.png" path="/" exported="true"/>
+    <component id="kxk8kk" name="commonBox.xml" path="/component/" exported="true"/>
+    <component id="kxk8kn" name="commonBox_item.xml" path="/component/" exported="true"/>
+    <component id="kxk8ko" name="commonBox_popup.xml" path="/component/" exported="true"/>
+    <image id="wy8skq" name="slider_bg.png" path="/" exported="true"/>
+    <component id="wy8skr" name="Slider1_bar.xml" path="/component/" exported="true"/>
+    <image id="kb2ukv" name="radioBg.png" path="/" exported="true" atlas="1"/>
+    <component id="p4mpkz" name="choiceItem.xml" path="/component/" exported="true"/>
+    <image id="p4mpl1" name="multiBg.png" path="/" exported="true" scale="9grid" scale9grid="15,15,22,22"/>
+    <image id="p4mpl2" name="multi.png" path="/" exported="true"/>
+    <component id="as9m34d" name="itemTips.xml" path="/component/" exported="true"/>
+    <image id="of5o3m4" name="bpLevel.png" path="/" exported="true"/>
+    <image id="ikr63m9" name="chkBg.png" path="/" exported="true" scale9grid="25,0,50,20" atlas="1"/>
+    <component id="yykey" name="searchBtn.xml" path="/component/" exported="true"/>
+    <component id="ph4p3m" name="advertsChk.xml" path="/component/" exported="true"/>
+    <image id="ceeg3mo" name="panelBottom.png" path="/" exported="true" atlas="1"/>
+    <image id="ceeg3mp" name="closeIcon.png" path="/" exported="true"/>
+    <component id="rf933my" name="campChk1.xml" path="/component/" exported="true"/>
+    <component id="rf933n0" name="campChk2.xml" path="/component/" exported="true"/>
+    <component id="rf933n2" name="campChk3.xml" path="/component/" exported="true"/>
+    <component id="rf933n3" name="campChk4.xml" path="/component/" exported="true"/>
+    <component id="rf933n4" name="campChk5.xml" path="/component/" exported="true"/>
+    <component id="rf933n5" name="campChk6.xml" path="/component/" exported="true"/>
+    <component id="xrqq3n6" name="resLabel.xml" path="/component/" exported="true"/>
+    <component id="r724e3qz" name="radialProgress.xml" path="/component/" exported="true"/>
+    <component id="eax7e3r1" name="resLabel2.xml" path="/component/" exported="true"/>
+    <component id="o6s23ob" name="cardChoiceIcon.xml" path="/component/" exported="true"/>
+    <component id="eax7e3r2" name="getResourceAni.xml" path="/component/" exported="true"/>
+    <component id="eax7e3r4" name="getResourcePanel.xml" path="/component/" exported="true"/>
+    <component id="dxbx3q" name="mainResBar.xml" path="/component/" exported="true"/>
+    <image id="o71xe3r5" name="playIcon.png" path="/" exported="true"/>
+    <image id="o71xe3r6" name="rankBannerBg.png" path="/" exported="true"/>
+    <image id="t9ub4c" name="titleBg.png" path="/" exported="true"/>
+    <image id="xv0q34" name="resourceBg.png" path="/" exported="true" scale="9grid" scale9grid="20,0,87,36"/>
+    <image id="o71xe3r8" name="searchIcon.png" path="/" exported="true"/>
+    <image id="s3oee3ra" name="tipsBg1.png" path="/" exported="true" scale="9grid" scale9grid="150,0,43,75"/>
+    <component id="q2gee3re" name="Slider2.xml" path="/component/" exported="true"/>
+    <component id="q2gee3rf" name="Slider2_bar.xml" path="/component/" exported="true"/>
+    <component id="q2gee3rg" name="Slider2_grip.xml" path="/component/" exported="true"/>
+    <component id="jjw6e3rj" name="closeBg.xml" path="/component/" exported="true"/>
+    <component id="n8z0e3rm" name="emptyHint.xml" path="/component/" exported="true"/>
+    <component id="unq22s" name="likeBtn.xml" path="/component/" exported="true"/>
+    <image id="u84354" name="discussIcon.png" path="/" exported="true"/>
+    <image id="cd2hk6" name="handWnd.png" path="/" exported="true" scale9grid="0,20,480,94" atlas="1"/>
+    <image id="tzcwe3rp" name="apIcon.png" path="/" exported="true"/>
+    <image id="tzcwe3rr" name="panel1.png" path="/" exported="true" scale="9grid" scale9grid="0,150,730,274" atlas="1"/>
+    <image id="tzcwe3rs" name="txtBg.png" path="/" exported="true"/>
+    <image id="ceeg3mq" name="expIcon.png" path="/" exported="true"/>
+    <image id="gy104y" name="star.png" path="/" exported="true"/>
+    <image id="s4e0jq" name="starBg.png" path="/" exported="true"/>
+    <image id="btxre3ry" name="gantanhao.png" path="/" exported="true"/>
+    <image id="ehm7e3rd" name="priorityBg.png" path="/" exported="true"/>
+    <image id="ehm7e3rc" name="priorityStroke.png" path="/" exported="true"/>
+    <image id="vkwr2i" name="skillBg.png" path="/" exported="true" scale="9grid" scale9grid="30,30,524,199" atlas="1"/>
+    <image id="c2que3q7" name="watchIcon.png" path="/" exported="true"/>
+    <image id="o71x40" name="music0.png" path="/" exported="true"/>
+    <image id="o71x3z" name="music1.png" path="/" exported="true"/>
+    <image id="o71x3x" name="music2.png" path="/" exported="true"/>
+    <image id="o71x3y" name="music3.png" path="/" exported="true"/>
+    <image id="vco42p" name="randomBtn.png" path="/" exported="true"/>
+    <image id="ph4p3k" name="single.png" path="/" exported="true"/>
+    <image id="ph4p3i" name="singleBg.png" path="/" exported="true"/>
+    <image id="o71x3w" name="sound0.png" path="/" exported="true"/>
+    <image id="o71x3v" name="sound1.png" path="/" exported="true"/>
+    <image id="o71x3t" name="sound2.png" path="/" exported="true"/>
+    <image id="o71x3u" name="sound3.png" path="/" exported="true"/>
+    <image id="o71x3r" name="vibrate0.png" path="/" exported="true"/>
+    <image id="o71x3q" name="vibrate1.png" path="/" exported="true"/>
+    <image id="tzcw3p0" name="btnAchieve.png" path="/" exported="true"/>
+    <image id="x6f63ok" name="btnData.png" path="/" exported="true"/>
+    <image id="x6f63oc" name="btnMail.png" path="/" exported="true"/>
+    <image id="x6f63og" name="btnMore.png" path="/" exported="true"/>
+    <image id="x6f63oi" name="btnPractice.png" path="/" exported="true"/>
+    <image id="x6f63of" name="btnRanking.png" path="/" exported="true"/>
+    <image id="x6f63oh" name="btnReward.png" path="/" exported="true"/>
+    <image id="x6f63oj" name="btnSetup.png" path="/" exported="true"/>
+    <image id="q2ge3op" name="btnTalent.png" path="/" exported="true"/>
+    <image id="x6f63oe" name="btnVideo.png" path="/" exported="true"/>
+    <image id="q2ge3oq" name="functionBottom1.png" path="/" exported="true"/>
+    <image id="q2ge3or" name="functionBottom2.png" path="/" exported="true"/>
+    <image id="fdmg3mi" name="gpCenter.png" path="/" exported="true"/>
+    <image id="gtjh5j" name="mailRead.png" path="/" exported="true"/>
+    <image id="tzcw3oz" name="rankListItemBg.png" path="/" exported="true" scale="9grid" scale9grid="0,500,900,742" atlas="1"/>
+    <component id="10z17e3s0" name="loadWaiting.xml" path="/component/" exported="true"/>
+    <component id="cyvv7e3s5" name="progressbar_70.xml" path="/component/" exported="true"/>
+    <component id="cyvv7e3s6" name="progress_70.xml" path="/component/" exported="true"/>
+    <image id="anrd7e3s9" name="loadingProg.png" path="/" exported="true"/>
+    <image id="anrd7e3sa" name="loadingBg.png" path="/" exported="true"/>
+    <component id="anrd7e3sb" name="loadingProgBar.xml" path="/component/" exported="true"/>
+    <image id="ssz57e3s9" name="canRecv.png" path="/" exported="true" scale="9grid" scale9grid="20,20,250,71"/>
+    <image id="ssz57e3sa" name="unfinished.png" path="/" exported="true" scale="9grid" scale9grid="20,20,250,71"/>
+    <image id="g4kh7e3se" name="advertBtnIcon.png" path="/" exported="true"/>
+    <component id="g4kh7e3sf" name="advertBtn2.xml" path="/component/" exported="true"/>
+    <image id="ph4p3mm" name="honorIcon.png" path="/" exported="true"/>
+    <image id="g4kh7e3sg" name="chk2_2.png" path="/" exported="true"/>
+    <image id="g4kh7e3sh" name="chk2_1.png" path="/" exported="true"/>
+    <image id="kb5g7e3si" name="randomCard.png" path="/" exported="true"/>
+    <image id="q2ge3n3" name="bg.png" path="/" exported="true" scale9grid="60,74,120,126"/>
+    <image id="e4shcs" name="emojiBtn.png" path="/" exported="true"/>
+    <image id="hyug2" name="textBg.png" path="/" exported="true" scale="9grid" scale9grid="30,30,25,25" smoothing="false" duplicatePadding="true"/>
+    <image id="hyug1" name="textArrow.png" path="/" exported="true"/>
+    <component id="gwgn1z" name="helpFaq.xml" path="/component/" exported="true"/>
+    <component id="spox20" name="helpFaqText.xml" path="/component/" exported="true"/>
+    <image id="qdsd7e3sw" name="btnAdvert1.png" path="/" exported="true"/>
+    <image id="gj3u7e3sx" name="btnTips.png" path="/" exported="true"/>
+    <image id="cdst7e3sy" name="arenaTicketIcon.png" path="/" exported="true"/>
+    <component id="6a2z7e3sz" name="shareBtn.xml" path="/component/" exported="true"/>
+    <image id="uwr17e3t2" name="minifyIcon.png" path="/" exported="true"/>
+    <component id="o3qu7e3t5" name="modelBox.xml" path="/component/" exported="true"/>
+    <component id="o3qu7e3t6" name="modelBox_item.xml" path="/component/" exported="true"/>
+    <component id="o3qu7e3t7" name="modelBox_popup.xml" path="/component/" exported="true"/>
+    <image id="wakn7e3t9" name="sealIcon.png" path="/" exported="true"/>
+    <component id="mvm07e3t3" name="functionRichTextBtn.xml" path="/component/" exported="true"/>
+    <image id="qqyk7e3th" name="textBgCommon.png" path="/" exported="true" scale9grid="0,10,85,60"/>
+    <component id="drj67e3ti" name="envPanel.xml" path="/component/" exported="true"/>
+    <component id="drj67e3tj" name="envCom.xml" path="/component/" exported="true"/>
+    <image id="fexx7e3tl" name="banIcon.png" path="/" exported="true"/>
+    <image id="h4r27e3tq" name="dealIcon.png" path="/" exported="true"/>
+    <component id="pcwokh" name="battleEvent.xml" path="/component/" exported="true"/>
+    <image id="fbcv7e3ts" name="chk2_2_bright.png" path="/" exported="true"/>
+    <component id="fbcv7e3tt" name="functionChk2.xml" path="/component/" exported="true"/>
+    <component id="fbcv7e3tu" name="cityExp.xml" path="/component/" exported="true"/>
+    <component id="fbcv7e3tv" name="cityExpBar.xml" path="/component/" exported="true"/>
+    <image id="fbcv7e3tw" name="cardPackIcon.png" path="/" exported="true"/>
+    <component id="fbcv7e3tx" name="iconBtn.xml" path="/component/" exported="true"/>
+    <image id="h00x7e3u0" name="btnExchange.png" path="/" exported="true"/>
+    <component id="jzie7e3u9" name="skillTips.xml" path="/component/" exported="true"/>
+    <component id="i3dp7e3ua" name="getRewardView_old.xml" path="/component/" exported="true"/>
+    <image id="921j7e3ub" name="homeBg.png" path="/" exported="true"/>
+    <image id="921j7e3ue" name="cityLevelBg.png" path="/" exported="true"/>
+    <image id="921j7e3ug" name="cardPieceIcon.png" path="/" exported="true"/>
+    <image id="921j7e3uh" name="cardExpIcon.png" path="/" exported="true"/>
+    <image id="hncw7e3ui" name="btnEvent.png" path="/" exported="true"/>
+    <image id="cbmu7e3uj" name="panel2.png" path="/" exported="true" scale="9grid" scale9grid="0,100,743,167"/>
+    <image id="cbmu7e3uk" name="btnYellow.png" path="/" exported="true" scale9grid="20,20,130,34"/>
+    <image id="h7w77e3ul" name="bpExpIcon.png" path="/" exported="true"/>
+    <image id="cskr3ml" name="wnd1.png" path="/" exported="true" scale="9grid" scale9grid="90,90,20,20"/>
+    <component id="n4wi7e3ut" name="functionBtn2.xml" path="/component/" exported="true"/>
+    <component id="livs7e3uw" name="getRewardView.xml" path="/component/" exported="true"/>
+    <image id="o9ao7e3ux" name="featIcon.png" path="/" exported="true"/>
+    <component id="wqu57e3uz" name="trainBtn.xml" path="/component/" exported="true"/>
+    <image id="kb2u3" name="listBg.png" path="/" exported="true" scale="9grid" scale9grid="10,10,180,180"/>
+    <component id="z1j07e3v0" name="setChk.xml" path="/component/" exported="true"/>
+    <component id="kv3d30" name="shareBtn2.xml" path="/component/" exported="true"/>
+    <image id="wq8j45" name="shareIcon.png" path="/" exported="true"/>
+    <component id="z1j07e3v1" name="shareBtn3.xml" path="/component/" exported="true"/>
+    <image id="h22c7e3t6" name="titleBg2.png" path="/" exported="true" scale="9grid" scale9grid="25,25,25,25"/>
+    <component id="z1j07e3v3" name="cityHp.xml" path="/component/" exported="true"/>
+    <image id="s3oejx" name="progressBg_city.png" path="/" exported="true" scale="9grid" scale9grid="40,0,636,17"/>
+    <component id="tytm7e3v4" name="setChk2.xml" path="/component/" exported="true"/>
+    <component id="lo1j7e3v5" name="Slider3.xml" path="/component/" exported="true"/>
+    <component id="lo1j7e3v6" name="Slider3_grip.xml" path="/component/" exported="true"/>
+    <component id="lo1j7e3v8" name="Slider3_bar.xml" path="/component/" exported="true"/>
+    <image id="mx6p7e3vb" name="refreshCircle.png" path="/" exported="true"/>
+    <component id="kweuu" name="listFooter.xml" path="/component/" exported="true"/>
+    <component id="kweut" name="listHeader.xml" path="/component/" exported="true"/>
+    <image id="dofq1x" name="redflagIcon.png" path="/" exported="true"/>
+    <image id="jnlj7e3vd" name="pveProBar.png" path="/" exported="true" scale="9grid" scale9grid="10,0,251,25"/>
+    <image id="jnlj7e3ve" name="pveProBg.png" path="/" exported="true" scale="9grid" scale9grid="10,10,297,15"/>
+    <image id="wfug7e3vf" name="btnPve.png" path="/" exported="true"/>
+    <image id="wfug7e3vg" name="btnEquip.png" path="/" exported="true"/>
+    <component id="hmqs7e3vh" name="Slider_skill.xml" path="/component/" exported="true"/>
+    <component id="hmqs7e3vi" name="Slider_skill_grip.xml" path="/component/" exported="true"/>
+    <component id="hmqs7e3vj" name="cityHpBar.xml" path="/component/" exported="true"/>
+    <image id="fd8c7e3vn" name="randomSkillBg.png" path="/" exported="true" scale="9grid" scale9grid="15,15,573,77"/>
+    <image id="szky7e3vq" name="noBtn.png" path="/" exported="true"/>
+    <image id="hxf57e3vr" name="equipIcon.png" path="/" exported="true"/>
+    <image id="n96me3qy" name="front1.png" path="/" exported="true" scale9grid="15,15,58,58"/>
+    <image id="n96me3qw" name="front2.png" path="/" exported="true" scale9grid="15,15,20,20"/>
+    <image id="n96me3qx" name="front3.png" path="/" exported="true" scale9grid="15,15,20,20"/>
+    <image id="n96me3qz" name="front4.png" path="/" exported="true" scale9grid="15,15,20,20"/>
+    <image id="n96me3r0" name="front5.png" path="/" exported="true" scale9grid="15,15,20,20"/>
+    <image id="nlzq7e3vs" name="backIcon.png" path="/" exported="true"/>
+    <component id="nlzq7e3vt" name="cardRollBackPanel.xml" path="/component/" exported="true"/>
+    <component id="nlzq7e3vu" name="cardRollBackCom.xml" path="/component/" exported="true"/>
+    <image id="a9dl7e3vw" name="decBtn.png" path="/" exported="true"/>
+    <image id="a9dl7e3vx" name="addBtn.png" path="/" exported="true"/>
+    <image id="ft2p7e3vw" name="weixian.png" path="/" exported="true"/>
+    <image id="p4sx7e3vy" name="btnRubbing.png" path="/" exported="true"/>
+    <image id="rptu7e3w0" name="charBg.png" path="/" exported="true" scale9grid="50,50,100,100"/>
+    <image id="tbdl7e3w1" name="wenhao2.png" path="/" exported="true"/>
+    <image id="tbdl7e3w2" name="randomFont1.png" path="/" exported="true"/>
+    <image id="tbdl7e3w3" name="randomFont2.png" path="/" exported="true"/>
+    <component id="e3zv7e3w5" name="functionChk_event.xml" path="/component/" exported="true"/>
+    <component id="qbiq7e3wa" name="confirmPanelWithReward.xml" path="/component/" exported="true"/>
+    <image id="x39e7e3wb" name="flipIcon.png" path="/" exported="true"/>
+    <image id="x39e7e3wc" name="coinBtn.png" path="/" exported="true" scale9grid="25,10,64,19"/>
+    <component id="caf07e3wd" name="jadeBtn2.xml" path="/component/" exported="true"/>
+    <image id="fbsn7e3we" name="btnNewbieGift.png" path="/" exported="true"/>
+    <image id="fbsn7e3wf" name="btnEquipGift.png" path="/" exported="true"/>
+    <image id="8zkj7e3wg" name="arrow.png" path="/" exported="true"/>
+    <image id="jxyy7e3wh" name="iconBg.png" path="/" exported="true" scale9grid="22,22,44,44"/>
+    <component id="gqml7e3wk" name="setChk3.xml" path="/component/" exported="true"/>
+    <image id="ibcj7e3wl" name="homeTop.png" path="/" exported="true"/>
+    <image id="ibcj7e3wm" name="btnRedB.png" path="/" exported="true"/>
+    <image id="ibcj7e3wn" name="btnBlueB.png" path="/" exported="true"/>
+    <image id="ibcj7e3wo" name="btnYellowB.png" path="/" exported="true"/>
+    <image id="tk157e3wp" name="progressBar_city.png" path="/" exported="true" scale="9grid" scale9grid="10,0,696,17"/>
+    <image id="tk157e3wq" name="progressBar_fury.png" path="/" exported="true" scale="9grid" scale9grid="10,0,696,17"/>
+    <image id="tk157e3ws" name="statusIcon2.png" path="/" exported="true"/>
+    <image id="tk157e3wt" name="statusIcon1.png" path="/" exported="true"/>
+    <image id="x23l7e3wu" name="wenhao.png" path="/" exported="true"/>
+    <image id="h4f57e3wv" name="resourceBgWnd.png" path="/" exported="true"/>
+    <image id="h4f57e3ww" name="progressBg_s.png" path="/" exported="true" scale="9grid" scale9grid="20,0,135,18"/>
+    <image id="h4f57e3wx" name="progressBar_reds.png" path="/" exported="true" scale="9grid" scale9grid="10,0,155,18"/>
+    <image id="h4f57e3wy" name="cityHpBg.png" path="/" exported="true"/>
+    <image id="v05q7e3wz" name="rankListWnd.png" path="/" exported="true"/>
+    <image id="v05q7e3x0" name="unlockCardWnd.png" path="/" exported="true" scale="9grid" scale9grid="0,55,538,4"/>
+    <image id="v05q7e3x1" name="btnShop.png" path="/" exported="true"/>
+    <component id="v05q7e3x2" name="functionChk_multi.xml" path="/component/" exported="true"/>
+    <image id="v05q7e3x3" name="add.png" path="/" exported="true"/>
+    <image id="v05q7e3x5" name="progressBar_blues.png" path="/" exported="true" scale="9grid" scale9grid="10,0,155,18"/>
+    <image id="mgb27e3x6" name="cardInfoBg.png" path="/" exported="true"/>
+    <image id="mgb27e3x7" name="labelBtn.png" path="/" exported="true"/>
+    <image id="p63t7e3x8" name="helpIcon.png" path="/" exported="true"/>
+    <image id="p63t7e3x9" name="titleBg1.png" path="/" exported="true"/>
+    <image id="ykzh7e3xa" name="titleLine.png" path="/" exported="true"/>
+    <image id="ykzh7e3xb" name="ranking1.png" path="/" exported="true"/>
+    <image id="ykzh7e3xc" name="ranking3.png" path="/" exported="true"/>
+    <image id="ykzh7e3xd" name="ranking2.png" path="/" exported="true"/>
+    <image id="ykzh7e3xe" name="rankingBg3.png" path="/" exported="true"/>
+    <image id="ykzh7e3xf" name="rankingBg2.png" path="/" exported="true"/>
+    <image id="ykzh7e3xg" name="rankingBg1.png" path="/" exported="true"/>
+    <image id="jzfc7e3xh" name="btnArena.png" path="/" exported="true"/>
+    <component id="6od87e3xi" name="progress_200.xml" path="/component/" exported="true"/>
+    <component id="6od87e3xj" name="progressbar_200.xml" path="/component/" exported="true"/>
+    <component id="6od87e3xk" name="progressbar_120.xml" path="/component/" exported="true"/>
+    <component id="6od87e3xl" name="progress_120.xml" path="/component/" exported="true"/>
+    <component id="6od87e3xm" name="progress_600.xml" path="/component/" exported="true"/>
+    <component id="6od87e3xn" name="progressbar_600.xml" path="/component/" exported="true"/>
+    <component id="6od87e3xo" name="progress_400.xml" path="/component/" exported="true"/>
+    <component id="6od87e3xp" name="progressbar_400.xml" path="/component/" exported="true"/>
+    <component id="6od87e3xq" name="progressbar_300.xml" path="/component/" exported="true"/>
+    <component id="6od87e3xr" name="progress_300.xml" path="/component/" exported="true"/>
+    <component id="6od87e3xt" name="progress_120_noTitle.xml" path="/component/" exported="true"/>
+    <image id="6od87e3xu" name="progressBar_blues2.png" path="/" exported="true" scale="9grid" scale9grid="10,0,155,18"/>
+    <image id="ftta7e3xv" name="progressBar_time.png" path="/" exported="true" scale="9grid" scale9grid="10,0,696,17"/>
+    <component id="hhu57e3xw" name="noticeChk.xml" path="/component/" exported="true"/>
+    <image id="itek7e3xk" name="progress1_vertical.png" path="/" exported="true"/>
+    <image id="itek7e3xl" name="progress2_vertical.png" path="/" exported="true"/>
+    <image id="k43q7e3y0" name="cardUp_Improve_Btn.png" path="/" exported="true"/>
+    <image id="ey2ie3uu" name="cardUpBtn.png" path="/" exported="true"/>
+    <component id="bh817e3y1" name="warBegin.xml" path="/component/" exported="true"/>
+    <image id="bh817e3y2" name="warBeginWnd.png" path="/" exported="true"/>
+    <component id="ebcf7e3yv" name="campBtn.xml" path="/component/" exported="true"/>
+    <component id="new85s" name="warNoticeFunctionItem.xml" path="/component/" exported="true"/>
+    <image id="cyzb7e3z5" name="warBtn.png" path="/" exported="true"/>
+    <image id="iidfh9" name="foodIcon.png" path="/warRes/" exported="true"/>
+    <image id="iidfha" name="honorIcon.png" path="/warRes/" exported="true"/>
+    <image id="jnlj4a" name="cloud.jpg" path="/" exported="true"/>
+    <component id="gzb7ie" name="warEnterAni.xml" path="/component/" exported="true"/>
+    <image id="k2fx7e3zk" name="1.png" path="/"/>
+    <image id="k2fx7e3zl" name="3.png" path="/"/>
+    <image id="k2fx7e3zm" name="2.png" path="/"/>
+    <image id="k2fx7e3zn" name="5.png" path="/"/>
+    <image id="k2fx7e3zo" name="4.png" path="/"/>
+    <image id="gnw27e3zp" name="advBg.png" path="/" exported="true"/>
+    <image id="gnw27e3zq" name="advBtn.png" path="/" exported="true"/>
+    <image id="f0rv7e3zr" name="numBg.png" path="/" exported="true"/>
+    <image id="f0rv7e3zs" name="num3.png" path="/" exported="true"/>
+    <image id="f0rv7e3zt" name="num3_1.png" path="/" exported="true"/>
+    <image id="f0rv7e3zu" name="num2.png" path="/" exported="true"/>
+    <image id="f0rv7e3zv" name="num2_1.png" path="/" exported="true"/>
+    <image id="f0rv7e3zw" name="num1.png" path="/" exported="true"/>
+    <image id="f0rv7e3zx" name="num1_1.png" path="/" exported="true"/>
+    <image id="rc477e3zy" name="wallBtn.png" path="/" exported="true"/>
+    <image id="8a2z7e3zz" name="buildIcon.png" path="/" exported="true"/>
+    <image id="gf4u7e402" name="progressBg_time.png" path="/"/>
+    <image id="mngy7e403" name="cityHpBg1.png" path="/" exported="true"/>
+    <image id="mngy7e406" name="cityHpIcon.png" path="/" exported="true"/>
+    <image id="tiek7e408" name="duanWu.png" path="/" exported="true"/>
+    <component id="ht2g7e409" name="slider1_bar(1).xml" path="/component/"/>
+    <component id="ht2g7e40a" name="slider2_bar(1).xml" path="/component/"/>
+    <component id="ht2g7e40b" name="slider1_bar(2).xml" path="/component/"/>
+    <component id="ht2g7e40c" name="slider2_bar(2).xml" path="/component/"/>
+    <component id="ht2g7e40d" name="slider1_bar(3).xml" path="/component/"/>
+    <component id="ht2g7e40e" name="slider2_bar(3).xml" path="/component/"/>
+    <component id="ht2g7e40f" name="slider1_bar(4).xml" path="/component/"/>
+    <component id="ht2g7e40g" name="slider2_bar(4).xml" path="/component/"/>
+  </resources>
+  <publish name="common">
+    <atlas compression="true" index="0"/>
+    <atlas compression="true" index="1"/>
+  </publish>
+</packageDescription>

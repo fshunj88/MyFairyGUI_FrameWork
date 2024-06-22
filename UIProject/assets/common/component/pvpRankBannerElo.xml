@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,500">
+  <displayList>
+    <loader id="n24_o71x" name="bg" xy="0,0" size="500,500" touchable="false" url="ui://864gshxxo71xe3r6" align="center" vAlign="middle" fill="scaleMatchWidth">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <loader id="n1_d4nl" name="rankIcon" xy="50,50" size="400,400" touchable="false" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n18_je1u" name="eloPro" src="6od87e3xi" fileName="component/progress_rank.xml" xy="150,400">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <loader id="n22_o71x" name="n22" xy="124,440" size="252,60" url="ui://864gshxxs4e0jp" fill="scaleFree">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <text id="n23_o71x" name="pvpTitleText" xy="157,448" size="185,44" fontSize="36" align="center" vAlign="middle" leading="0" autoClearText="true" text="pvpTitleText">
+      <relation target="n22_o71x" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n15_n1w9" name="starText" xy="188,0" size="122,71" fontSize="60" color="#ffffff" align="center" vAlign="middle" leading="0" strokeColor="#000000" strokeSize="3" autoClearText="true" text="1000">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

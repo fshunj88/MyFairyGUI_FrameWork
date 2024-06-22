@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,1600" pivot="0.5,0.5" bgColor="#000000">
+  <displayList>
+    <loader id="n73_p850" name="bg" xy="0,0" size="960,1600" alpha="0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n94_livs" name="confirmBtn" src="jed213" fileName="component/functionBtn.xml" xy="0,0" size="960,1600">
+      <relation target="n73_p850" sidePair="width-width,height-height,center-center,middle-middle"/>
+      <Button title=" " icon=" "/>
+    </component>
+    <loader id="n91_livs" name="n91" xy="0,565" pivot="0.5,0.5" size="960,500" url="ui://864gshxxcbmu7e3uj" fill="scaleFree">
+      <relation target="n93_livs" sidePair="height-height,middle-middle"/>
+    </loader>
+    <list id="n93_livs" name="list" xy="80,600" size="800,400" layout="flow_hz" overflow="scroll" lineGap="10" colGap="10" defaultItem="ui://dvmsogfrffr53q2" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n92_livs" name="n92" xy="180,465" size="600,108" aspect="true" url="ui://fsmplk58h4f57e3vn" fill="scaleFree">
+      <relation target="n91_livs" sidePair="center-center,bottom-top"/>
+    </loader>
+    <text id="n95_pau2" name="n95" xy="369,1100" size="221,40" fontSize="36" color="#cccccc" leading="0" text="点击屏幕继续">
+      <relation target="n91_livs" sidePair="center-center,top-bottom"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true" frameRate="30">
+    <item time="0" type="Alpha" target="n92_livs" value="0"/>
+    <item time="0" type="Alpha" target="n93_livs" value="0"/>
+    <item time="0" type="Alpha" target="n94_livs" value="0"/>
+    <item time="0" type="Alpha" target="n95_pau2" value="0"/>
+    <item time="0" type="Scale" target="n91_livs" tween="true" startValue="1,0" endValue="1,1" duration="6"/>
+    <item time="0" type="Sound" value="openBox,100"/>
+    <item time="6" type="Alpha" target="n92_livs" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="6" type="Alpha" target="n93_livs" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="6" type="Alpha" target="n94_livs" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="6" type="Alpha" target="n95_pau2" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+</component>

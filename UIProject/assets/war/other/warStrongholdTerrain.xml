@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="40,40" pivot="0.5,0.5" anchor="true">
+  <controller name="status" pages="3,none,0,canyon,1,cave,2,mountain" selected="0"/>
+  <displayList>
+    <loader id="n0_b92k" name="terrain" xy="5,5" size="30,30" aspect="true" url="ui://2ipmzghtkm1mbn" fill="scaleFree">
+      <gearIcon controller="status" pages="3,1,2" values="ui://2ipmzghtkm1mbn|ui://2ipmzghtkm1mbn|ui://2ipmzghtkm1mbm" default="ui://2ipmzghtkm1mbo"/>
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <loader id="n5_qosa" name="shade" xy="26,0" pivot="0.5,0.5" size="15,15" group="n6_uasi" scale="-1,1" url="ui://2ipmzghta07467" fill="scaleFree">
+      <relation target="" sidePair="left-left,top-top"/>
+    </loader>
+    <text id="n2_ietj" name="playerNum" xy="28,0" size="12,15" group="n6_uasi" fontSize="10" color="#660000" align="center" vAlign="middle" leading="0" autoSize="shrink" singleLine="true" autoClearText="true" text="1">
+      <relation target="" sidePair="right-right,top-top"/>
+    </text>
+    <group id="n6_uasi" name="n6" xy="26,0" size="15,15" advanced="true"/>
+  </displayList>
+</component>

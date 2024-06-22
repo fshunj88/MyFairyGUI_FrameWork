@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,1300">
+  <displayList>
+    <loader id="n23_ldwv" name="n23" xy="0,103" size="960,1065" url="ui://2ipmzghtldwv47e40z" fill="scaleFree"/>
+    <list id="n21_j66l" name="list" xy="100,293" size="760,719" overflow="scroll" scrollBarFlags="4" scrollBar="auto" defaultItem="ui://2ipmzght10cr47e40s" align="center" autoClearItems="true">
+      <relation target="n23_ldwv" sidePair="center-center,bottom-bottom,topext-top"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n22_rd9i" name="closeBtn" src="bzh4m" fileName="component/closeBtn.xml" pkg="864gshxx" xy="0,1200"/>
+    <loader id="n24_ldwv" name="n24" xy="372,210" size="215,60" url="ui://2ipmzghtldwv47e40x" fill="scaleFree">
+      <relation target="n23_ldwv" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n25_ldwv" name="title" xy="117,1028" size="725,49" fontSize="40" color="#660000" leading="0" text="城内术士夜观天象，有异宝将于各地出现">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+  </displayList>
+</component>

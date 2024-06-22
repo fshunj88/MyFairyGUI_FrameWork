@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="160,160" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selected" selected="0"/>
+  <displayList>
+    <loader id="n4_xjab" name="campFlag" xy="27,21" pivot="0.5,0.5" size="105,118" url="ui://2ipmzghtmyl16x" align="center" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n5_wwgm" name="campName" xy="35,30" size="90,90" visible="false" fontSize="60" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#333333" strokeSize="3" autoClearText="true" text="王"/>
+  </displayList>
+  <Button mode="Radio" downEffect="scale" downEffectValue="1.30"/>
+</component>
